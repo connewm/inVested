@@ -1,24 +1,24 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# inVested
+## Getting Started
+Tell users how to use the application.
 
-Things you may want to cover:
+### Prerequisites
 
-* Ruby version
+Tell users what they need to run the application.
 
-* System dependencies
+## Testing
 
-* Configuration
+Indicate how the project was tested.
 
-* Database creation
+## Built With
 
-* Database initialization
+* X, Y, and Z Programming Languages
 
-* How to run the test suite
+## Authors
 
-* Services (job queues, cache servers, search engines, etc.)
+* Project Members
 
-* Deployment instructions
+## Acknowledgments
 
-* ...
+* Acknowledge anyone/anything that enabled this project to be successful
