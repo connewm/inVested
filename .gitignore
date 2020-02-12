@@ -21,3 +21,5 @@
 /yarn-error.log
 
 .byebug_history
+# ignore my credentials
+./nlp_cred.txt
