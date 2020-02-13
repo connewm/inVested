@@ -3,13 +3,12 @@ import React from 'react';
 import Content from '../Content/Content';
 import Header from '../Header/Header';
 
+
+
 // import styles
 import './App.css';
 
-const App = () => {
-  const [items, setItems] = useState([
-    "oranges", "apples", "candy"
-  ]);
+function App() {
   return (
     <div className="App">
       <Header value="site-header"/>
@@ -35,37 +34,5 @@ const App = () => {
         </a>
       </header>
 */
-
-const ListItem = (props) => (
-  <li onClick={()=> props.handleClick(props.name)}>{props.name}</li>
-)
-
-const ListDisplay = (props) => {
-  const items = props.items.map((item, i) => (
-    <ListItem
-      key={i}
-      name={item}
-      handleClick={props.handleClick}
-    />
-  ))
-  return (
-    <ul>
-      {items}
-    </ul>
-  )
-}
-
-const InputText = (props) => {
-  const [value, setValue] = useState('')
-  return (
-    <form onSubmit={(e) => {
-      e.preventDefault();
-      props.handleSubmit(value);
-      setValue('');
-    }}>
-      <input type="text" value={value} onChange={e => setValue(e.target.value)}/>
-    </form>
-  )
-}
 
 export default App;

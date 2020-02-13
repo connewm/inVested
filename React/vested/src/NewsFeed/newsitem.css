@@ -1,0 +1,15 @@
+.NewsItem {
+   
+      background-color: #000000;
+      font-family: sans-serif;
+    border-style: solid;
+    font-size: 5px;
+    display: inline;
+    width: 5%;
+    vertical-align:  top;
+    }
+
+
+    ListItemText{
+        color: black;
+    }
