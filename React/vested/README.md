@@ -1,4 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Dependecies 
+npm install @material-ui/core   // for news feed components 
+
+
 
 ## Available Scripts
 
