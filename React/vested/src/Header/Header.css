@@ -1,0 +1,25 @@
+.site-header {
+  width: 100%;
+  height: 80px;
+  text-align: left;
+  display: inline-block;
+  background-color: #282c34;
+  color: white;
+  border-bottom: 4px solid #aaaaaa;
+}
+
+.site-title:hover{
+    cursor: pointer;
+}
+
+.spacer{
+  display: inline-block;
+  padding: 0 42%;
+}
+
+h2 {
+  margin: 0px 10px;
+  position: absolute;
+  padding: 24px 10px;
+  display: inline-block;
+}

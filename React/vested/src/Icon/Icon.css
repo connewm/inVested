@@ -1,0 +1,8 @@
+.icon {
+    width: 80px;
+    display: inline-block;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
