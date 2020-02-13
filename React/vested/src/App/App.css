@@ -24,7 +24,17 @@ body {
 
 .main {
   display: inline-block;
-  width: 70%;
+  width: 100%;
+}
+
+.news-wrapper {
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+  vertical-align: top;
+  min-height: calc(100vh - 84px);
+  text-align: -webkit-right; /* TODO: Change to work for all browsers */
+  background-color: whitesmoke;
 }
 
 h1 {

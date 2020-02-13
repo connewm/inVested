@@ -20,8 +20,7 @@ import NextItem from './nextitem'
 
 const useStyles = makeStyles(theme => ({
   root: {
-    width: '80%',
-    maxWidth: 360,
+    width: '100%',
     backgroundColor: theme.palette.background.paper,
   },
   inline: {
