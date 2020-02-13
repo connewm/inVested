@@ -10,9 +10,12 @@
 }
 
 .data-insights{
-  display: inline-block;
-  width: 80%;
+
+  display: table; width: 100%;
+  /*display: inline-block;*/
+  /*width: 100%;*/
 }
+
 
 .text-wrapper{
   width: 75%;
@@ -24,3 +27,4 @@ p {
   width: 100%;
   margin: 10px 0px;
 }
+

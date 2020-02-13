@@ -1,10 +1,10 @@
-.App {
-  text-align: center;
+body {
+  background-color: #282c34;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#list-container {
+  width: 400px;
+  margin: auto;
 }
 
 .App-header {

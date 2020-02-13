@@ -1,0 +1,20 @@
+.NewsFeed {
+    /*padding: 50px;*/
+    background-color: transparent;
+    font-family: sans-serif;
+   width: 30%;
+    
+    color: black;
+    display:table-cell; vertical-align:middle
+    
+    /* display: inline-block; */
+    /* float: right; */
+    /* position: absolute;
+    left: 70%;
+    top: 25% */
+    }
+.p{
+    vertical-align:  top;
+}
+   
+
