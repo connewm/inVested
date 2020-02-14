@@ -47,6 +47,6 @@ class scraperRSS:
             print("Some connection error", feed.status)
     
 scrapeCNN = scraperRSS('http://rss.cnn.com/rss/money_news_companies.rss')
-print(scrapeCNN.parseRSS()[0].content)
+# print(scrapeCNN.parseRSS()[0].content)
 
 

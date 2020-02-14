@@ -10,12 +10,9 @@ import Avatar from '@material-ui/core/Avatar';
 import Typography from '@material-ui/core/Typography';
 import './newsitem'
 
-
-
-
 const useStyles = makeStyles(theme => ({
   root: {
-    width: '80%',
+    width: '100%',
     maxWidth: 360,
     backgroundColor: theme.palette.background.paper,
   },
@@ -24,13 +21,10 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-
 function NextItem(props){
   const classes = useStyles();
 
-    return(
-
-        
+    return(        
         <ListItem alignItems="flex-start">
         <ListItemAvatar>
           {/* <Avatar alt={props.source} src="nyt.png"/>       TODO:: change avatar to actual logos */}
@@ -54,9 +48,7 @@ function NextItem(props){
         />
       </ListItem>
 
-
     );
-
 
 }
 
