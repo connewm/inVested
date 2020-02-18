@@ -42,7 +42,10 @@ function NextItem(props){
               >
                 {props.source}   {/* just adds a header to the lower text in the news item */}
               </Typography>
-          { "— " }{props.text}
+             <li> { "— " }{props.text}
+                <a style={{ textDecoration: 'none'}} href={props.link}> ... </a>
+              </li>
+       
             </React.Fragment>
           }
         />
