@@ -10,12 +10,9 @@ import Avatar from '@material-ui/core/Avatar';
 import Typography from '@material-ui/core/Typography';
 import './newsitem'
 
-
-
-
 const useStyles = makeStyles(theme => ({
   root: {
-    width: '80%',
+    width: '100%',
     maxWidth: 360,
     backgroundColor: theme.palette.background.paper,
   },
@@ -24,17 +21,14 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-
 function NextItem(props){
   const classes = useStyles();
 
-    return(
-
-        
+    return(        
         <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          {/* <Avatar alt={props.source} src="logos\nyt.png" /> */}      {/* TODO:: change avatar to actual logos  */}
-    <Avatar>{props.avatar}</Avatar>
+          {/* <Avatar alt={props.source} src="nyt.png"/>       TODO:: change avatar to actual logos */}
+    <Avatar >{props.avatar}</Avatar>
         </ListItemAvatar>
         <ListItemText
           primary={props.title}
@@ -46,17 +40,18 @@ function NextItem(props){
                 className={classes.inline}
                 color="textPrimary"
               >
-                {/* {props.source} */}   {/* just adds a header to the lower text in the news item */}
+                {props.source}   {/* just adds a header to the lower text in the news item */}
               </Typography>
-          { "— " }{props.text}
+             <li> { "— " }{props.text}
+                <a style={{ textDecoration: 'none'}} href={props.link}> ... </a>
+              </li>
+       
             </React.Fragment>
           }
         />
       </ListItem>
 
-
     );
-
 
 }
 

@@ -23,3 +23,8 @@ h2 {
   padding: 24px 10px;
   display: inline-block;
 }
+
+AnnouncementOutlinedIcon {
+  font-size: 40;
+  padding:20;
+}
