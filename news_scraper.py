@@ -15,14 +15,6 @@ class news_scraper:
         cred_json = json.loads(cred_str)
 
         newsapi = NewsApiClient(api_key=cred_json['news_key'])
-        # the subject (keyword looked for in title) to filter by
-        # The '+' means that the word must explicitly be contained in the title
-        # TODO: allow command line entry of subject string
-        #subject_string = "+amazon"
-        # TODO: change from and to date to todays date instead of being hard coded
-
 
         all_articles = newsapi.get_everything(qintitle=self.name, from_param= self.start_date, to= self.end_date, language='en')
-        json_fmt_articles = json.dumps(all_articles)
-        print(json_fmt_articles)
-        print(all_articles['totalResults'])
+        return all_articles['articles']
