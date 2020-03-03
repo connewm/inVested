@@ -11,6 +11,7 @@ class sentiment_analysis:
          self.companies = companies 
          self.start_date = start_date 
          self.end_date = end_date 
+         self.schema_name = start_date.strftime('%b%d%y')
     
     def process_sentiment(self): 
 
@@ -43,8 +44,8 @@ class sentiment_analysis:
             company_articles =company_params.get_articles()
             article_table = company + '_articles'
             sentiment_table = company + '_sentiment'
-            cursor.execute("CREATE TABLE IF NOT EXISTS current_week." + article_table + "(document_id INTEGER, title varchar, retrieved_url varchar, pub_date varchar, authors varchar, num_characters integer)")
-            cursor.execute("CREATE TABLE IF NOT EXISTS current_week." + sentiment_table + "(document_id INTEGER, sent_score numeric, sent_label varchar, sadness_score numeric, joy_score numeric, fear_score numeric,  disgust_score numeric, anger_score numeric)")
+            cursor.execute("CREATE TABLE IF NOT EXISTS " + self.schema_name + "." + article_table + "(document_id INTEGER, title varchar, retrieved_url varchar, pub_date varchar, authors varchar, num_characters integer)")
+            cursor.execute("CREATE TABLE IF NOT EXISTS " + self.schema_name + "." + sentiment_table + "(document_id INTEGER, sent_score numeric, sent_label varchar, sadness_score numeric, joy_score numeric, fear_score numeric,  disgust_score numeric, anger_score numeric)")
 
             #restart document_id 
             document_id = 0
@@ -63,7 +64,7 @@ class sentiment_analysis:
                 authors = [author["name"] for author in response_w_url["metadata"]["authors"]]
                 num_char = response_w_url["usage"]["text_characters"]
             
-                cursor.execute("insert into current_week." + article_table + " (document_id, title, retrieved_url, pub_date, authors, num_characters) values (%s, %s, %s, %s, %s, %s)", 
+                cursor.execute("insert into " + self.schema_name + "."  + article_table + " (document_id, title, retrieved_url, pub_date, authors, num_characters) values (%s, %s, %s, %s, %s, %s)", 
                 (
                     document_id,
                     title,
@@ -83,7 +84,7 @@ class sentiment_analysis:
                 disgust_score = response_w_url["emotion"]["document"]["emotion"]["disgust"]
                 anger_score = response_w_url["emotion"]["document"]["emotion"]["anger"]
                 print(document_id)
-                cursor.execute("insert into current_week." +  sentiment_table + "(document_id, sent_score, sent_label, sadness_score, joy_score, fear_score, disgust_score, anger_score) values (%s, %s, %s, %s, %s, %s, %s, %s)", 
+                cursor.execute("insert into " + self.schema_name + "."  + sentiment_table + "(document_id, sent_score, sent_label, sadness_score, joy_score, fear_score, disgust_score, anger_score) values (%s, %s, %s, %s, %s, %s, %s, %s)", 
                     (
                         document_id,
                         sentiment_score,
