@@ -26,6 +26,7 @@ companies = ['Google', 'Facebook', 'Microsoft']
 #get dates 
 current_date = date.today()
 drop_date = current_date -timedelta(days = 7)
+print(drop_date)
 
 #drop old schema 
 cursor.execute('DROP SCHEMA if exists ' + drop_date.strftime('%b%d%y') + ' cascade')
