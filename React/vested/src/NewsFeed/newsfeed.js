@@ -9,7 +9,7 @@ function NewsFeed(props) {
    
     return (
         <div className="NewsFeed">
-          <NewsItem />
+          <NewsItem articles = {props.article_list}/>
           </div>
     )
 
