@@ -41,15 +41,3 @@ h1 {
   margin-top: 0px;
   margin-bottom: 20px;
 }
-
-.chat-wrapper{
-  position: fixed;
-  height: 60px;
-  width: 60px;
-  bottom: 2vh;
-  left: 69vw;
-}
-
-.icon:hover{
-  cursor: pointer;
-}

@@ -1,0 +1,22 @@
+.chat-window {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.sc-chat-window {
+    position: relative !important;
+    right: 20vw;
+    bottom: 300px;
+    height: 300px;
+}
+
+.sc-launcher {
+    position: relative !important;
+    right: 0px;
+    bottom: 0px;
+}
+
+.sc-launcher:hover {
+    cursor: pointer;
+}
