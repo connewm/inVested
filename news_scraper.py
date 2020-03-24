@@ -9,7 +9,7 @@ class news_scraper:
         self.end_date = end_date
 
     def get_articles(self): 
-        cred_file = open("/Users/Swetha/Documents/inVested/nlp_cred.txt", "r")
+        cred_file = open("./nlp_cred.txt", "r")
         cred_str = cred_file.read()
         # read in as JSON
         cred_json = json.loads(cred_str)

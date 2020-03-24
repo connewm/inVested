@@ -5,6 +5,7 @@ import psycopg2
 import sentiment_test as sentiment
 
 #connection 
+print("running")
 try:
     connect = psycopg2.connect(database="postgres", user="postgres", password="CapStoneRDS", 
     host="database-1.ciomlblnrvsp.us-east-2.rds.amazonaws.com", port='5432')
@@ -21,6 +22,8 @@ cursor = connect.cursor()
 #get today's date
 
 #companies of interest
+# TODO: type in company name from website to pull data
+print("running")
 companies = ['Google', 'Facebook', 'Microsoft']
 
 #get dates 
