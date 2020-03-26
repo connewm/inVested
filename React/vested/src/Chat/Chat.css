@@ -20,3 +20,11 @@
 .sc-launcher:hover {
     cursor: pointer;
 }
+
+.sc-launcher .sc-open-icon, .sc-launcher .sc-closed-icon {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}

@@ -1,17 +1,20 @@
 // import components
 import React from 'react';
+import { createBrowserHistory } from "history";
 import Content from '../Content/Content';
 import Chat from '../Chat/Chat';
 import Header from '../Header/Header';
 import NewsFeed from '../NewsFeed/newsfeed';
+import Company from '../Company/Company';
+
+// react-dom import
+import { BrowserRouter as Router, Switch, Link, Route } from "react-router-dom";
 
 // import styles
 import './App.css';
-import '../Chat/Chat.css'
+import '../Chat/Chat.css';
 
 function App() {
-  
-
 
   /* TO GET Dynamic ARTICLES must input a list of articles */
   
@@ -63,29 +66,38 @@ function App() {
   ];
 
   return (
+    <Router>
     <div className="App">
       <Header value="site-header"/>
       <div className="main">
+
         <div className="chat-wrapper">
           <Chat value="chatbot"/>
         </div>
-        <Content value="Graph"/>
+
+        {<Switch>
+          <Route path="/about">
+            <Content value="about"/>
+          </Route>
+          <Route path="/graph">
+            <Content value="graph"/>
+          </Route>
+          <Route path="/comp">
+            <Company value=""/>
+          </Route>
+          <Route path="/">
+            <Company value=""/>
+          </Route>
+        </Switch>}
+
         <div className="news-wrapper">
           {/* <NewsFeed value = "newsfeed" data = {articles}/> */}
           <NewsFeed value = "newsfeed" article_list = {articles}/>
         </div>
       </div>
     </div>
+    </Router>
   );
 }
-/*
-ABOUT:
-        <div className="content">
-          <h1>About VestEd</h1>
-          <p></p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-
-*/
 
 export default App;
