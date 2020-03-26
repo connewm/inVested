@@ -25,3 +25,10 @@ Indicate how the project was tested.
 ## Acknowledgments
 
 * Acknowledge anyone/anything that enabled this project to be successful
+
+### Please update this later: the correct installations for the project are:
+
+```pip3 install psycopg2```
+```pip3 install ibm_watson```
+```pip install newsapi```
+```pip install newsapi-python```
