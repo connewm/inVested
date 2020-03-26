@@ -33,6 +33,7 @@ print(drop_date)
 
 #drop old schema 
 cursor.execute('DROP SCHEMA if exists ' + drop_date.strftime('%b%d%y') + ' cascade')
+cursor.execute('DROP SCHEMA if exists ' + current_date.strftime('%b%d%y') + ' cascade')
 connect.commit()
 
 #create schema for the day 
