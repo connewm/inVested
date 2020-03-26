@@ -24,7 +24,7 @@ class sentiment_analysis:
         cursor = connect.cursor()
 
         # read in my credentials, parse api key
-        cred_file = open("/Users/Swetha/Documents/inVested/nlp_cred.txt", "r")
+        cred_file = open("./nlp_cred.txt", "r")
         cred_str = cred_file.read()
         # read in as JSON
         cred_json = json.loads(cred_str)
@@ -100,4 +100,5 @@ class sentiment_analysis:
                 document_id += 1
 
         connect.commit()
+        connect.close()
     

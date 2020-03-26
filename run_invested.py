@@ -3,6 +3,7 @@ from datetime import timedelta
 from datetime import date
 import psycopg2
 import sentiment_test as sentiment
+import db_stock_data as stock_loader
 
 #connection 
 print("running")
@@ -23,8 +24,12 @@ cursor = connect.cursor()
 
 #companies of interest
 # TODO: type in company name from website to pull data
-print("running")
 companies = ['Google', 'Facebook', 'Microsoft']
+# create dictionary from company name to stock symbol
+company_dict = {}
+company_dict['Google'] = 'GOOGL'
+company_dict['Amazon'] = 'AMZN'
+company_dict['Microsoft'] = 'MSFT'
 
 #get dates 
 current_date = date.today()
@@ -32,13 +37,19 @@ drop_date = current_date -timedelta(days = 7)
 print(drop_date)
 
 #drop old schema 
-cursor.execute('DROP SCHEMA if exists ' + drop_date.strftime('%b%d%y') + ' cascade')
+cursor.execute('DROP SCHEMA if exists ' + current_date.strftime('%b%d%y') + ' cascade')
 connect.commit()
 
 #create schema for the day 
 cursor.execute('CREATE SCHEMA ' + current_date.strftime('%b%d%y')) 
 #cursor.execute("insert into last_generated_date (date) values (%s) ", (str_date,))
 connect.commit()
+
+connect.close()
+
+# insert the stock data
+load_stocks = stock_loader.stock_data(company_dict, current_date)
+load_stocks.create_insert_stock_data()
 
 #process sentiment
 get_sentiment = sentiment.sentiment_analysis(companies, current_date, current_date - timedelta(days=7))
