@@ -13,6 +13,10 @@ def user():
     response = Response(json.dumps(resp_dict), 200)
     return response
 
+@app.route('/jacob', methods=["GET"])
+def jacob():
+    
+
 # for local dev ONLY
 if __name__ == '__main__':
     app.run()
