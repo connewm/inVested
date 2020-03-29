@@ -72,7 +72,6 @@ class sentiment_analysis:
                     fear_score = response_w_url["emotion"]["document"]["emotion"]["fear"]
                     disgust_score = response_w_url["emotion"]["document"]["emotion"]["disgust"]
                     anger_score = response_w_url["emotion"]["document"]["emotion"]["anger"]
-                    print(document_id)
                     cursor.execute("insert into " + self.schema_name + "."  + sentiment_table + " (document_id, title, retrieved_url, pub_date, authors, num_characters, sent_score, sent_label, sadness_score, joy_score, fear_score, disgust_score, anger_score) values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)", 
                     (
                         document_id,
