@@ -1,5 +1,9 @@
 {   
     "company_name": "Amazon",
+    "percent_growth": {
+        "stock_growth": 00,
+        "sentiment_growth": 00
+    },
     "dates": {
         "mar2320": {
             "stock": {
@@ -9,10 +13,10 @@
                 
             },
             "categorical": {
-        
+    
             },
             "metadata": {
-        
+                
             }
         },
         "mar2420": {
