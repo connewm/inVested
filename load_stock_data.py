@@ -2,9 +2,11 @@
 
 import urllib.request
 import json
+import ssl
 
 def get_half_hour_stock_data(ticker, api_token, keyword="intraday-prices"):
-    contents = urllib.request.urlopen(f"https://cloud.iexapis.com/stable/stock/{ticker}/{keyword}?token={api_token}")
+    context = ssl._create_unverified_context()
+    contents = urllib.request.urlopen(f"https://cloud.iexapis.com/stable/stock/{ticker}/{keyword}?token={api_token}", context = context)
 
     response_body = contents.read().decode('utf-8')
     response_format = json.loads(response_body)
