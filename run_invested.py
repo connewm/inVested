@@ -2,7 +2,6 @@ from datetime import datetime
 from datetime import timedelta
 from datetime import date
 import psycopg2
-import postgres_connect as database
 import sentiment_test as sentiment
 import db_stock_data as stock_loader
 
