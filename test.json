@@ -1,0 +1,117 @@
+{   
+    "company_name": "Amazon",
+    "dates": {
+        "mar2320": {
+            "stock": {
+                
+            },
+            "pos_neg": {
+                
+            },
+            "categorical": {
+        
+            },
+            "metadata": {
+        
+            }
+        },
+        "mar2420": {
+            "stock": {
+
+            },
+            "pos_neg": {
+
+            },
+            "categorical": {
+
+            },
+            "metadata": {
+
+            }
+        },
+        "mar2520": {
+            "stock": {
+
+            },
+            "pos_neg": {
+
+            },
+            "categorical": {
+
+            },
+            "metadata": {
+
+            }
+        },
+        "mar2620": {
+            "stock": {
+
+            },
+            "pos_neg": {
+
+            },
+            "categorical": {
+
+            },
+            "metadata": {
+
+            }
+        },
+        "mar2720": {
+            "stock": {
+
+            },
+            "pos_neg": {
+
+            },
+            "categorical": {
+
+            },
+            "metadata": {
+
+            }
+        },
+        "mar2820": {
+            "stock": {
+
+            },
+            "pos_neg": {
+        
+            },
+            "categorical": {
+        
+            },
+            "metadata": {
+        
+            }
+        },
+        "mar2920": {
+            "stock": {
+
+            },
+            "pos_neg": {
+        
+            },
+            "categorical": {
+        
+            },
+            "metadata": {
+        
+            }
+        },
+        "mar3020": {
+            "stock": {
+
+            },
+            "pos_neg": {
+        
+            },
+            "categorical": {
+        
+            },
+            "metadata": {
+        
+            }
+        }
+    }
+}
