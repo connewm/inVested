@@ -3,6 +3,7 @@
 import psycopg2
 import load_stock_data as loader
 import json
+import configparser
 
 class stock_data:
 
@@ -13,11 +14,16 @@ class stock_data:
 
         # tickers is array of all stock tickers
     def create_insert_stock_data(self):
+        # read db from config file
+        config = configparser.ConfigParser()
+        config.read('config.ini')
+        #database connection
         try:
-            connect = psycopg2.connect(database="postgres", user="postgres", password="CapStoneRDS", 
-            host="database-1.ciomlblnrvsp.us-east-2.rds.amazonaws.com", port='5432')
+            connect = psycopg2.connect(database=config['postgresDB']['database'], user=config['postgresDB']['user'], 
+                password=config['postgresDB']['password'], host=config['postgresDB']['host'], port='5432')
         except:
-            print("no good")
+            print("Database connection unsuccessful")
+            exit()
         cursor = connect.cursor()
 
         # read in all credentials
