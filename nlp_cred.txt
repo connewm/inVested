@@ -5,5 +5,6 @@
   "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
   "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/e4c6ac61d74b4a78bc93d8e37bd8395c::serviceid:ServiceId-5768c658-7a0a-498a-89d1-4e975d6c71df",
   "url": "https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/55db1221-ff1b-4ba9-9bf4-5b576287d271",
-  "news_key": "692ca85daa144ef3bda94bfe165d5aa5"
+  "news_key": "692ca85daa144ef3bda94bfe165d5aa5",
+  "IEX_key": "sk_770c7117d9ae49bb91588171ed5f34ea"
 }
