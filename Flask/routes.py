@@ -1,15 +1,16 @@
-# app.py
-import json
-
 from flask import Flask
 from flask import request, render_template, jsonify, g
 
+import json
+
+# TODO: import any necessary models and/or DB utiilities
+# ie: from app.models.models import Company
+
 import os
 
-# Temp folder locations for development, TODO: replace locations in production (after __init__.py is created and finished)
+# TODO: delete line below
 app = Flask(__name__, static_folder="../React/vested/build/static", template_folder="../React/vested/build")
 
-# TODO: Remove routes below, keeping them in routes.py
 # base path, render according to react-generated html file
 @app.route('/', methods=['GET'])
 def index():
@@ -41,12 +42,4 @@ def get_company_data():
     print(data)
 
     return jsonify(data)
-
-print('Starting Flask!')
-
-app.debug=True
-app.run(host='0.0.0.0')
-
-# # for local dev ONLY
-# if __name__ == '__main__':
-#     app.run()
+    
