@@ -13,6 +13,7 @@ import { BrowserRouter as Router, Switch, Link, Route } from "react-router-dom";
 // import styles
 import './App.css';
 import '../Chat/Chat.css';
+import '../HamburgerMenu/HamburgerMenu.css';
 
 function App() {
 

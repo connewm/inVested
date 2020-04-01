@@ -8,6 +8,10 @@
   border-bottom: 4px solid #aaaaaa;
 }
 
+a:link {
+  color: white;
+}
+
 .site-title:hover{
     cursor: pointer;
 }

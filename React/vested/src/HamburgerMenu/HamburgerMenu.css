@@ -1,0 +1,21 @@
+.hamburger-menu{
+  display: inline-block;
+}
+
+.hamburger-menu:hover{
+  cursor: pointer;
+  background-color: rgba(100, 100, 100, 0.3);
+}
+
+.menu-link{
+  text-decoration: none;
+  color: white;
+}
+
+.MuiPopover-paper {
+  position: fixed !important;
+}
+
+.MuiPaper-root {
+  background-color: #282c34 !important;
+}

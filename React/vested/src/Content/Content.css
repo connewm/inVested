@@ -1,5 +1,5 @@
 .content {
-  background-color: #282c34;
+  background-color: #4A4E56;
   min-height: calc(100vh - 84px);
   display: inline-block;
   flex-direction: column;
@@ -14,7 +14,6 @@
   justify-content: center;
   width: 100%;
 }
-
 
 .text-wrapper{
   width: 75%;

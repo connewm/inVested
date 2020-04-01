@@ -14,7 +14,7 @@ class Company extends React.Component {
 
     // Use lifecycle hook componentDidMount to update state, results are reflected on webpage
     componentDidMount() {
-        // fetch data, once it retrieves resolve the promsie and update the state. 
+        // fetch data, once it retrieves resolve the promsie and update the state.
         get_company_data("AMZN").then(result => this.setState({
             // response.data // full contents of the response
             // response.data[0] // first element of the response
