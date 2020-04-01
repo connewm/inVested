@@ -32,3 +32,4 @@ Indicate how the project was tested.
 ```pip3 install ibm_watson```
 ```pip install newsapi```
 ```pip install newsapi-python```
+```pip3 install django```
