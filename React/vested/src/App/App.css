@@ -42,6 +42,10 @@ h1 {
   margin-bottom: 20px;
 }
 
+a {
+  color: white;
+}
+
 .chat-wrapper{
   position: fixed;
   height: 60px;
