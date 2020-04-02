@@ -71,7 +71,6 @@ class retrieve_data:
 
 
     def get_company_data(self):
-       
        #date formatting 
         start_date_format = datetime.strptime(self.start_date, '%b%d%y').date() - timedelta(days = 1)
         end_date_format = datetime.strptime(self.end_date, '%b%d%y').date()
