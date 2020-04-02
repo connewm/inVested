@@ -16,7 +16,7 @@ except:
 cursor = connect.cursor()
 #companies of interest
 # TODO: type in company name from website to pull data
-companies = ['Google', 'Zoom']
+companies = ['Google', 'Amazon', 'Microsoft', 'Facebook', 'Tesla', 'Zoom', 'Uber', 'Lyft']
 # create dictionary from company name to stock symbol
 company_dict = {}
 company_dict['Google'] = 'GOOGL'
@@ -24,11 +24,11 @@ company_dict['Amazon'] = 'AMZN'
 company_dict['Microsoft'] = 'MSFT'
 
 #get dates 
-current_date = date.today()
-drop_date = current_date -timedelta(days = 7)
+current_date = date.today() 
+drop_date = current_date - timedelta(days = 7)
 
 #get list of all schemas
-cursor.execute('select schema_name from information_schema.schemata where schema_owner = \'postgres\'')
+cursor.execute('select schema_name from information_schema.schemata where schema_owner = \'postgres\' and schema_name != \'historical\'')
 myschemas = [ x[0] for x in cursor.fetchall()]
 
 #drop appropriate schemas
@@ -40,15 +40,16 @@ for schema_date in myschemas:
 cursor.execute('DROP SCHEMA if exists ' + current_date.strftime('%b%d%y') + ' cascade') 
 cursor.execute('CREATE SCHEMA if not exists ' + current_date.strftime('%b%d%y')) 
 
+
 connect.commit()
 connect.close()
 
 # insert the stock data
-load_stocks = stock_loader.stock_data(company_dict, current_date)
-load_stocks.create_insert_stock_data()
+#load_stocks = stock_loader.stock_data(company_dict, current_date)
+#load_stocks.create_insert_stock_data()
 
 #process sentiment
-get_sentiment = sentiment.sentiment_analysis(companies, current_date, current_date - timedelta(days=7))
+get_sentiment = sentiment.sentiment_analysis(companies, current_date)
 get_sentiment.process_sentiment()
 
 
