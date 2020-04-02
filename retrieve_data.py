@@ -26,7 +26,67 @@ class retrieve_data:
         self.start_date = start_date
         self.end_date = end_date
         self.company_name = company_name
-        self.response = []
+        self.historic_response = []
+        self.company_response = []
+
+    def get_historic_data (self): 
+
+        start_date_format = datetime.strptime(self.start_date, '%b%d%y').date()
+        end_date_format = datetime.strptime(self.end_date, '%b%d%y').date()
+        date_range = []
+        for single_date in self.__daterange(start_date_format, end_date_format):
+            date_range.append(datetime.strftime(single_date,'%b%d%y'))
+        try: 
+            self.cursor.execute('select * from historical.historic_data where date IN (' + str(date_range).strip('[]') + ')')
+        except: 
+            print("Invalid date format")
+            self.connect.rollback()
+        results = self.cursor.fetchall()
+        #setup a data dictionary  
+        data_dict =  {'company_name': self.company_name} 
+        data_dict['dates'] = {}
+        for date in date_range: 
+            data_dict['dates'][date] = {} 
+    
+        for row in results:
+            if (row[1] != self.company_name): 
+                continue
+            data_dict['dates'][row[0]]['avg_sent'] = row[2]
+            data_dict['dates'][row[0]]['avg_sadness_score'] = row[3]
+            data_dict['dates'][row[0]]['avg_joy_score'] = row[4]
+            data_dict['dates'][row[0]]['avg_fear_score'] = row[5]
+            data_dict['dates'][row[0]]['avg_disgust_score'] = row[6]
+        self.historic_response = json.dumps(data_dict, cls=DjangoJSONEncoder, indent=2)
+        return json.dumps(data_dict, cls=DjangoJSONEncoder, indent=2)
+    
+    def get_company_data(self):
+       
+       #date formatting 
+        start_date_format = datetime.strptime(self.start_date, '%b%d%y').date() - timedelta(days = 1)
+        end_date_format = datetime.strptime(self.end_date, '%b%d%y').date()
+
+        #create a dictionary object to work 
+        data_dict =  {'company_name': self.company_name}
+
+        #TODO: Create a dictionary for growth 
+
+
+        dates_dict = {}
+        while start_date_format != end_date_format:
+            #date formatting
+            start_date_format += timedelta(days =1)
+            start_date_str = datetime.strftime(start_date_format,'%b%d%y')
+            #create dictionary for the current day 
+            current_date_dict = {}
+            current_date_dict['stock_data'] =  self.__get_stock_data(start_date_str)
+            current_date_dict['pos_neg'] =  self.__get_pos_neg(start_date_str)
+            current_date_dict['categorical'] = self.__get_categorical(start_date_str)
+            current_date_dict['metadata'] = self.__get_metadata(start_date_str)
+            #append created dictionary into the dates dictionary
+            dates_dict[start_date_str] = current_date_dict
+        data_dict['dates'] = dates_dict
+        self.company_response = json.dumps(data_dict, cls=DjangoJSONEncoder, indent=2)
+        return json.dumps(data_dict, cls=DjangoJSONEncoder, indent=2)
     
     def __get_stock_data (self, date): 
         #TODO: get the stock data
@@ -134,39 +194,17 @@ class retrieve_data:
             self.connect.rollback()
         return metadata
 
-
-    def get_company_data(self):
-       
-       #date formatting 
-        start_date_format = datetime.strptime(self.start_date, '%b%d%y').date() - timedelta(days = 1)
-        end_date_format = datetime.strptime(self.end_date, '%b%d%y').date()
-
-        #create a dictionary object to work 
-        data_dict =  {'company_name': self.company_name}
-
-        #TODO: Create a dictionary for growth 
+    
+    def __daterange(self,date1, date2):
+        for n in range(int ((date2 - date1).days)+1):
+            yield date1 + timedelta(n)
 
 
-        dates_dict = {}
-        while start_date_format != end_date_format:
-            #date formatting
-            start_date_format += timedelta(days =1)
-            start_date_str = datetime.strftime(start_date_format,'%b%d%y')
-            #create dictionary for the current day 
-            current_date_dict = {}
-            current_date_dict['stock_data'] =  self.__get_stock_data(start_date_str)
-            current_date_dict['pos_neg'] =  self.__get_pos_neg(start_date_str)
-            current_date_dict['categorical'] = self.__get_categorical(start_date_str)
-            current_date_dict['metadata'] = self.__get_metadata(start_date_str)
-            #append created dictionary into the dates dictionary
-            dates_dict[start_date_str] = current_date_dict
-        data_dict['dates'] = dates_dict
-        self.response = json.dumps(data_dict, cls=DjangoJSONEncoder, indent=2)
-        return json.dumps(data_dict, cls=DjangoJSONEncoder, indent=2)
+
 
 
 #TEST API 
-google = retrieve_data('google', 'mar2820', 'apr0120')
+google = retrieve_data('Google', 'mar2120', 'mar3020')
 file = open("out.json", "w")
 temp = google.get_company_data()
 file.write(temp)

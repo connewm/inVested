@@ -8,8 +8,9 @@
   border-bottom: 4px solid #aaaaaa;
 }
 
-.site-title:hover{
-    cursor: pointer;
+#site-title:hover{
+  cursor: pointer;
+  background-color: rgba(100, 100, 100, 0.3);
 }
 
 .spacer{
@@ -22,6 +23,16 @@ h2 {
   position: absolute;
   padding: 24px 10px;
   display: inline-block;
+}
+
+.icon {
+  display: inline-block;
+  height: 100%;
+}
+
+.icon:hover {
+  cursor: pointer;
+  background-color: rgba(100, 100, 100, 0.3);
 }
 
 AnnouncementOutlinedIcon {

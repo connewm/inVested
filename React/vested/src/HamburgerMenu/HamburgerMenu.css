@@ -1,0 +1,27 @@
+.hamburger-menu{
+  display: inline-block;
+  height: 100%;
+}
+
+.hamburger-menu:hover{
+  cursor: pointer;
+  background-color: rgba(100, 100, 100, 0.3);
+}
+
+.menu-link{
+  text-decoration: none;
+  color: white;
+}
+
+.MuiPaper-root {
+  background-color: #282c34 !important;
+  color: white !important;
+}
+
+.MuiListItemIcon-root {
+  color: white !important;
+}
+
+.link {
+  text-decoration: none;
+}
