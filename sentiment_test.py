@@ -8,15 +8,15 @@ import configparser
 
 class sentiment_analysis: 
 
-    def __init__ (self, companies, start_date, end_date): 
-         self.companies = companies 
-         self.start_date = start_date 
-         self.end_date = end_date 
-         self.schema_name = start_date.strftime('%b%d%y')
-    
-    def process_sentiment(self): 
+    def __init__ (self, companies, date): 
+
+        #database connection 
 
         # read db from config file
+        config = configparser.ConfigParser()
+        config.read('config.ini')
+        #database connection
+         # read db from config file
         config = configparser.ConfigParser()
         config.read('config.ini')
         #database connection
@@ -26,8 +26,32 @@ class sentiment_analysis:
         except:
             print("Database connection unsuccessful")
             exit()
+        
+        self.connect = connect
+        self.cursor = connect.cursor()
+        self.companies = companies 
+        self.date = date 
+        self.schema_name = date.strftime('%b%d%y')
+    
+    def __process_historical(self, company): 
+        self.cursor.execute("SELECT AVG(sent_score), AVG(sadness_score), AVG(joy_score), AVG(fear_score), AVG(disgust_score), AVG(anger_score) from  " + self.schema_name + "." + company + "_sentiment")
+        results = self.cursor.fetchall()
+        self.cursor.execute("INSERT INTO historical.historic_data (date, company_name, avg_sent, avg_sadness_score,  avg_joy_score , avg_fear_score, avg_disgust_score, avg_anger_score) values (%s, %s,%s, %s, %s, %s, %s, %s)",  
+        (
+            self.schema_name, 
+            company,
+            results[0][0], 
+            results[0][1],
+            results[0][2], 
+            results[0][3], 
+            results[0][4], 
+            results[0][5]
+        )
+        )
+        self.connect.commit()
+   
+    def process_sentiment(self): 
 
-        cursor = connect.cursor()
 
         # read in my credentials, parse api key
         cred_file = open("./nlp_cred.txt", "r")
@@ -46,10 +70,10 @@ class sentiment_analysis:
         for company in self.companies:
             
             #process information for each company 
-            company_params = feed.news_scraper(company, self.start_date, self.end_date)
+            company_params = feed.news_scraper(company, self.date)
             company_articles =company_params.get_articles()
             sentiment_table = company + '_sentiment'
-            cursor.execute("CREATE TABLE IF NOT EXISTS " + self.schema_name + "." + sentiment_table + "(document_id INTEGER, title varchar, retrieved_url varchar, pub_date varchar, authors varchar, num_characters integer, sent_score numeric, sent_label varchar, sadness_score numeric, joy_score numeric, fear_score numeric,  disgust_score numeric, anger_score numeric)")
+            self.cursor.execute("CREATE TABLE IF NOT EXISTS " + self.schema_name + "." + sentiment_table + "(document_id INTEGER, title varchar, retrieved_url varchar, pub_date varchar, authors varchar, num_characters integer, sent_score numeric, sent_label varchar, sadness_score numeric, joy_score numeric, fear_score numeric,  disgust_score numeric, anger_score numeric)")
 
             #restart document_id 
             document_id = 0
@@ -78,7 +102,7 @@ class sentiment_analysis:
                     fear_score = response_w_url["emotion"]["document"]["emotion"]["fear"]
                     disgust_score = response_w_url["emotion"]["document"]["emotion"]["disgust"]
                     anger_score = response_w_url["emotion"]["document"]["emotion"]["anger"]
-                    cursor.execute("insert into " + self.schema_name + "."  + sentiment_table + " (document_id, title, retrieved_url, pub_date, authors, num_characters, sent_score, sent_label, sadness_score, joy_score, fear_score, disgust_score, anger_score) values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)", 
+                    self.cursor.execute("insert into " + self.schema_name + "."  + sentiment_table + " (document_id, title, retrieved_url, pub_date, authors, num_characters, sent_score, sent_label, sadness_score, joy_score, fear_score, disgust_score, anger_score) values (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)", 
                     (
                         document_id,
                         title,
@@ -97,7 +121,9 @@ class sentiment_analysis:
                     document_id += 1
                 except Exception: 
                     print("Broken link")
-                
-        connect.commit()
-        connect.close()
+            self.connect.commit()
+            self.__process_historical(company)
+            
+        self.connect.commit()
+        self.connect.close()
     

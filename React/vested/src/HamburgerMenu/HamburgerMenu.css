@@ -1,5 +1,6 @@
 .hamburger-menu{
   display: inline-block;
+  height: 100%;
 }
 
 .hamburger-menu:hover{
@@ -12,10 +13,15 @@
   color: white;
 }
 
-.MuiPopover-paper {
-  position: fixed !important;
-}
-
 .MuiPaper-root {
   background-color: #282c34 !important;
+  color: white !important;
+}
+
+.MuiListItemIcon-root {
+  color: white !important;
+}
+
+.link {
+  text-decoration: none;
 }
