@@ -7,9 +7,6 @@ from flask import request, render_template, jsonify, g
 import sys
 import os
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-# TODO: create Python package for DB and Watson, import functions through their packages
 from retrieve_data import *
 from assistant import *
 

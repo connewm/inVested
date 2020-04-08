@@ -3,9 +3,11 @@
   height: 80px;
   text-align: left;
   display: inline-block;
+  position: fixed;
   background-color: #282c34;
   color: white;
   border-bottom: 4px solid #aaaaaa;
+  z-index: 1;
 }
 
 #site-title:hover{

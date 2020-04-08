@@ -1,1299 +1,336 @@
 {
-  "company_name": "google",
+  "company_name": "Google",
   "dates": {
-    "Mar2820": {
-      "stock_data": null,
-      "pos_neg": [
-        "-0.703584",
-        "-0.495187",
-        "0.530903",
-        "0.550778",
-        "0.275494",
-        "0.708326",
-        "-0.518975",
-        "0.407673",
-        "0.436403",
-        "0.776738",
-        "0.454054",
-        "0.5404",
-        "-0.452708",
-        "0.588221",
-        "0.52694",
-        "0.44751",
-        "-0.64993",
-        "-0.454011",
-        "0.57902",
-        "0.298065"
-      ],
-      "categorical": {
-        "anger": [
-          "0.535226",
-          "0.139909",
-          "0.114328",
-          "0.133786",
-          "0.136599",
-          "0.079461",
-          "0.500337",
-          "0.084024",
-          "0.098427",
-          "0.066075",
-          "0.152369",
-          "0.11479",
-          "0.0886",
-          "0.104007",
-          "0.089412",
-          "0.067511",
-          "0.126196",
-          "0.154307",
-          "0.077504",
-          "0.080817"
-        ],
-        "disgust": [
-          "0.415885",
-          "0.141121",
-          "0.045404",
-          "0.04714",
-          "0.061941",
-          "0.03661",
-          "0.157122",
-          "0.034647",
-          "0.057308",
-          "0.043169",
-          "0.079971",
-          "0.053795",
-          "0.063449",
-          "0.064714",
-          "0.130171",
-          "0.054293",
-          "0.119113",
-          "0.471442",
-          "0.045156",
-          "0.045378"
-        ],
-        "joy": [
-          "0.144429",
-          "0.541656",
-          "0.582977",
-          "0.536202",
-          "0.156212",
-          "0.474103",
-          "0.511146",
-          "0.534078",
-          "0.528493",
-          "0.5666",
-          "0.605195",
-          "0.569892",
-          "0.249184",
-          "0.590883",
-          "0.56828",
-          "0.540498",
-          "0.53884",
-          "0.571564",
-          "0.493761",
-          "0.541211"
-        ],
-        "sadness": [
-          "0.470465",
-          "0.529379",
-          "0.188267",
-          "0.516168",
-          "0.187036",
-          "0.497979",
-          "0.533763",
-          "0.164323",
-          "0.536048",
-          "0.158011",
-          "0.544855",
-          "0.463365",
-          "0.589001",
-          "0.512992",
-          "0.178744",
-          "0.509667",
-          "0.460624",
-          "0.57041",
-          "0.173522",
-          "0.160317"
-        ],
-        "fear": [
-          "0.056785",
-          "0.15452",
-          "0.068208",
-          "0.126358",
-          "0.049338",
-          "0.055756",
-          "0.118671",
-          "0.066053",
-          "0.095578",
-          "0.056624",
-          "0.095448",
-          "0.124035",
-          "0.093486",
-          "0.103653",
-          "0.085018",
-          "0.105586",
-          "0.128645",
-          "0.103685",
-          "0.068653",
-          "0.092243"
-        ]
-      },
-      "metadata": {
-        "0": {
-          "article_name": "Google Boots InfoWars App Off Play Store Over Bogus Coronavirus Claims",
-          "url": "https://gizmodo.com/google-boots-infowars-app-off-play-store-over-bogus-cor-1842537116",
-          "authors": "{}",
-          "num_characters": 2871
-        },
-        "1": {
-          "article_name": "Google Cancels Its Infamous April Fools Jokes This Year - Slashdot",
-          "url": "https://entertainment.slashdot.org/story/20/03/27/2028244/google-cancels-its-infamous-april-fools-jokes-this-year",
-          "authors": "{\"2020 @09:05PM from the no-laughing-matter dept.\",\"Posted by BeauHD on Friday March 27\"}",
-          "num_characters": 2545
-        },
-        "2": {
-          "article_name": "Get $250 worth of Google smart speakers for $99",
-          "url": "https://www.cnet.com/news/get-250-worth-of-google-smart-speakers-for-99/",
-          "authors": "{\"Dave Johnson\"}",
-          "num_characters": 1333
-        },
-        "3": {
-          "article_name": "Google Stadia is helping Bungie keep Destiny 2\u2019s lights on during Covid-19",
-          "url": "https://www.rockpapershotgun.com/2020/03/28/google-stadia-is-helping-bungie-keep-destiny-2s-lights-on-during-covid-19/",
-          "authors": "{\"Author index\"}",
-          "num_characters": 2809
-        },
-        "4": {
-          "article_name": "Google Offers $340 Million Advertising Credits - Search Engine Journal",
-          "url": "https://www.searchenginejournal.com/google-340-million-ad-credits/357698/",
-          "authors": "{martinibuster}",
-          "num_characters": 1388
-        },
-        "5": {
-          "article_name": "Google CEO announces $800+ million commitment for COVID-19 - MSPoweruser",
-          "url": "https://mspoweruser.com/google-ceo-announces-800-million-commitment-for-covid-19/",
-          "authors": "{Atiya}",
-          "num_characters": 3493
-        },
-        "6": {
-          "article_name": "Read what CEO Sundar Pichai has to say on Google\u2019s response to coronavirus - Latest News | Gadgets Now",
-          "url": "https://www.gadgetsnow.com/tech-news/read-what-ceo-sundar-pichai-has-to-say-on-googles-response-to-coronavirus/articleshow/74867171.cms",
-          "authors": "{Authors}",
-          "num_characters": 5285
-        },
-        "7": {
-          "article_name": "Google rolls out Drive shortcuts ahead of folder structure changes",
-          "url": "https://www.engadget.com/2020-03-28-google-drive-shortcuts.html",
-          "authors": "{mariella-moon}",
-          "num_characters": 1108
-        },
-        "8": {
-          "article_name": "Google Play Update Brings Store In-Line With Gmail",
-          "url": "https://www.droid-life.com/2020/03/28/google-play-update-moves-the-account-switcher-to-match-gmail/",
-          "authors": "{Kellen}",
-          "num_characters": 1350
-        },
-        "9": {
-          "article_name": "Google announces $800+ million commitment towards COVID-19 relief efforts",
-          "url": "https://www.gsmarena.com/google_usd_800_million_covid_19_relief_fund-news-42315.php",
-          "authors": "{Sagar}",
-          "num_characters": 1171
-        },
-        "10": {
-          "article_name": "Google Duo ups group video calling limit to 12 participants",
-          "url": "https://www.gsmarena.com/google_duo_ups_group_video_calling_limit_to_12_participants-news-42308.php",
-          "authors": "{Vlad}",
-          "num_characters": 963
-        },
-        "11": {
-          "article_name": "This Is The Google Glass That Helps Kids With Autism",
-          "url": "https://www.neatorama.com/2020/03/28/This-Is-The-Google-Glass-That-Helps-Kids-With-Autism/",
-          "authors": "{sodiumnami}",
-          "num_characters": 1489
-        },
-        "12": {
-          "article_name": "Google offers $800 million to coronavirus relief funds",
-          "url": "https://indianexpress.com/article/technology/tech-news-technology/google-offers-800-million-coronavirus-relief-funds-6335871/",
-          "authors": "{\"2020 2:11:27 pm\",\"Bloomberg \",\" Updated: March 28\"}",
-          "num_characters": 965
-        },
-        "13": {
-          "article_name": "Google to donate $800 million to help fight COVID-19 pandemic",
-          "url": "https://pocketnow.com/google-to-donate-800-million-to-help-fight-covid-19-pandemic",
-          "authors": "{\"Samuel Martinez\"}",
-          "num_characters": 2116
-        },
-        "14": {
-          "article_name": "Google 3D animals list: Lions, tigers, pandas and more! - 9to5Google",
-          "url": "https://9to5google.com/2020/03/28/google-3d-animals-list/",
-          "authors": "{\"Ben Schoon\"}",
-          "num_characters": 2980
-        },
-        "15": {
-          "article_name": "Why The iPhone 12 Vs. Google Pixel 5 Is 2020\u2019s Big Battle",
-          "url": "https://www.forbes.com/sites/jaymcgregor/2020/03/28/why-the-iphone-12-vs-google-pixel-5-is-2020s-big-battle/",
-          "authors": "{\"Jay McGregor\"}",
-          "num_characters": 3294
-        },
-        "16": {
-          "article_name": "Don\u2019t expect any April Fools\u2019 Day jokes from Google this year",
-          "url": "https://www.slashgear.com/dont-expect-any-april-fools-day-jokes-from-google-this-year-27614722/",
-          "authors": "{\"Brittany A. Roston\"}",
-          "num_characters": 1744
-        },
-        "17": {
-          "article_name": "Google Cancels April Fools Day And Hopefully It Isnt The Only One",
-          "url": "https://www.redmondpie.com/google-cancels-april-fools-day-and-hopefully-it-isnt-the-only-one/",
-          "authors": "{\"Oliver Haslam\"}",
-          "num_characters": 2117
-        },
-        "18": {
-          "article_name": "Top Stories: Mid-range OnePlus Z, Pixel Buds at FCC - 9to5Google",
-          "url": "https://9to5google.com/2020/03/28/top-stories-oneplus-z-pixel-buds/",
-          "authors": "{\"Kyle Bradshaw\"}",
-          "num_characters": 3037
-        },
-        "19": {
-          "article_name": "UKs NHS says it is working with Microsoft, Google, Palantir, and Faculty AI on a dashboard that shows the spread of the virus and NHS ability to deal with it",
-          "url": "https://www.techmeme.com/200328/p10",
-          "authors": "{\"The Authors Guild\"}",
-          "num_characters": 14218
-        }
-      }
-    },
-    "Mar2920": {
-      "stock_data": null,
-      "pos_neg": [
-        "0.676193",
-        "-0.59189",
-        "-0.334747",
-        "0.322066",
-        "0.407874",
-        "0.529507",
-        "-0.264158",
-        "0.715718",
-        "-0.439147",
-        "0.291634",
-        "0.476931",
-        "0.450943",
-        "0.327215",
-        "-0.305036",
-        "-0.298771",
-        "0.545881",
-        "-0.704296",
-        "0.397268",
-        "-0.618023",
-        "0.487409"
-      ],
-      "categorical": {
-        "anger": [
-          "0.014702",
-          "0.047903",
-          "0.094054",
-          "0.081612",
-          "0.086327",
-          "0.10568",
-          "0.148974",
-          "0.11009",
-          "0.145642",
-          "0.086434",
-          "0.05254",
-          "0.073683",
-          "0.12787",
-          "0.117101",
-          "0.120164",
-          "0.084204",
-          "0.120749",
-          "0.127075",
-          "0.129931",
-          "0.132108"
-        ],
-        "disgust": [
-          "0.012579",
-          "0.008319",
-          "0.059943",
-          "0.051442",
-          "0.057376",
-          "0.085064",
-          "0.08321",
-          "0.117193",
-          "0.075382",
-          "0.054882",
-          "0.017316",
-          "0.048724",
-          "0.04592",
-          "0.060619",
-          "0.036607",
-          "0.110289",
-          "0.078341",
-          "0.076941",
-          "0.076207",
-          "0.530746"
-        ],
-        "joy": [
-          "0.636057",
-          "0.361993",
-          "0.528205",
-          "0.536228",
-          "0.540254",
-          "0.527739",
-          "0.515032",
-          "0.544426",
-          "0.535866",
-          "0.557673",
-          "0.540601",
-          "0.528106",
-          "0.442941",
-          "0.517639",
-          "0.556338",
-          "0.631043",
-          "0.155555",
-          "0.637006",
-          "0.136199",
-          "0.548712"
-        ],
-        "sadness": [
-          "0.276182",
-          "0.100297",
-          "0.555094",
-          "0.165741",
-          "0.164392",
-          "0.227321",
-          "0.196215",
-          "0.178816",
-          "0.480481",
-          "0.155682",
-          "0.128399",
-          "0.262311",
-          "0.486581",
-          "0.457564",
-          "0.246459",
-          "0.5472",
-          "0.614027",
-          "0.445788",
-          "0.305486",
-          "0.430194"
-        ],
-        "fear": [
-          "0.015186",
-          "0.005232",
-          "0.096758",
-          "0.086662",
-          "0.081975",
-          "0.061515",
-          "0.07742",
-          "0.058495",
-          "0.100257",
-          "0.082359",
-          "0.059255",
-          "0.077872",
-          "0.11576",
-          "0.056236",
-          "0.102318",
-          "0.08509",
-          "0.505119",
-          "0.655926",
-          "0.086247",
-          "0.082432"
-        ]
-      },
-      "metadata": {
-        "0": {
-          "article_name": "Google 3D Animals Augmented Reality",
-          "url": "https://www.apartmenttherapy.com/google-ar-animals-36739964",
-          "authors": "{\"Mia Nakaji Monnier\"}",
-          "num_characters": 590
-        },
-        "1": {
-          "article_name": "Coronavirus: 17 big tech events by Apple, Google, Facebook, Microsoft and others \u2018cancelled\u2019 | Gadgets Now",
-          "url": "https://www.gadgetsnow.com/slideshows/coronavirus-17-big-tech-events-by-apple-google-facebook-microsoft-and-others-cancelled/photolist/74870060.cms",
-          "authors": "{\"Gadgets Now Bureau\"}",
-          "num_characters": 1582
-        },
-        "2": {
-          "article_name": "Copyright Holders Continue to Report Fewer Piracy Links to Google Search * TorrentFreak",
-          "url": "https://torrentfreak.com/copyright-holders-continue-to-report-fewer-piracy-links-to-google-search-200329/",
-          "authors": "{Ernesto}",
-          "num_characters": 3000
-        },
-        "3": {
-          "article_name": "Amazon AWS, Google Cloud, and Microsoft Azure should let startups and small businesses defer their cloud infrastructure payments for three to six months",
-          "url": "https://www.techmeme.com/200329/p9",
-          "authors": "{\"The Authors Guild\"}",
-          "num_characters": 13458
-        },
-        "4": {
-          "article_name": "Apple and Google should add contact tracing functionality, similar to Singapores TraceTogether app, in a privacy-respecting way to iOS and Android",
-          "url": "https://www.techmeme.com/200329/p12",
-          "authors": "{\"The Authors Guild\"}",
-          "num_characters": 13738
-        },
-        "5": {
-          "article_name": "Google 3D animals: How to watch 3D tiger, duck, dog and other animals in your room",
-          "url": "https://indianexpress.com/article/technology/tech-news-technology/google-3d-animals-how-to-watch-ar-tiger-duck-dog-animals-6337107/",
-          "authors": "{\"2020 8:06:21 pm\",\"Tech Desk \",\" New Delhi \",\" Updated: March 31\"}",
-          "num_characters": 2714
-        },
-        "6": {
-          "article_name": "Google Classroom hits 50m downloads amidst coronavirus - 9to5Google",
-          "url": "https://9to5google.com/2020/03/28/google-classroom-coronavirus-downloads/",
-          "authors": "{\"Ben Schoon\"}",
-          "num_characters": 2123
-        },
-        "7": {
-          "article_name": "What phones support Google 3D animals view in your space - 9to5Google",
-          "url": "https://9to5google.com/2020/03/29/google-3d-animals-support/",
-          "authors": "{\"Abner Li\"}",
-          "num_characters": 7477
-        },
-        "8": {
-          "article_name": "Its Time To Switch From Google Chrome",
-          "url": "https://www.lifehacker.com.au/2020/03/why-you-should-switch-from-google-chrome-to-firefox/",
-          "authors": "{\"Lifehacker Staff\",\"Shelley Phillips - Lifehack.org\"}",
-          "num_characters": 7682
-        },
-        "9": {
-          "article_name": "AppBrain: Google Classroom, which wasnt in the top 100 most popular apps in the Play Store at the start of March, surpasses 50M installs, joins top 5 in the US",
-          "url": "https://www.techmeme.com/200329/p1",
-          "authors": "{\"The Authors Guild\"}",
-          "num_characters": 12466
-        },
-        "10": {
-          "article_name": "Google Drive gets new shortcuts to simplify folder structure",
-          "url": "https://mobilesyrup.com/2020/03/29/google-drive-shortcuts-simplify-folder-structure/",
-          "authors": "{\"Aisha Malik @AiishaMalik1\"}",
-          "num_characters": 1065
-        },
-        "11": {
-          "article_name": "Google Chromecast 3rd Gen $55 @ Kmart",
-          "url": "https://www.ozbargain.com.au/node/527292",
-          "authors": "{}",
-          "num_characters": 2296
-        },
-        "12": {
-          "article_name": "Google Skips Chrome 82, Resumes Stable Releases",
-          "url": "http://www.infosecisland.com/blogview/25256-Google-Skips-Chrome-82-Resumes-Stable-Releases.html",
-          "authors": "{}",
-          "num_characters": 2721
-        },
-        "13": {
-          "article_name": "8 Google Classroom BUMMERS - Teacher Tech",
-          "url": "https://alicekeeler.com/2020/03/29/8-google-classroom-bummers/",
-          "authors": "{admin}",
-          "num_characters": 2798
-        },
-        "14": {
-          "article_name": "My biggest 3 Google Home pet peeves and how to fix them",
-          "url": "https://www.cnet.com/how-to/my-biggest-3-google-home-pet-peeves-and-how-to-fix-them/",
-          "authors": "{\"Dale Smith\"}",
-          "num_characters": 3581
-        },
-        "15": {
-          "article_name": "An LA Native Drives Us Through His Hometown \u2014 Using Google Street View",
-          "url": "https://www.npr.org/sections/pictureshow/2020/03/29/818252132/an-la-native-drives-us-through-his-hometown-using-google-street-view",
-          "authors": "{\"2020 7:00 AM ET\",\"March 29\",\"Samantha Clark\"}",
-          "num_characters": 4564
-        },
-        "16": {
-          "article_name": "Google Trends Data Rings a Warning - The Stock Market Crash Isnt Over",
-          "url": "https://www.ccn.com/google-trends-data-rings-a-warning-the-stock-market-crash-isnt-over/",
-          "authors": "{\"Francois Aure\"}",
-          "num_characters": 3552
-        },
-        "17": {
-          "article_name": "Coronavirus: Making us love Facebook and Google all over again | ZDNet",
-          "url": "https://www.zdnet.com/article/coronavirus-making-us-love-facebook-and-google-all-over-again/",
-          "authors": "{\"Chris Matyszczyk\"}",
-          "num_characters": 3852
-        },
-        "18": {
-          "article_name": "Google Phone 46.0.301643300-publicbeta-go beta APK Download by Google LLC - APKMirror",
-          "url": "https://www.apkmirror.com/apk/google-inc/google-phone/google-phone-46-0-301643300-publicbeta-go-release/",
-          "authors": "{}",
-          "num_characters": 1699
-        },
-        "19": {
-          "article_name": "Coronavirus Australia App free on Google Play, App Store & WhatsApp",
-          "url": "https://www.ozbargain.com.au/node/527240",
-          "authors": "{}",
-          "num_characters": 1029
-        }
-      }
-    },
-    "Mar3020": {
-      "stock_data": null,
-      "pos_neg": [
-        "0.690643",
-        "0",
-        "0.678547",
-        "-0.706991",
-        "0.408666",
-        "-0.366363",
-        "0.581803",
-        "0.820294",
-        "-0.655451",
-        "0.469986",
-        "0.585415",
-        "-0.80636",
-        "-0.397952",
-        "-0.691164",
-        "0.406236",
-        "0.681144",
-        "0.358082",
-        "0.754247",
-        "0.707936"
-      ],
-      "categorical": {
-        "anger": [
-          "0.11554",
-          "0.0",
-          "0.083005",
-          "0.165584",
-          "0.079082",
-          "0.152144",
-          "0.088235",
-          "0.560131",
-          "0.141677",
-          "0.136481",
-          "0.118971",
-          "0.19479",
-          "0.095755",
-          "0.467647",
-          "0.062546",
-          "0.072817",
-          "0.100148",
-          "0.080622",
-          "0.09358"
-        ],
-        "disgust": [
-          "0.051932",
-          "0.0",
-          "0.052221",
-          "0.125657",
-          "0.073183",
-          "0.075173",
-          "0.08436",
-          "0.055643",
-          "0.161842",
-          "0.089585",
-          "0.059833",
-          "0.153234",
-          "0.092311",
-          "0.139419",
-          "0.029863",
-          "0.093041",
-          "0.058783",
-          "0.034157",
-          "0.05853"
-        ],
-        "joy": [
-          "0.572887",
-          "0.026347",
-          "0.610674",
-          "0.114678",
-          "0.519401",
-          "0.176834",
-          "0.584911",
-          "0.453052",
-          "0.571972",
-          "0.565502",
-          "0.528431",
-          "0.130787",
-          "0.573473",
-          "0.120257",
-          "0.241306",
-          "0.586327",
-          "0.681718",
-          "0.514876",
-          "0.189999"
-        ],
-        "sadness": [
-          "0.465382",
-          "0.000085",
-          "0.187429",
-          "0.590047",
-          "0.146774",
-          "0.513633",
-          "0.495811",
-          "0.00005",
-          "0.560635",
-          "0.498714",
-          "0.530186",
-          "0.210198",
-          "0.494374",
-          "0.569038",
-          "0.244314",
-          "0.234418",
-          "0.151199",
-          "0.175568",
-          "0.192232"
-        ],
-        "fear": [
-          "0.035393",
-          "0.000001",
-          "0.054016",
-          "0.63617",
-          "0.061262",
-          "0.118703",
-          "0.097744",
-          "0.0",
-          "0.075608",
-          "0.151565",
-          "0.049386",
-          "0.092894",
-          "0.054492",
-          "0.167956",
-          "0.058165",
-          "0.059476",
-          "0.047694",
-          "0.064998",
-          "0.074957"
-        ]
-      },
-      "metadata": {
-        "0": {
-          "article_name": "Buy a $100 Google Play gift card, score a free $10 Best Buy gift card",
-          "url": "https://www.androidcentral.com/google-play-gift-card-deal-scores-you-free-10-best-buy-gift-card-today",
-          "authors": "{\"Adam Oram\"}",
-          "num_characters": 1657
-        },
-        "1": {
-          "article_name": "Meet the finalists of the Google Play Indie Games Festival",
-          "url": "https://android-developers.googleblog.com/2020/03/meet-finalists-of-google-play-indie.html",
-          "authors": "{Google}",
-          "num_characters": 9124
-        },
-        "2": {
-          "article_name": "How to use Google Duo",
-          "url": "https://www.androidauthority.com/how-to-use-google-duo-1099026/",
-          "authors": "{ankit.banerjee22}",
-          "num_characters": 4489
-        },
-        "3": {
-          "article_name": "Google Play finally removes controversial Infowars app",
-          "url": "https://androidcommunity.com/google-play-finally-removes-controversial-infowars-app-20200329/",
-          "authors": "{\"Ida Torres\"}",
-          "num_characters": 2034
-        },
-        "4": {
-          "article_name": "Google Duo increases the number of video call participants",
-          "url": "https://phandroid.com/2020/03/30/google-duo-increases-the-number-of-video-call-participants/",
-          "authors": "{\"Tyler Lee\"}",
-          "num_characters": 2011
-        },
-        "5": {
-          "article_name": "Google Says Robots.txt Blocking Certain External Resources is Okay - Search Engine Journal",
-          "url": "https://www.searchenginejournal.com/google-blocking-external-resources/357974/",
-          "authors": "{martinibuster}",
-          "num_characters": 4397
-        },
-        "6": {
-          "article_name": "Google Pixel Redux: Proof of the power of software",
-          "url": "https://www.androidauthority.com/google-pixel-redux-1096002/",
-          "authors": "{}",
-          "num_characters": 7466
-        },
-        "7": {
-          "article_name": "Google Cloud for Student Developers: Accessing G Suite REST APIs",
-          "url": "https://developers.googleblog.com/2020/03/google-cloud-for-student-developers-accessing-gsuite-rest-apis.html",
-          "authors": "{Google}",
-          "num_characters": 15759
-        },
-        "8": {
-          "article_name": "Google Cancels April Fools\u2019 Day Plans This Year Due to Coronavirus - Search Engine Journal",
-          "url": "https://www.searchenginejournal.com/google-cancels-april-fools-day-plans-this-year-due-to-coronavirus/358234/",
-          "authors": "{}",
-          "num_characters": 2573
-        },
-        "9": {
-          "article_name": "Google Cancels Its Popular April Fool\u2019s Jokes for 2020 | The Motley Fool",
-          "url": "https://www.fool.com/investing/2020/03/30/google-cancels-its-popular-april-fools-jokes-for-2.aspx",
-          "authors": "{\"Rich Duprey\"}",
-          "num_characters": 2205
-        },
-        "10": {
-          "article_name": "Google is killing Google Publisher Toolbar for AdSense in May 2020 - 9to5Google",
-          "url": "https://9to5google.com/2020/03/30/google-publisher-toolbar-killed/",
-          "authors": "{\"Stephen Hall\"}",
-          "num_characters": 2017
-        },
-        "11": {
-          "article_name": "Google finally boots the Infowars app, 18 months after Apple",
-          "url": "https://www.businessinsider.com/google-banned-infowars-app-for-disputing-accepted-coronavirus-advice-2020-3",
-          "authors": "{\"Charlie Wood\"}",
-          "num_characters": 1431
-        },
-        "12": {
-          "article_name": "Google Forgoing April Fools\u2019 Jokes This Year",
-          "url": "https://www.forbes.com/sites/johanmoreno/2020/03/30/google-forgoing-april-fools-jokes-this-year/",
-          "authors": "{\"Johan Moreno\"}",
-          "num_characters": 1035
-        },
-        "13": {
-          "article_name": "Nation-State Attacks Drop in Latest Google Analysis",
-          "url": "https://threatpost.com/nation-state-attacks-google-analysis/154295/",
-          "authors": "{\"Lindsey O'Donnell\"}",
-          "num_characters": 3921
-        },
-        "14": {
-          "article_name": "Google app gains Show Doodles on search widget setting - 9to5Google",
-          "url": "https://9to5google.com/2020/03/30/google-doodles-search-widget/",
-          "authors": "{\"Abner Li\"}",
-          "num_characters": 1323
-        },
-        "15": {
-          "article_name": "Google posts Thank You Healthcare Workers COVID-19 ad - 9to5Google",
-          "url": "https://9to5google.com/2020/03/29/thank-you-healthcare-workers/",
-          "authors": "{\"Abner Li\"}",
-          "num_characters": 1494
-        },
-        "16": {
-          "article_name": "9to5Google Daily 423: More OnePlus 8 leaks, Google Search 3D Animals, plus more - 9to5Google",
-          "url": "https://9to5google.com/2020/03/30/9to5google-daily-423-more-oneplus-8-leaks-google-search-3d-animals-plus-more/",
-          "authors": "{\"Damien Wilde\"}",
-          "num_characters": 870
-        },
-        "17": {
-          "article_name": "Chrome redesigning buttons, dropdowns, and other controls - 9to5Google",
-          "url": "https://9to5google.com/2020/03/30/chrome-controls-redesign/",
-          "authors": "{\"Abner Li\"}",
-          "num_characters": 1821
-        },
-        "18": {
-          "article_name": "Google app 11.3 preps offline Lens translation, Assistant photo suggestions - 9to5Google",
-          "url": "https://9to5google.com/2020/03/30/google-app-11-3-apk-insight-teardown/",
-          "authors": "{\"Abner Li\"}",
-          "num_characters": 2522
-        }
-      }
-    },
-    "Mar3120": {
-      "stock_data": null,
-      "pos_neg": [
-        "0.491046",
-        "0.697073",
-        "0.379286",
-        "-0.405106",
-        "0.669688",
-        "0.643441",
-        "0.650743",
-        "0.267467",
-        "0.580211",
-        "0.612078",
-        "0.757544",
-        "0.521781",
-        "0.614432",
-        "0.57506",
-        "0.457399",
-        "-0.729385",
-        "-0.696177",
-        "0.455886",
-        "-0.818892",
-        "0.344245"
-      ],
-      "categorical": {
-        "anger": [
-          "0.048917",
-          "0.082864",
-          "0.102208",
-          "0.113807",
-          "0.043898",
-          "0.091983",
-          "0.08885",
-          "0.077743",
-          "0.065387",
-          "0.069108",
-          "0.075169",
-          "0.053592",
-          "0.091072",
-          "0.479886",
-          "0.072835",
-          "0.072309",
-          "0.107262",
-          "0.072887",
-          "0.027103",
-          "0.153557"
-        ],
-        "disgust": [
-          "0.04042",
-          "0.034229",
-          "0.054369",
-          "0.060071",
-          "0.042141",
-          "0.0471",
-          "0.047211",
-          "0.047901",
-          "0.036587",
-          "0.022343",
-          "0.045292",
-          "0.058336",
-          "0.065664",
-          "0.06573",
-          "0.016065",
-          "0.046326",
-          "0.052419",
-          "0.048236",
-          "0.004147",
-          "0.072359"
-        ],
-        "joy": [
-          "0.570325",
-          "0.622318",
-          "0.568291",
-          "0.210696",
-          "0.566152",
-          "0.57818",
-          "0.523244",
-          "0.500541",
-          "0.559741",
-          "0.580158",
-          "0.581845",
-          "0.092553",
-          "0.54981",
-          "0.568598",
-          "0.638435",
-          "0.42833",
-          "0.438986",
-          "0.636297",
-          "0.018138",
-          "0.481896"
-        ],
-        "sadness": [
-          "0.538677",
-          "0.113886",
-          "0.457056",
-          "0.512666",
-          "0.173259",
-          "0.161728",
-          "0.184616",
-          "0.637761",
-          "0.177953",
-          "0.192818",
-          "0.162111",
-          "0.190608",
-          "0.2255",
-          "0.220855",
-          "0.274406",
-          "0.622689",
-          "0.549582",
-          "0.501436",
-          "0.646301",
-          "0.535153"
-        ],
-        "fear": [
-          "0.086017",
-          "0.086041",
-          "0.070086",
-          "0.06307",
-          "0.052897",
-          "0.049344",
-          "0.060889",
-          "0.141596",
-          "0.039777",
-          "0.04319",
-          "0.072337",
-          "0.096185",
-          "0.06651",
-          "0.098358",
-          "0.009368",
-          "0.067824",
-          "0.10785",
-          "0.071302",
-          "0.154933",
-          "0.111022"
-        ]
-      },
-      "metadata": {
-        "0": {
-          "article_name": "Google has discontinued the Pixel 3 and Pixel 3 XL",
-          "url": "https://www.engadget.com/2020-03-31-google-stops-selling-pixel-3-3-xl.html",
-          "authors": "{steve-dent}",
-          "num_characters": 898
-        },
-        "1": {
-          "article_name": "Google and Microsoft are working to make web forms more touch-friendly",
-          "url": "https://www.engadget.com/2020-03-31-google-microsoft-web-forms.html",
-          "authors": "{mariella-moon}",
-          "num_characters": 1125
-        },
-        "2": {
-          "article_name": "Surprise! Fitbits First New Product Since Google Deal Is A Fitness Tracker",
-          "url": "https://gizmodo.com/surprise-fitbits-first-new-product-under-google-is-a-f-1842564469",
-          "authors": "{}",
-          "num_characters": 6005
-        },
-        "3": {
-          "article_name": "Despite looming Google acquisition, Fitbit launches Charge 4 tracker",
-          "url": "https://arstechnica.com/gadgets/2020/03/despite-looming-google-acquisition-fitbit-launches-charge-4-tracker/",
-          "authors": "{\"Ron Amadeo\"}",
-          "num_characters": 3426
-        },
-        "4": {
-          "article_name": "Google stops selling Pixel 3 series phones on its store",
-          "url": "https://www.androidcentral.com/google-stops-selling-pixel-3-series-phones-its-store",
-          "authors": "{\"Babu Mohan\"}",
-          "num_characters": 1086
-        },
-        "5": {
-          "article_name": "Google Hangouts Meet vs. Skype for Business: Which is best?",
-          "url": "https://www.androidcentral.com/google-hangouts-meet-vs-skype-business",
-          "authors": "{\"Nicole Johnston\"}",
-          "num_characters": 7112
-        },
-        "6": {
-          "article_name": "4 Ways You Can Use Google Hangouts to Optimize Efficiency",
-          "url": "https://www.entrepreneur.com/article/348425",
-          "authors": "{\"John Rampton\"}",
-          "num_characters": 5030
-        },
-        "7": {
-          "article_name": "Huaweis Google blacklist led to a $12 billion revenue shortfall in 2019",
-          "url": "https://www.androidcentral.com/huawei-lost-12-billion-revenue-last-year-us-ban-loss-google-apps",
-          "authors": "{\"Michael Allison\"}",
-          "num_characters": 2205
-        },
-        "8": {
-          "article_name": "Google Hangouts Meet vs. Zoom: Which conferencing tool is better for you?",
-          "url": "https://www.androidcentral.com/google-hangouts-meet-vs-zoom",
-          "authors": "{\"Nicole Johnston\"}",
-          "num_characters": 7821
-        },
-        "9": {
-          "article_name": "The Google Nest Hub Max drops 30% with this 2-pack + $50 gift card offer",
-          "url": "https://www.androidcentral.com/google-nest-hub-max-drops-30-discounted-2-pack-50-gift-card-offer",
-          "authors": "{\"Alex Smith\"}",
-          "num_characters": 1672
-        },
-        "10": {
-          "article_name": "Google offers comprehensive coronavirus datasets to researchers for free",
-          "url": "https://thenextweb.com/neural/2020/03/31/google-offers-comprehensive-coronavirus-datasets-to-researchers-for-free/",
-          "authors": "{\"Ivan Mehta\",thenextweb}",
-          "num_characters": 1666
-        },
-        "11": {
-          "article_name": "Google ends sales of Pixel 3 and Pixel 3 XL",
-          "url": "https://www.cnet.com/news/google-ends-sales-of-pixel-3-and-pixel-3-xl/",
-          "authors": "{\"Oscar Gonzalez\"}",
-          "num_characters": 769
-        },
-        "12": {
-          "article_name": "Google and Facebook will offer small businesses ad credits and grants",
-          "url": "https://www.businessinsider.com/facebook-google-offer-ad-credits-grants-for-small-businesses-2020-3",
-          "authors": "{\"Mariel Soto Reyes\"}",
-          "num_characters": 2844
-        },
-        "13": {
-          "article_name": "Holy sheet: Here\u2019s how to grab a web page\u2019s data with Google Sheets",
-          "url": "https://thenextweb.com/basics/2020/03/31/holy-sheet-heres-how-to-grab-a-web-pages-data-with-google-sheets/",
-          "authors": "{\"Yaron Yitzhak\"}",
-          "num_characters": 1611
-        },
-        "14": {
-          "article_name": "Google webmaster conference videos now available - Search Engine Land",
-          "url": "https://searchengineland.com/google-webmaster-conference-videos-now-available-331890",
-          "authors": "{\"Barry Schwartz\"}",
-          "num_characters": 637
-        },
-        "15": {
-          "article_name": "Google has stopped selling the Pixel 3 and 3 XL",
-          "url": "https://www.androidpolice.com/2020/03/30/google-has-stopped-selling-the-pixel-3-and-3-xl/",
-          "authors": "{ryne.hager}",
-          "num_characters": 1408
-        },
-        "16": {
-          "article_name": "Google discontinues selling Pixel 3, Pixel 3XL",
-          "url": "https://androidcommunity.com/google-discontinues-selling-pixel-3-pixel-3xl-20200331/",
-          "authors": "{\"Rei Padla\"}",
-          "num_characters": 1548
-        },
-        "17": {
-          "article_name": "Does Host Location Matter for Google & SEO?",
-          "url": "https://www.searchenginejournal.com/host-location-seo/356848/",
-          "authors": "{shellyfagin}",
-          "num_characters": 3326
-        },
-        "18": {
-          "article_name": "Outage hits some Google Cloud services, error rate curve flattens and theyre coming back",
-          "url": "https://www.theregister.co.uk/2020/03/31/google_cloud_infrastructure_outage/",
-          "authors": "{\"2 SHARE \u25bc\",\"APAC Editor 31\u00a0Mar\u00a02020\u00a0at\u00a003:46\",\"Simon Sharwood\"}",
-          "num_characters": 835
-        },
-        "19": {
-          "article_name": "Watch your MANRS: Akamai, Amazon, Netflix, Microsoft, Google, and pals join internet routing security effort",
-          "url": "https://www.theregister.co.uk/2020/03/31/manrs_cdns/",
-          "authors": "{\"8 SHARE \u25bc\",\"Kieren McCarthy in San Francisco 31\u00a0Mar\u00a02020\u00a0at\u00a012:00\"}",
-          "num_characters": 4946
-        }
-      }
-    },
     "Apr0120": {
-      "stock_data": {
-        "company_name": "Google",
-        "stock_symbol": "GOOGL",
-        "minute": "3:30 PM",
-        "high_pt": "1097.42",
-        "low_pt": "1097.02",
-        "open_value": "1097.305",
-        "close_value": "1097.02",
-        "average_value": "1097.27",
-        "volume": 632,
-        "num_trades": 10
-      },
+      "stock_data": null,
       "pos_neg": [
-        "0.491046",
-        "0.57484",
-        "0.713373",
-        "-0.707149",
-        "-0.35211",
-        "0.697073",
-        "0.451924",
-        "-0.705006",
-        "0.403561",
         "0.717966",
-        "-0.874129",
-        "0.26636",
-        "0.729465",
-        "-0.512952",
-        "-0.703584",
-        "0.379286",
-        "0.643817",
-        "-0.405106",
-        "0.804556",
-        "0.669688"
+        "-0.798282",
+        "0.853511",
+        "0.69777",
+        "0.468749",
+        "0.359518",
+        "-0.650546",
+        "0.248268",
+        "0.820294",
+        "-0.689645",
+        "-0.253662",
+        "-0.237843",
+        "-0.41567",
+        "0.52974",
+        "0.788022",
+        "-0.363281",
+        "0.255052",
+        "0.307326",
+        "0.543125",
+        "0"
       ],
       "categorical": {
         "anger": [
-          "0.048917",
-          "0.11837",
-          "0.068735",
-          "0.206503",
-          "0.090096",
-          "0.082864",
-          "0.071596",
-          "0.477335",
-          "0.069871",
           "0.059726",
-          "0.111931",
-          "0.108927",
-          "0.094991",
-          "0.073125",
-          "0.535226",
-          "0.102208",
-          "0.081743",
-          "0.113807",
-          "0.087664",
-          "0.043898"
+          "0.556288",
+          "0.085351",
+          "0.046299",
+          "0.074701",
+          "0.136465",
+          "0.118427",
+          "0.198173",
+          "0.560131",
+          "0.168881",
+          "0.126519",
+          "0.087078",
+          "0.174292",
+          "0.099183",
+          "0.49276",
+          "0.146645",
+          "0.111677",
+          "0.083081",
+          "0.107736",
+          "0.007545"
         ],
         "disgust": [
-          "0.04042",
-          "0.055689",
-          "0.032125",
-          "0.162827",
-          "0.03484",
-          "0.034229",
-          "0.041409",
-          "0.465381",
-          "0.061397",
           "0.056528",
-          "0.072864",
-          "0.051251",
-          "0.083722",
-          "0.044967",
-          "0.415885",
-          "0.054369",
-          "0.051366",
-          "0.060071",
-          "0.04105",
-          "0.042141"
+          "0.120217",
+          "0.043454",
+          "0.034374",
+          "0.078182",
+          "0.102179",
+          "0.089538",
+          "0.039632",
+          "0.055643",
+          "0.13666",
+          "0.055084",
+          "0.035756",
+          "0.063714",
+          "0.058891",
+          "0.06012",
+          "0.032474",
+          "0.049024",
+          "0.091649",
+          "0.120685",
+          "0.028309"
         ],
         "joy": [
-          "0.570325",
-          "0.547325",
-          "0.550655",
-          "0.14124",
-          "0.152879",
-          "0.622318",
-          "0.578559",
-          "0.459176",
-          "0.558916",
           "0.69883",
-          "0.516554",
-          "0.460081",
-          "0.617956",
-          "0.181899",
-          "0.144429",
-          "0.568291",
-          "0.602971",
-          "0.210696",
-          "0.667509",
-          "0.566152"
+          "0.430031",
+          "0.629668",
+          "0.457566",
+          "0.584077",
+          "0.602408",
+          "0.141763",
+          "0.374614",
+          "0.453052",
+          "0.18081",
+          "0.521392",
+          "0.55117",
+          "0.51208",
+          "0.587123",
+          "0.662687",
+          "0.172783",
+          "0.550105",
+          "0.533922",
+          "0.535135",
+          "0.049334"
         ],
         "sadness": [
-          "0.538677",
-          "0.123141",
-          "0.530664",
-          "0.561675",
-          "0.245561",
-          "0.113886",
-          "0.230766",
-          "0.52303",
-          "0.498292",
           "0.46032",
-          "0.520741",
-          "0.532942",
-          "0.161332",
-          "0.518601",
-          "0.470465",
-          "0.457056",
-          "0.438598",
-          "0.512666",
-          "0.196723",
-          "0.173259"
+          "0.495378",
+          "0.108071",
+          "0.21209",
+          "0.592607",
+          "0.465731",
+          "0.569319",
+          "0.344711",
+          "0.00005",
+          "0.536167",
+          "0.200293",
+          "0.148981",
+          "0.13684",
+          "0.184537",
+          "0.108559",
+          "0.247185",
+          "0.17343",
+          "0.156174",
+          "0.628896",
+          "0.015205"
         ],
         "fear": [
-          "0.086017",
-          "0.071545",
-          "0.058069",
-          "0.114554",
-          "0.103018",
-          "0.086041",
-          "0.067861",
-          "0.492829",
-          "0.108656",
           "0.061535",
-          "0.115262",
-          "0.094495",
-          "0.097273",
-          "0.132485",
-          "0.056785",
-          "0.070086",
-          "0.07601",
-          "0.06307",
-          "0.046638",
-          "0.052897"
+          "0.109222",
+          "0.080892",
+          "0.08618",
+          "0.513011",
+          "0.153594",
+          "0.076219",
+          "0.094739",
+          "0.0",
+          "0.171581",
+          "0.087017",
+          "0.063025",
+          "0.070719",
+          "0.063993",
+          "0.068347",
+          "0.090013",
+          "0.089626",
+          "0.067767",
+          "0.146054",
+          "0.003262"
         ]
       },
       "metadata": {
         "0": {
-          "article_name": "Google has discontinued the Pixel 3 and Pixel 3 XL",
-          "url": "https://www.engadget.com/2020-03-31-google-stops-selling-pixel-3-3-xl.html",
-          "authors": "{steve-dent}",
-          "num_characters": 898
-        },
-        "1": {
-          "article_name": "Google Assistants redesigned feed is rolling out on iOS",
-          "url": "https://www.engadget.com/2020-03-25-google-assistant-snapshot-feed-widely-available.html",
-          "authors": "{igor-bonifacic}",
-          "num_characters": 1288
-        },
-        "2": {
-          "article_name": "Google Podcasts is finally available on iOS \u2013 TechCrunch",
-          "url": "https://techcrunch.com/2020/03/25/google-podcasts-is-finally-available-on-ios/",
-          "authors": "{\"Brian Heater\",\"Brian Heater @bheater / 1 week\"}",
-          "num_characters": 1051
-        },
-        "3": {
-          "article_name": "Google Bans Infowars Android App Over Coronavirus Claims",
-          "url": "https://www.wired.com/story/google-bans-infowars-android-app-alex-jones-coronavirus/",
-          "authors": "{\"Lily Hay Newman\"}",
-          "num_characters": 5019
-        },
-        "4": {
-          "article_name": "Google to resume regular Chrome updates after brief pause",
-          "url": "https://www.theverge.com/2020/3/27/21196720/google-chrome-release-cornonavirus-pandemic-response-roadmap",
-          "authors": "{\"Tom Warren\"}",
-          "num_characters": 1128
-        },
-        "5": {
-          "article_name": "Google and Microsoft are working to make web forms more touch-friendly",
-          "url": "https://www.engadget.com/2020-03-31-google-microsoft-web-forms.html",
-          "authors": "{mariella-moon}",
-          "num_characters": 1125
-        },
-        "6": {
-          "article_name": "Google Duos group video limit rises to 12 people just at the right time",
-          "url": "https://www.engadget.com/2020-03-27-google-duo-group-video-limit-amid-covid-19.html",
-          "authors": "{steve-dent}",
-          "num_characters": 1107
-        },
-        "7": {
-          "article_name": "Google Says State-Sponsored Hackers Target Journalists by Posing as One of Them",
-          "url": "https://gizmodo.com/google-says-state-sponsored-hackers-target-journalists-1842531368",
-          "authors": "{}",
-          "num_characters": 3237
-        },
-        "8": {
-          "article_name": "Huawei hopes the P40 Pro\u2019s powerful hardware can lure you away from Google",
-          "url": "https://www.theverge.com/2020/3/26/21194248/huawei-p40-pro-plus-release-date-specs-price-features-camera-google",
-          "authors": "{\"Jon Porter\"}",
-          "num_characters": 8400
-        },
-        "9": {
           "article_name": "Google Doodle celebrates pioneering doctor whose work helped develop polio vaccine",
           "url": "https://mashable.com/article/google-doodle-dame-jean-macnamara/",
           "authors": "{\"Natasha Pi\u00f1on\"}",
           "num_characters": 1638
         },
+        "1": {
+          "article_name": "Levandowski says Uber must pay his $179 million judgment to Google",
+          "url": "https://arstechnica.com/cars/2020/04/levandowski-says-uber-must-pay-his-179-million-judgment-to-google/",
+          "authors": "{\"Timothy B. Lee\"}",
+          "num_characters": 4450
+        },
+        "2": {
+          "article_name": "Heres the best Google Home smart speaker deal youre going to find today",
+          "url": "https://www.androidcentral.com/heres-best-google-home-smart-speaker-deal-youre-going-find-today",
+          "authors": "{\"Adam Oram\"}",
+          "num_characters": 1624
+        },
+        "3": {
+          "article_name": "Google offers price savings of up to \u00a3170 on the Pixel 4 and 4 XL",
+          "url": "https://www.androidcentral.com/googles-pixel-4-offers-price-savings-ps170-pixel-4",
+          "authors": "{\"Michael Allison\"}",
+          "num_characters": 688
+        },
+        "4": {
+          "article_name": "Google Doodle honors pioneering polio doctor Jean Macnamara",
+          "url": "https://www.cnet.com/news/google-doodle-honors-pioneering-polio-doctor-jean-macnamara/",
+          "authors": "{\"Steven Musil\"}",
+          "num_characters": 2415
+        },
+        "5": {
+          "article_name": "Krisp eliminates unwanted background noise from Zoom, Skype, Google Hangouts, etc - 9to5Mac",
+          "url": "https://9to5mac.com/2020/04/01/krisp/",
+          "authors": "{\"Bradley Chambers\"}",
+          "num_characters": 2285
+        },
+        "6": {
+          "article_name": "Huawei wants Gmail, Maps, and other Google apps in its app store",
+          "url": "https://www.androidpolice.com/2020/04/01/huawei-wants-gmail-maps-and-other-google-apps-in-its-app-store/",
+          "authors": "{corbin.davenport.50}",
+          "num_characters": 1254
+        },
+        "7": {
+          "article_name": "Schedule Individual Online Office Hours Meetings via Google Classroom",
+          "url": "https://www.freetech4teachers.com/2020/04/schedule-individual-online-office-hours.html",
+          "authors": "{}",
+          "num_characters": 635
+        },
+        "8": {
+          "article_name": "Introducing Google Pays new Business Console",
+          "url": "https://developers.googleblog.com/2020/04/introducing-google-pays-new-business-console.html",
+          "authors": "{Google}",
+          "num_characters": 15759
+        },
+        "9": {
+          "article_name": "Google will no longer pay lobbyists that deny climate change, pledges zero emissions by 2025",
+          "url": "https://www.marketwatch.com/story/google-will-no-longer-pay-lobbyists-that-deny-climate-change-pledges-zero-emissions-by-2025-2020-04-01",
+          "authors": "{\"Rachel Koning Beals\"}",
+          "num_characters": 3524
+        },
         "10": {
-          "article_name": "Businesses can now mark themselves as temporarily closed on Google",
-          "url": "https://mashable.com/article/google-businesses-temporarily-closed-coronavirus/",
-          "authors": "{\"Stan Schroeder\"}",
-          "num_characters": 1568
+          "article_name": "Hey Google, please add these features to Assistant",
+          "url": "https://www.androidauthority.com/hey-google-assistant-features-1099081/",
+          "authors": "{\"C. Scott Brown\",\"Hadlee Simons\",\"John Callaham\",\"Mitja Rutnik\",\"Team AA\"}",
+          "num_characters": 5634
         },
         "11": {
-          "article_name": "Google Duo raises video chat limit amid coronavirus pandemic",
-          "url": "https://mashable.com/article/google-duo-group-video-chat-limit-12/",
-          "authors": "{\"Stan Schroeder\"}",
-          "num_characters": 1317
+          "article_name": "Google to Support New COVID-19 Special Announcement Schema in Search Results - Search Engine Journal",
+          "url": "https://www.searchenginejournal.com/google-to-support-new-covid-19-special-announcement-schema-in-search-results/358540/",
+          "authors": "{}",
+          "num_characters": 1940
         },
         "12": {
-          "article_name": "Google sets aside $800M in ads and loans to help in COVID-19 fight \u2013 TechCrunch",
-          "url": "https://techcrunch.com/2020/03/27/google-sets-aside-800m-in-ads-and-cash-to-help-in-covid-19-fight/",
-          "authors": "{\"Lucas Matney\",\"Lucas Matney @lucasmtny / 5 days\"}",
-          "num_characters": 1779
+          "article_name": "Use Read Receipts to Make Sure Students Know They Have Google Classroom Assignments",
+          "url": "https://www.freetech4teachers.com/2020/04/use-read-receipts-to-make-sure-students.html",
+          "authors": "{}",
+          "num_characters": 1041
         },
         "13": {
-          "article_name": "After a brief pause, Google restarts Chrome and Chrome OS releases \u2013 TechCrunch",
-          "url": "https://techcrunch.com/2020/03/26/after-a-brief-pause-google-restarts-chrome-and-chrome-os-releases/",
-          "authors": "{\"Frederic Lardinois\",\"Frederic Lardinois @fredericl / 7 days\"}",
-          "num_characters": 1218
+          "article_name": "Zoom vs Google Hangouts Meet: Which one is right for you?",
+          "url": "https://www.androidauthority.com/zoom-vs-google-hangouts-meet-1100019/",
+          "authors": "{}",
+          "num_characters": 7694
         },
         "14": {
-          "article_name": "Google Boots InfoWars App Off Play Store Over Bogus Coronavirus Claims",
-          "url": "https://gizmodo.com/google-boots-infowars-app-off-play-store-over-bogus-cor-1842537116",
-          "authors": "{}",
-          "num_characters": 2871
+          "article_name": "Look at Life-size Animals in AR Through Google Search",
+          "url": "https://blog.adafruit.com/2020/04/01/look-at-life-size-animals-in-ar-through-google-search/",
+          "authors": "{\"Name (required)\"}",
+          "num_characters": 1636
         },
         "15": {
-          "article_name": "Surprise! Fitbits First New Product Since Google Deal Is A Fitness Tracker",
-          "url": "https://gizmodo.com/surprise-fitbits-first-new-product-under-google-is-a-f-1842564469",
-          "authors": "{}",
-          "num_characters": 6005
+          "article_name": "Netmarketshare: Google Chrome registers a slight jump in the market share - MSPoweruser",
+          "url": "https://mspoweruser.com/netmarketshare-google-chrome-jump-market-share/",
+          "authors": "{anmol112}",
+          "num_characters": 1122
         },
         "16": {
-          "article_name": "The iPad Pro now has LiDAR, but Google could do it bigger and better",
-          "url": "https://www.androidcentral.com/ipad-pro-has-lidar-camera-should-tech-come-android",
-          "authors": "{\"Jerry Hildenbrand\"}",
-          "num_characters": 4664
+          "article_name": "Fitbit Launches Charge 4 Ahead of Acquisition by Google | The Motley Fool",
+          "url": "https://www.fool.com/investing/2020/04/01/fitbit-launches-charge-4-ahead-of-acquisition-by-g.aspx",
+          "authors": "{CFA,\"Evan Niu\"}",
+          "num_characters": 2999
         },
         "17": {
-          "article_name": "Despite looming Google acquisition, Fitbit launches Charge 4 tracker",
-          "url": "https://arstechnica.com/gadgets/2020/03/despite-looming-google-acquisition-fitbit-launches-charge-4-tracker/",
-          "authors": "{\"Ron Amadeo\"}",
-          "num_characters": 3426
+          "article_name": "Facebook and Google Seek to Delay Paying Indias Digital Tax | The Motley Fool",
+          "url": "https://www.fool.com/investing/2020/04/01/facebook-and-google-seek-to-delay-paying-indias-di.aspx",
+          "authors": "{\"Aditya Raghunath\"}",
+          "num_characters": 1488
         },
         "18": {
-          "article_name": "Discover podcasts you\u2019ll love with Google Podcasts, now on iOS",
-          "url": "https://www.blog.google/products/search/discover-podcasts-youll-love-with-google-podcasts-now-on-ios/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+blogspot%2FMKuf+%28The+Keyword+%7C+Official+Google+Blog%29",
-          "authors": "{Cupid,\"Elisabeth Leoni\",\"Emily Moxley\",\"Eunah Lee\",\"Geordy Kitchen\",\"Stefano Reccia\"}",
-          "num_characters": 1742
+          "article_name": "UAE lifts ban on Google Hangouts Meet, Cisco Webex and other VoIP services",
+          "url": "https://www.gsmarena.com/uae_has_unbanned_google_hangouts_meet_cisco_webex_and_a_few_other_services-news-42364.php",
+          "authors": "{Victor}",
+          "num_characters": 1603
         },
         "19": {
-          "article_name": "Google stops selling Pixel 3 series phones on its store",
-          "url": "https://www.androidcentral.com/google-stops-selling-pixel-3-series-phones-its-store",
-          "authors": "{\"Babu Mohan\"}",
-          "num_characters": 1086
+          "article_name": "Bloomberg - Are you a robot?",
+          "url": "https://www.bloomberg.com/tosv2.html?vid=&uuid=7e212c30-748f-11ea-95b5-7be6f7c7fe88&url=L25ld3MvYXJ0aWNsZXMvMjAyMC0wNC0wMS9lbmdpbmVlci1zYXlzLXViZXItb3dlcy1oaW0tMTgwLW1pbGxpb24tZm9yLXJ1bi1pbi13aXRoLWdvb2dsZQ==",
+          "authors": "{}",
+          "num_characters": 368
         }
       }
+    },
+    "Apr0220": {
+      "stock_data": null,
+      "pos_neg": null,
+      "categorical": {
+        "anger": null,
+        "disgust": null,
+        "joy": null,
+        "sadness": null,
+        "fear": null
+      },
+      "metadata": null
+    },
+    "Apr0320": {
+      "stock_data": null,
+      "pos_neg": null,
+      "categorical": {
+        "anger": null,
+        "disgust": null,
+        "joy": null,
+        "sadness": null,
+        "fear": null
+      },
+      "metadata": null
+    },
+    "Apr0420": {
+      "stock_data": null,
+      "pos_neg": null,
+      "categorical": {
+        "anger": null,
+        "disgust": null,
+        "joy": null,
+        "sadness": null,
+        "fear": null
+      },
+      "metadata": null
+    },
+    "Apr0520": {
+      "stock_data": null,
+      "pos_neg": null,
+      "categorical": {
+        "anger": null,
+        "disgust": null,
+        "joy": null,
+        "sadness": null,
+        "fear": null
+      },
+      "metadata": null
+    },
+    "Apr0620": {
+      "stock_data": null,
+      "pos_neg": null,
+      "categorical": {
+        "anger": null,
+        "disgust": null,
+        "joy": null,
+        "sadness": null,
+        "fear": null
+      },
+      "metadata": null
+    },
+    "Apr0720": {
+      "stock_data": null,
+      "pos_neg": null,
+      "categorical": {
+        "anger": null,
+        "disgust": null,
+        "joy": null,
+        "sadness": null,
+        "fear": null
+      },
+      "metadata": null
     }
   }
 }

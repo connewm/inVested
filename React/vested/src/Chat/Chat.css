@@ -28,3 +28,11 @@
     right: 0px;
     bottom: 0px;
 }
+
+.sc-message a {
+  color: #4e8cff;
+}
+
+.Linkify > a {
+  color: #4e8cff;
+}
