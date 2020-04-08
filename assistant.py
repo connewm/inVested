@@ -25,27 +25,6 @@ class watson_assistant:
 
     return response
 
-#authenticator = IAMAuthenticator('CYb3yvcTH_ocW0Yxx1u4W95Y8wZLbY3Kzn3j7NAy45nd')
-
-#assistant = AssistantV2(
-#    version='2020-04-01',
-#    authenticator=authenticator
-#)
-
-#assistant.set_service_url('https://api.us-south.assistant.watson.cloud.ibm.com/')
-#assist_id='3cd99d9c-369e-45ce-8d66-ac0756f5cc74'
-#
-#session_id  = assistant.create_session(assistant_id=assist_id).get_result()['session_id']
-
-#response = assistant.message(assistant_id='3cd99d9c-369e-45ce-8d66-ac0756f5cc74', session_id=str(session_id),
-#    input={
-#        'message_type': 'text',
-#        'text': 'hello'
-#    }
-#).get_result()
-
-#print(json.dumps(response, indent=2))
-
 # TEST WATSON ASSISTANT
 # assistant = watson_assistant()
 # assistant.get_watson_response("hello")

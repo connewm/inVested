@@ -1,5 +1,5 @@
 {
-  "company_name": "Google",
+  "company_name": "google",
   "dates": {
     "Apr0120": {
       "stock_data": null,
@@ -305,34 +305,6 @@
         "joy": null,
         "sadness": null,
         "fear": null
-<<<<<<< HEAD
-      },
-      "metadata": null
-    },
-    "Apr0620": {
-      "stock_data": null,
-      "pos_neg": null,
-      "categorical": {
-        "anger": null,
-        "disgust": null,
-        "joy": null,
-        "sadness": null,
-        "fear": null
-      },
-      "metadata": null
-    },
-    "Apr0720": {
-      "stock_data": null,
-      "pos_neg": null,
-      "categorical": {
-        "anger": null,
-        "disgust": null,
-        "joy": null,
-        "sadness": null,
-        "fear": null
-      },
-      "metadata": null
-=======
       },
       "metadata": null
     },
@@ -750,7 +722,6 @@
           "num_characters": 3426
         }
       }
->>>>>>> 97de6b06678005322b43510ba9d80d4913e2254b
     }
   }
 }
