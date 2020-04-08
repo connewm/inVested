@@ -204,14 +204,7 @@ class retrieve_data:
 
 
 #TEST API 
-<<<<<<< HEAD
-#google = retrieve_data('Google', 'apr0120', 'apr0720')
+#google = retrieve_data('google', 'apr0120', 'apr0720')
 #file = open("out.json", "w")
 #temp = google.get_company_data()
 #file.write(temp)
-=======
-google = retrieve_data('google', 'apr0120', 'apr0720')
-file = open("out.json", "w")
-temp = google.get_company_data()
-file.write(temp)
->>>>>>> 97de6b06678005322b43510ba9d80d4913e2254b
