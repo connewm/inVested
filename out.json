@@ -305,6 +305,7 @@
         "joy": null,
         "sadness": null,
         "fear": null
+<<<<<<< HEAD
       },
       "metadata": null
     },
@@ -331,6 +332,425 @@
         "fear": null
       },
       "metadata": null
+=======
+      },
+      "metadata": null
+    },
+    "Apr0620": {
+      "stock_data": null,
+      "pos_neg": null,
+      "categorical": {
+        "anger": null,
+        "disgust": null,
+        "joy": null,
+        "sadness": null,
+        "fear": null
+      },
+      "metadata": null
+    },
+    "Apr0720": {
+      "stock_data": {
+        "09:30 AM": {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "high_pt": "1185.8",
+          "low_pt": "1185",
+          "open_value": "1185.65",
+          "close_value": "1185.8",
+          "average_value": "1185.658",
+          "volume": 242,
+          "num_trades": 5
+        },
+        "10 AM": {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "high_pt": "1185.8",
+          "low_pt": "1185",
+          "open_value": "1185.65",
+          "close_value": "1185.8",
+          "average_value": "1185.658",
+          "volume": 242,
+          "num_trades": 5
+        },
+        "10:30 AM": {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "high_pt": "1185.8",
+          "low_pt": "1185",
+          "open_value": "1185.65",
+          "close_value": "1185.8",
+          "average_value": "1185.658",
+          "volume": 242,
+          "num_trades": 5
+        },
+        "11 AM": {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "high_pt": "1185.8",
+          "low_pt": "1185",
+          "open_value": "1185.65",
+          "close_value": "1185.8",
+          "average_value": "1185.658",
+          "volume": 242,
+          "num_trades": 5
+        },
+        "11:30 AM": {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "high_pt": "1185.8",
+          "low_pt": "1185",
+          "open_value": "1185.65",
+          "close_value": "1185.8",
+          "average_value": "1185.658",
+          "volume": 242,
+          "num_trades": 5
+        },
+        "12 PM": {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "high_pt": "1185.8",
+          "low_pt": "1185",
+          "open_value": "1185.65",
+          "close_value": "1185.8",
+          "average_value": "1185.658",
+          "volume": 242,
+          "num_trades": 5
+        },
+        "12:30 PM": {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "high_pt": "1185.8",
+          "low_pt": "1185",
+          "open_value": "1185.65",
+          "close_value": "1185.8",
+          "average_value": "1185.658",
+          "volume": 242,
+          "num_trades": 5
+        },
+        "1 PM": {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "high_pt": "1185.8",
+          "low_pt": "1185",
+          "open_value": "1185.65",
+          "close_value": "1185.8",
+          "average_value": "1185.658",
+          "volume": 242,
+          "num_trades": 5
+        },
+        "1:30 PM": {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "high_pt": "1185.8",
+          "low_pt": "1185",
+          "open_value": "1185.65",
+          "close_value": "1185.8",
+          "average_value": "1185.658",
+          "volume": 242,
+          "num_trades": 5
+        },
+        "2 PM": {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "high_pt": "1185.8",
+          "low_pt": "1185",
+          "open_value": "1185.65",
+          "close_value": "1185.8",
+          "average_value": "1185.658",
+          "volume": 242,
+          "num_trades": 5
+        },
+        "2:30 PM": {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "high_pt": "1185.8",
+          "low_pt": "1185",
+          "open_value": "1185.65",
+          "close_value": "1185.8",
+          "average_value": "1185.658",
+          "volume": 242,
+          "num_trades": 5
+        },
+        "3 PM": {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "high_pt": "1185.8",
+          "low_pt": "1185",
+          "open_value": "1185.65",
+          "close_value": "1185.8",
+          "average_value": "1185.658",
+          "volume": 242,
+          "num_trades": 5
+        },
+        "3:30 PM": {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "high_pt": "1185.8",
+          "low_pt": "1185",
+          "open_value": "1185.65",
+          "close_value": "1185.8",
+          "average_value": "1185.658",
+          "volume": 242,
+          "num_trades": 5
+        }
+      },
+      "pos_neg": [
+        "0.427317",
+        "0.491046",
+        "0.370084",
+        "-0.678669",
+        "-0.497813",
+        "0.670131",
+        "0.529536",
+        "0.697073",
+        "0.717966",
+        "-0.364751",
+        "0.573851",
+        "0.363397",
+        "0.379286",
+        "0.564032",
+        "0.525477",
+        "-0.277171",
+        "0.747313",
+        "0.780697",
+        "0.67765",
+        "-0.405106"
+      ],
+      "categorical": {
+        "anger": [
+          "0.047242",
+          "0.048917",
+          "0.11683",
+          "0.111263",
+          "0.115468",
+          "0.044075",
+          "0.060272",
+          "0.082864",
+          "0.059726",
+          "0.115749",
+          "0.051005",
+          "0.108395",
+          "0.102208",
+          "0.679903",
+          "0.087668",
+          "0.065887",
+          "0.069906",
+          "0.069171",
+          "0.079979",
+          "0.113807"
+        ],
+        "disgust": [
+          "0.036632",
+          "0.04042",
+          "0.056735",
+          "0.03854",
+          "0.052774",
+          "0.014762",
+          "0.03675",
+          "0.034229",
+          "0.056528",
+          "0.043761",
+          "0.069724",
+          "0.075799",
+          "0.054369",
+          "0.678251",
+          "0.079805",
+          "0.07556",
+          "0.07415",
+          "0.051667",
+          "0.064499",
+          "0.060071"
+        ],
+        "joy": [
+          "0.26214",
+          "0.570325",
+          "0.148692",
+          "0.143903",
+          "0.133201",
+          "0.719736",
+          "0.514042",
+          "0.622318",
+          "0.69883",
+          "0.519138",
+          "0.472889",
+          "0.215477",
+          "0.568291",
+          "0.676249",
+          "0.603127",
+          "0.504467",
+          "0.56996",
+          "0.627149",
+          "0.584298",
+          "0.210696"
+        ],
+        "sadness": [
+          "0.163539",
+          "0.538677",
+          "0.508002",
+          "0.250412",
+          "0.518049",
+          "0.128017",
+          "0.180906",
+          "0.113886",
+          "0.46032",
+          "0.472119",
+          "0.142932",
+          "0.214689",
+          "0.457056",
+          "0.172407",
+          "0.171051",
+          "0.506676",
+          "0.159969",
+          "0.170252",
+          "0.265565",
+          "0.512666"
+        ],
+        "fear": [
+          "0.049308",
+          "0.086017",
+          "0.09012",
+          "0.053433",
+          "0.095422",
+          "0.033459",
+          "0.090571",
+          "0.086041",
+          "0.061535",
+          "0.491991",
+          "0.075505",
+          "0.114633",
+          "0.070086",
+          "0.672301",
+          "0.078042",
+          "0.176156",
+          "0.078639",
+          "0.08543",
+          "0.069549",
+          "0.06307"
+        ]
+      },
+      "metadata": {
+        "0": {
+          "article_name": "Google Maps Now Shows Nearby Takeout and Delivery Options",
+          "url": "https://lifehacker.com/google-maps-now-shows-nearby-takeout-and-delivery-optio-1842707092",
+          "authors": "{}",
+          "num_characters": 1164
+        },
+        "1": {
+          "article_name": "Google has discontinued the Pixel 3 and Pixel 3 XL",
+          "url": "https://www.engadget.com/2020-03-31-google-stops-selling-pixel-3-3-xl.html",
+          "authors": "{steve-dent}",
+          "num_characters": 898
+        },
+        "2": {
+          "article_name": "Google Maps now highlights restaurants with delivery options",
+          "url": "https://www.engadget.com/2020-04-05-google-maps-highlights-restaurant-delivery-options.html",
+          "authors": "{jon-fingas}",
+          "num_characters": 912
+        },
+        "3": {
+          "article_name": "Google Fi temporarily increases data limits to 30GB per month",
+          "url": "https://www.engadget.com/2020-04-03-google-fi-boosts-data-usage.html",
+          "authors": "{christine-fisher}",
+          "num_characters": 1243
+        },
+        "4": {
+          "article_name": "Google rolls back Chrome feature that blocks cross-site tracking",
+          "url": "https://www.engadget.com/2020-04-03-google-rolls-back-chrome-samesite.html",
+          "authors": "{mariella-moon}",
+          "num_characters": 1263
+        },
+        "5": {
+          "article_name": "Google Fit redesign focuses on your step count",
+          "url": "https://www.engadget.com/google-fit-redesign-step-count-011159189.html",
+          "authors": "{jon-fingas}",
+          "num_characters": 955
+        },
+        "6": {
+          "article_name": "Daily Crunch: Google publishes coronavirus mobility reports \u2013 TechCrunch",
+          "url": "https://techcrunch.com/2020/04/03/daily-crunch-google-publishes-coronavirus-mobility-reports/",
+          "authors": "{\"Anthony Ha\",\"Anthony Ha @anthonyha / 5 days\"}",
+          "num_characters": 3200
+        },
+        "7": {
+          "article_name": "Google and Microsoft are working to make web forms more touch-friendly",
+          "url": "https://www.engadget.com/2020-03-31-google-microsoft-web-forms.html",
+          "authors": "{mariella-moon}",
+          "num_characters": 1125
+        },
+        "8": {
+          "article_name": "Google Doodle celebrates pioneering doctor whose work helped develop polio vaccine",
+          "url": "https://mashable.com/article/google-doodle-dame-jean-macnamara/",
+          "authors": "{\"Natasha Pi\u00f1on\"}",
+          "num_characters": 1638
+        },
+        "9": {
+          "article_name": "Google rolls back SameSite cookie changes to keep essential online services from breaking \u2013 TechCrunch",
+          "url": "https://techcrunch.com/2020/04/03/google-rolls-back-samesite-cookie-changes-to-keep-essential-online-services-from-breaking/",
+          "authors": "{\"Frederic Lardinois\",\"Frederic Lardinois @fredericl / 4 days\"}",
+          "num_characters": 1871
+        },
+        "10": {
+          "article_name": "Google Cloud makes it cheaper to run smaller workloads on Bigtable \u2013 TechCrunch",
+          "url": "https://techcrunch.com/2020/04/07/google-cloud-makes-it-cheaper-to-run-smaller-workloads-on-bigtable/",
+          "authors": "{\"Frederic Lardinois\",\"Frederic Lardinois @fredericl / 11 hours\"}",
+          "num_characters": 1651
+        },
+        "11": {
+          "article_name": "Google is now publishing coronavirus mobility reports, feeding off users\u2019 location history \u2013 TechCrunch",
+          "url": "https://techcrunch.com/2020/04/03/google-is-now-publishing-coronavirus-mobility-reports-feeding-off-users-location-history/",
+          "authors": "{\"Natasha Lomas\",\"Natasha Lomas @riptari / 5 days\"}",
+          "num_characters": 11096
+        },
+        "12": {
+          "article_name": "Surprise! Fitbits First New Product Since Google Deal Is A Fitness Tracker",
+          "url": "https://gizmodo.com/surprise-fitbits-first-new-product-under-google-is-a-f-1842564469",
+          "authors": "{}",
+          "num_characters": 6005
+        },
+        "13": {
+          "article_name": "Transform your photos into art with the Google Arts & Culture apps new feature",
+          "url": "https://mashable.com/article/google-art-transfer-tool/",
+          "authors": "{\"Tim Marcin\"}",
+          "num_characters": 1253
+        },
+        "14": {
+          "article_name": "Jack Dorsey invites you to follow along via Google Docs as he spends $1 billion",
+          "url": "https://mashable.com/article/jack-dorsey-square-1-billion-covid-relief/",
+          "authors": "{\"Jack Morse\"}",
+          "num_characters": 3079
+        },
+        "15": {
+          "article_name": "Google finally adds eyes open option to Pixel 4 face unlock",
+          "url": "https://mashable.com/article/google-pixel-4-face-unlock-eyes-open-update/",
+          "authors": "{PCMag}",
+          "num_characters": 1160
+        },
+        "16": {
+          "article_name": "Helping teachers keep teaching",
+          "url": "https://www.blog.google/outreach-initiatives/education/covid-19-response/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+blogspot%2FMKuf+%28The+Keyword+%7C+Official+Google+Blog%29",
+          "authors": "{}",
+          "num_characters": 1899
+        },
+        "17": {
+          "article_name": "Cloud Covered: Google Cloud in March",
+          "url": "https://www.blog.google/products/google-cloud/cloud-covered-google-cloud-in-march-2020/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+blogspot%2FMKuf+%28The+Keyword+%7C+Official+Google+Blog%29",
+          "authors": "{\"Brad Bender\",\"Jen Fitzpatrick\",\"KR Liu\",\"Karen DeSalvo\",M.P.H.,MD,\"Sundar Pichai\",\"Urs H\u00f6lzle\"}",
+          "num_characters": 3180
+        },
+        "18": {
+          "article_name": "Google News gets a dedicated coronavirus hub",
+          "url": "https://www.androidcentral.com/google-news-gets-dedicated-coronavirus-hub",
+          "authors": "{\"Michael Allison\"}",
+          "num_characters": 1617
+        },
+        "19": {
+          "article_name": "Despite looming Google acquisition, Fitbit launches Charge 4 tracker",
+          "url": "https://arstechnica.com/gadgets/2020/03/despite-looming-google-acquisition-fitbit-launches-charge-4-tracker/",
+          "authors": "{\"Ron Amadeo\"}",
+          "num_characters": 3426
+        }
+      }
+>>>>>>> 97de6b06678005322b43510ba9d80d4913e2254b
     }
   }
 }
