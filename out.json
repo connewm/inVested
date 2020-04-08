@@ -305,34 +305,6 @@
         "joy": null,
         "sadness": null,
         "fear": null
-<<<<<<< HEAD
-      },
-      "metadata": null
-    },
-    "Apr0620": {
-      "stock_data": null,
-      "pos_neg": null,
-      "categorical": {
-        "anger": null,
-        "disgust": null,
-        "joy": null,
-        "sadness": null,
-        "fear": null
-      },
-      "metadata": null
-    },
-    "Apr0720": {
-      "stock_data": null,
-      "pos_neg": null,
-      "categorical": {
-        "anger": null,
-        "disgust": null,
-        "joy": null,
-        "sadness": null,
-        "fear": null
-      },
-      "metadata": null
-=======
       },
       "metadata": null
     },
