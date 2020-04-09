@@ -3,10 +3,9 @@ import json
 
 class news_scraper: 
    
-    def __init__ (self, name,start_date, end_date): 
+    def __init__ (self, name,start_date): 
         self.name = name
         self.start_date = start_date
-        self.end_date = end_date
 
     def get_articles(self): 
         cred_file = open("./nlp_cred.txt", "r")
@@ -16,5 +15,5 @@ class news_scraper:
 
         newsapi = NewsApiClient(api_key=cred_json['news_key'])
 
-        all_articles = newsapi.get_everything(qintitle=self.name, from_param= self.start_date, to= self.end_date, language='en')
+        all_articles = newsapi.get_everything(qintitle=self.name, from_param= self.start_date, to= self.start_date, language='en')
         return all_articles['articles']

@@ -68,12 +68,15 @@ class sentiment_analysis:
         natural_language_understanding.set_service_url(cred_json['url'])
 
         for company in self.companies:
-            
+            print("in loop")
             #process information for each company 
             company_params = feed.news_scraper(company, self.date)
             company_articles =company_params.get_articles()
             sentiment_table = company + '_sentiment'
-            self.cursor.execute("CREATE TABLE IF NOT EXISTS " + self.schema_name + "." + sentiment_table + "(document_id INTEGER, title varchar, retrieved_url varchar, pub_date varchar, authors varchar, num_characters integer, sent_score numeric, sent_label varchar, sadness_score numeric, joy_score numeric, fear_score numeric,  disgust_score numeric, anger_score numeric)")
+            try:
+                self.cursor.execute("CREATE TABLE IF NOT EXISTS " + self.schema_name + "." + sentiment_table + "(document_id INTEGER, title varchar, retrieved_url varchar, pub_date varchar, authors varchar, num_characters integer, sent_score numeric, sent_label varchar, sadness_score numeric, joy_score numeric, fear_score numeric,  disgust_score numeric, anger_score numeric)")
+            except:
+                print("not created")
 
             #restart document_id 
             document_id = 0
