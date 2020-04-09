@@ -13,9 +13,9 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # TODO: create Python package for DB and Watson, import functions through their packages
 from retrieve_data import *
-# from assistant import *
+from assistant import *
 
-# vested_assistant = watson_assistant()
+vested_assistant = watson_assistant()
 
 # Temp folder locations for development, TODO: replace locations in production (after __init__.py is created and finished)
 app = Flask(__name__, static_folder="./React/vested/build/static", template_folder="./React/vested/build/static")
@@ -31,19 +31,19 @@ def index():
 def any_root_path(path):
     return render_template('index.html')
 
-# @app.route("/api/get_watson_response", methods=["POST"])
-# def get_watson_response():
-#   # get the request from the POST in JSON format
-#   incoming = request.get_json()
+@app.route("/api/get_watson_response", methods=["POST"])
+def get_watson_response():
+  # get the request from the POST in JSON format
+  incoming = request.get_json()
 
-#   # extract the message from the JSON
-#   message = incoming.get('message')
+  # extract the message from the JSON
+  message = incoming.get('message')
 
-#   # call Watson Assistant API (message)
-#   response = vested_assistant.get_watson_response(message)
+  # call Watson Assistant API (message)
+  response = vested_assistant.get_watson_response(message)
 
-#   # return Watson response
-#   return (response)
+  # return Watson response
+  return (response)
 
 # route to fetch company data from the API
 @app.route("/api/get_company_data", methods=["POST"])
