@@ -37,9 +37,10 @@ cursor.execute('select schema_name from information_schema.schemata where schema
 myschemas = [ x[0] for x in cursor.fetchall()]
 
 #drop appropriate schemas
-for schema_date in myschemas: 
-    if datetime.strptime(schema_date, '%b%d%y').date() <= drop_date:
-        cursor.execute('DROP SCHEMA if exists ' + schema_date + ' cascade')
+# TODO: what is this error?
+# for schema_date in myschemas: 
+#     if datetime.strptime(schema_date, '%b%d%y').date() <= drop_date:
+#        cursor.execute('DROP SCHEMA if exists ' + schema_date + ' cascade')
 
 #create schema for the day 
 cursor.execute('DROP SCHEMA if exists ' + current_date.strftime('%b%d%y') + ' cascade') 
@@ -50,13 +51,9 @@ connect.commit()
 connect.close()
 
 # insert the stock data
-#load_stocks = stock_loader.stock_data(company_dict, current_date)
-#load_stocks.create_insert_stock_data()
+load_stocks = stock_loader.stock_data(company_dict, current_date)
+load_stocks.create_insert_stock_data()
 
 #process sentiment
 get_sentiment = sentiment.sentiment_analysis(companies, current_date)
 get_sentiment.process_sentiment()
-
-
-
-
