@@ -24,11 +24,14 @@ body {
 
 .main {
   display: inline-block;
+  position: absolute;
+  top: 84px;
   width: 100%;
 }
 
 .news-wrapper {
   display: inline-block;
+  position: fixed;
   height: 100%;
   width: 25%;
   vertical-align: top;

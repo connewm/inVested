@@ -38,9 +38,9 @@ myschemas = [ x[0] for x in cursor.fetchall()]
 
 #drop appropriate schemas
 # TODO: what is this error?
-# for schema_date in myschemas: 
-#     if datetime.strptime(schema_date, '%b%d%y').date() <= drop_date:
-#        cursor.execute('DROP SCHEMA if exists ' + schema_date + ' cascade')
+#for schema_date in myschemas: 
+#    if datetime.strptime(schema_date, '%b%d%y').date() <= drop_date:
+#       cursor.execute('DROP SCHEMA if exists ' + schema_date + ' cascade')
 
 #create schema for the day 
 cursor.execute('DROP SCHEMA if exists ' + current_date.strftime('%b%d%y') + ' cascade') 

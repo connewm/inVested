@@ -88,8 +88,8 @@ class retrieve_data:
         return json.dumps(data_dict, cls=DjangoJSONEncoder, indent=2)
     
     def __get_stock_data (self, date): 
-        #TODO: get the stock data
         stock_data = {}
+        minute_stock = {}
         stock_schema = self.company_name + '_stock'
         try:
             self.cursor.execute('select * from ' + date + '.' + stock_schema)
@@ -97,16 +97,16 @@ class retrieve_data:
 
             # loop through columns in the entry
             for col in result:
-                stock_data['company_name'] = col[1]
-                stock_data['stock_symbol'] = col[2]
-                stock_data['minute'] = col[3]
-                stock_data['high_pt'] = col[4]
-                stock_data['low_pt'] = col[5]
-                stock_data['open_value'] = col[6]
-                stock_data['close_value'] = col[7]
-                stock_data['average_value'] = col[8]
-                stock_data['volume'] = col[9]
-                stock_data['num_trades'] = col[10]
+                minute_stock['company_name'] = col[1]
+                minute_stock['stock_symbol'] = col[2]
+                minute_stock['high_pt'] = col[4]
+                minute_stock['low_pt'] = col[5]
+                minute_stock['open_value'] = col[6]
+                minute_stock['close_value'] = col[7]
+                minute_stock['average_value'] = col[8]
+                minute_stock['volume'] = col[9]
+                minute_stock['num_trades'] = col[10]
+                stock_data[col[3]] = minute_stock
         except:
             print(f"Schema {stock_schema} does not exist; replace with null values")
             stock_data = None
