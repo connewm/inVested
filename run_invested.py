@@ -51,8 +51,8 @@ connect.commit()
 connect.close()
 
 # insert the stock data
-#load_stocks = stock_loader.stock_data(company_dict, current_date)
-#load_stocks.create_insert_stock_data()
+load_stocks = stock_loader.stock_data(company_dict, current_date)
+load_stocks.create_insert_stock_data()
 
 #process sentiment
 get_sentiment = sentiment.sentiment_analysis(companies, current_date)
