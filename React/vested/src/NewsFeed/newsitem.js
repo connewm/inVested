@@ -23,7 +23,8 @@ export default function AlignItemsList(props) {
           {props.articles.map(function(article,index){
               return ( 
                 <li>
-                  <NextItem  avatar = {article.avtr} source = {article.src} title ={article.ttl} text = {article.txt} link = {article.lnk} />
+                  {/* <NextItem  avatar = {article.avtr} source = {article.src} title ={article.ttl} text = {article.txt} link = {article.lnk} /> */}
+                  <NextItem  title ={article.article_name} link = {article.url} />
                   <Divider variant="inset" component="li" />
                 </li>
               );

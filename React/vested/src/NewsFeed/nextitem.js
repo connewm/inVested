@@ -29,24 +29,25 @@ function NextItem(props){
     
         
         <ListItem alignItems="flex-start">
-        <ListItemAvatar>
+        {/* <ListItemAvatar> */}
           {/* <Avatar alt={props.source} src="nyt.png"/>       TODO:: change avatar to actual logos */}
-    <Avatar >{props.avatar}</Avatar>
-        </ListItemAvatar>
+    {/* <Avatar >{props.avatar}</Avatar>
+        </ListItemAvatar> */}
         <ListItemText
           primary={props.title}
           secondary={
             <React.Fragment>
-              <Typography
+              {/* <Typography
                 component="span"
                 variant="body2"
                 className={classes.inline}
                 color="textPrimary"
               >
-                {props.source}   {/* just adds a header to the lower text in the news item */}
-              </Typography>
+                {props.source}   just adds a header to the lower text in the news item */}
+              {/* </Typography> */}
               
-             <li> { "— " }{props.text}
+             <li> 
+               {/* { "— " }{props.text} */}
                 <a style={{ textDecoration: 'none'}} href={props.link}> ... </a>
               </li>
        

@@ -7,6 +7,8 @@ from flask import request, render_template, jsonify, g
 import sys
 import os
 
+
+
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # TODO: create Python package for DB and Watson, import functions through their packages
@@ -16,7 +18,7 @@ from assistant import *
 vested_assistant = watson_assistant()
 
 # Temp folder locations for development, TODO: replace locations in production (after __init__.py is created and finished)
-app = Flask(__name__, static_folder="./React/vested/build/static", template_folder="./React/vested/build")
+app = Flask(__name__, static_folder="./React/vested/build/static", template_folder="./React/vested/build/static")
 
 # TODO: Remove routes below, keeping them in routes.py
 # base path, render according to react-generated html file
