@@ -57,7 +57,3 @@ load_stocks.create_insert_stock_data()
 #process sentiment
 get_sentiment = sentiment.sentiment_analysis(companies, current_date)
 get_sentiment.process_sentiment()
-
-
-
-

@@ -73,10 +73,8 @@ class sentiment_analysis:
             company_params = feed.news_scraper(company, self.date)
             company_articles =company_params.get_articles()
             sentiment_table = company + '_sentiment'
-            try:
-                self.cursor.execute("CREATE TABLE IF NOT EXISTS " + self.schema_name + "." + sentiment_table + "(document_id INTEGER, title varchar, retrieved_url varchar, pub_date varchar, authors varchar, num_characters integer, sent_score numeric, sent_label varchar, sadness_score numeric, joy_score numeric, fear_score numeric,  disgust_score numeric, anger_score numeric)")
-            except:
-                print("not created")
+            self.cursor.execute("CREATE TABLE IF NOT EXISTS " + self.schema_name + "." + sentiment_table + "(document_id INTEGER, title varchar, retrieved_url varchar, pub_date varchar, authors varchar, num_characters integer, sent_score numeric, sent_label varchar, sadness_score numeric, joy_score numeric, fear_score numeric,  disgust_score numeric, anger_score numeric)")
+            self.connect.commit()
 
             #restart document_id 
             document_id = 0
@@ -129,4 +127,3 @@ class sentiment_analysis:
             
         self.connect.commit()
         self.connect.close()
-    

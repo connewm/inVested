@@ -1,6 +1,30 @@
 {
   "company_name": "Google",
   "dates": {
+<<<<<<< HEAD
+    "Apr0920": {
+      "stock_data": {
+        "company_name": "Google",
+        "stock_symbol": "GOOGL",
+        "minute": "3:30 PM",
+        "high_pt": "1201.325",
+        "low_pt": "1200.5",
+        "open_value": "1200.94",
+        "close_value": "1200.82",
+        "average_value": "1200.865",
+        "volume": 569,
+        "num_trades": 13
+      },
+      "pos_neg": null,
+      "categorical": {
+        "anger": null,
+        "disgust": null,
+        "joy": null,
+        "sadness": null,
+        "fear": null
+      },
+      "metadata": null
+=======
     "Apr0120": {
       "stock_data": null,
       "pos_neg": [
@@ -722,6 +746,7 @@
           "num_characters": 3426
         }
       }
+>>>>>>> 0bda1bb7ee3ad03f9a750d84583f2772b4558935
     }
   }
 }

@@ -24,15 +24,14 @@ class retrieve_data:
             exit()
         self.cursor = self.connect.cursor()
         self.start_date = start_date
-        self.end_date = end_date
         self.company_name = company_name
         self.historic_response = []
         self.company_response = []
-
+        self.end_date = end_date
     def get_historic_data (self): 
 
         start_date_format = datetime.strptime(self.start_date, '%b%d%y').date()
-        end_date_format = datetime.strptime(self.end_date, '%b%d%y').date()
+        end_date_format = datetime.strptime(self.start_date, '%b%d%y').date()
         date_range = []
         for single_date in self.__daterange(start_date_format, end_date_format):
             date_range.append(datetime.strftime(single_date,'%b%d%y'))
@@ -204,7 +203,8 @@ class retrieve_data:
 
 
 #TEST API 
-#google = retrieve_data('google', 'apr0120', 'apr0720')
-#file = open("out.json", "w")
-#temp = google.get_company_data()
-#file.write(temp)
+google = retrieve_data('Google', 'apr0920', 'apr0920')
+file = open("out.json", "w")
+temp = google.get_company_data()
+print(temp)
+file.write(temp)
