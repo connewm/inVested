@@ -36,7 +36,6 @@ class retrieve_data:
         for single_date in self.__daterange(start_date_format, end_date_format):
             date_range.append(datetime.strftime(single_date,'%b%d%y'))
         try: 
-            print(date_range)
             self.cursor.execute('select * from historical.historic_data where date IN (' + str(date_range).strip('[]') + ')')
         except: 
             print("Invalid date format")
