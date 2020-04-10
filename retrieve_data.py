@@ -31,11 +31,12 @@ class retrieve_data:
     def get_historic_data (self): 
 
         start_date_format = datetime.strptime(self.start_date, '%b%d%y').date()
-        end_date_format = datetime.strptime(self.start_date, '%b%d%y').date()
+        end_date_format = datetime.strptime(self.end_date, '%b%d%y').date()
         date_range = []
         for single_date in self.__daterange(start_date_format, end_date_format):
             date_range.append(datetime.strftime(single_date,'%b%d%y'))
         try: 
+            print(date_range)
             self.cursor.execute('select * from historical.historic_data where date IN (' + str(date_range).strip('[]') + ')')
         except: 
             print("Invalid date format")
@@ -203,8 +204,8 @@ class retrieve_data:
 
 
 #TEST API 
-google = retrieve_data('Google', 'apr0920', 'apr0920')
+google = retrieve_data('Google', 'apr0620', 'apr0920')
 file = open("out.json", "w")
-temp = google.get_company_data()
+temp = google.get_historic_data()
 print(temp)
 file.write(temp)
