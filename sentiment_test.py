@@ -68,7 +68,7 @@ class sentiment_analysis:
         natural_language_understanding.set_service_url(cred_json['url'])
 
         for company in self.companies:
-            
+            print("in loop")
             #process information for each company 
             company_params = feed.news_scraper(company, self.date)
             company_articles =company_params.get_articles()
