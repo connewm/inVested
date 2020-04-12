@@ -89,24 +89,20 @@ class retrieve_data:
     
     def __get_stock_data (self, date): 
         stock_data = {}
-        minute_stock = {}
         stock_schema = self.company_name + '_stock'
         try:
             self.cursor.execute('select * from ' + date + '.' + stock_schema)
-            result = self.cursor.fetchall()
-
             # loop through columns in the entry
-            for col in result:
-                minute_stock['company_name'] = col[1]
-                minute_stock['stock_symbol'] = col[2]
-                minute_stock['high_pt'] = col[4]
-                minute_stock['low_pt'] = col[5]
-                minute_stock['open_value'] = col[6]
-                minute_stock['close_value'] = col[7]
-                minute_stock['average_value'] = col[8]
-                minute_stock['volume'] = col[9]
-                minute_stock['num_trades'] = col[10]
-                stock_data[col[3]] = minute_stock
+            #dimensions = ['high_pt', 'low_pt', 'open_value', 'close_value', 'average_value', 'volume', 'num_trades']
+            result = self.cursor.fetchall()
+            stock_data['times'] = [x[3] for x in result]
+            stock_data['high_pt'] = [x[4] for x in result]
+            stock_data['low_pt'] = [x[5] for x in result]
+            stock_data['open_value'] = [x[6] for x in result]
+            stock_data['close_value'] = [x[7] for x in result]
+            stock_data['average_value'] = [x[8] for x in result]
+            stock_data['volume'] = [x[9] for x in result]
+            stock_data['num_trades'] = [x[10] for x in result]
         except:
             print(f"Schema {stock_schema} does not exist; replace with null values")
             stock_data = None
@@ -203,8 +199,8 @@ class retrieve_data:
 
 
 #TEST API 
-google = retrieve_data('Google', 'apr0620', 'apr0920')
+google = retrieve_data('Google', 'apr0920', 'apr0920')
 file = open("out.json", "w")
-temp = google.get_historic_data()
+temp = google.get_company_data()
 print(temp)
 file.write(temp)
