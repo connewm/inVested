@@ -203,8 +203,8 @@ class retrieve_data:
 
 
 #TEST API 
-google = retrieve_data('Google', 'apr0920', 'apr0920')
+google = retrieve_data('Google', 'apr0720', 'apr0920')
 file = open("out.json", "w")
-temp = google.get_company_data()
+temp = google.get_historic_data()
 print(temp)
 file.write(temp)
