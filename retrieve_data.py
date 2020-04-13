@@ -77,13 +77,13 @@ class retrieve_data:
             start_date_str = datetime.strftime(start_date_format,'%b%d%y')
             #create dictionary for the current day 
             current_date_dict = {}
+            current_date_dict['date'] = start_date_str
             current_date_dict['stock_data'] =  self.__get_stock_data(start_date_str)
             current_date_dict['pos_neg'] =  self.__get_pos_neg(start_date_str)
             current_date_dict['categorical'] = self.__get_categorical(start_date_str)
             current_date_dict['metadata'] = self.__get_metadata(start_date_str)
             #append created dictionary into the dates dictionary
-            dates_dict[start_date_str] = current_date_dict
-        data_dict['dates'] = dates_dict
+        data_dict['dates'] = current_date_dict
         self.company_response = json.dumps(data_dict, cls=DjangoJSONEncoder, indent=2)
         return json.dumps(data_dict, cls=DjangoJSONEncoder, indent=2)
     
@@ -92,17 +92,22 @@ class retrieve_data:
         stock_schema = self.company_name + '_stock'
         try:
             self.cursor.execute('select * from ' + date + '.' + stock_schema)
-            # loop through columns in the entry
-            #dimensions = ['high_pt', 'low_pt', 'open_value', 'close_value', 'average_value', 'volume', 'num_trades']
             result = self.cursor.fetchall()
-            stock_data['times'] = [x[3] for x in result]
-            stock_data['high_pt'] = [x[4] for x in result]
-            stock_data['low_pt'] = [x[5] for x in result]
-            stock_data['open_value'] = [x[6] for x in result]
-            stock_data['close_value'] = [x[7] for x in result]
-            stock_data['average_value'] = [x[8] for x in result]
-            stock_data['volume'] = [x[9] for x in result]
-            stock_data['num_trades'] = [x[10] for x in result]
+            data_arr = []
+            for entry in result:
+                item = {}
+                item['company_name'] = entry[1]
+                item['stock_symbol'] = entry[2]
+                item['minute'] = entry[3]
+                item['high_pt'] = entry[4]
+                item['low_pt'] = entry[5]
+                item['open_value'] = entry[6]
+                item['close_value'] = entry[7]
+                item['average_value'] = entry[8]
+                item['volume'] = entry[9]
+                item['num_trades'] = entry[10]
+                data_arr.append(item)
+            stock_data = data_arr
         except:
             print(f"Schema {stock_schema} does not exist; replace with null values")
             stock_data = None
@@ -113,8 +118,8 @@ class retrieve_data:
         sentiment_table = self.company_name + '_sentiment'
         sentiments = []
         try:
-            self.cursor.execute('select sent_score from ' + date + "." + sentiment_table)
-            sentiments = [ x[0] for x in self.cursor.fetchall()]
+            self.cursor.execute('select document_id, sent_score from ' + date + "." + sentiment_table)
+            sentiments = [ {'document_id' : x[0], 'score' : x[1]} for x in self.cursor.fetchall()]
         except:
             print(f"Schema {sentiment_table} does not exist; replace with null values")
             sentiments = None
@@ -126,40 +131,40 @@ class retrieve_data:
         categorical_scores = {}
         try:
             #scores for anger
-            self.cursor.execute('select anger_score from ' + date + "." + sentiment_table)
-            categorical_scores['anger'] = [x[0] for x in self.cursor.fetchall()]
+            self.cursor.execute('select document_id, anger_score from ' + date + "." + sentiment_table)
+            categorical_scores['anger'] = [{'document_id' : x[0], 'score' : x[1]} for x in self.cursor.fetchall()]
         except:
             print("Scores for Anger not present; replacing with null value")
             categorical_scores['anger'] = None
             self.connect.rollback()
         try:
             #scores for disgust
-            self.cursor.execute('select disgust_score from ' + date + "." + sentiment_table)
-            categorical_scores['disgust'] = [x[0] for x in self.cursor.fetchall()]
+            self.cursor.execute('select document_id, disgust_score from ' + date + "." + sentiment_table)
+            categorical_scores['disgust'] = [{'document_id' : x[0], 'score' : x[1]} for x in self.cursor.fetchall()]
         except:
             print("Scores for Disgust not present; replacing with null value")
             categorical_scores['disgust'] = None
             self.connect.rollback()
         try:
             #scores for joy
-            self.cursor.execute('select joy_score from ' + date + "." + sentiment_table)
-            categorical_scores['joy'] = [x[0] for x in self.cursor.fetchall()]
+            self.cursor.execute('select document_id, joy_score from ' + date + "." + sentiment_table)
+            categorical_scores['joy'] = [{'document_id' : x[0], 'score' : x[1]} for x in self.cursor.fetchall()]
         except:
             print("Scores for Joy not present; replacing with null value")
             categorical_scores['joy'] = None
             self.connect.rollback()
         try:
             #scores for sadness
-            self.cursor.execute('select sadness_score from ' + date + "." + sentiment_table)
-            categorical_scores['sadness'] = [x[0] for x in self.cursor.fetchall()]
+            self.cursor.execute('select document_id, sadness_score from ' + date + "." + sentiment_table)
+            categorical_scores['sadness'] = [{'document_id' : x[0], 'score' : x[1]} for x in self.cursor.fetchall()]
         except:
             print("Scores for Sadness not present; replacing with null value")
             categorical_scores['sadness'] = None
             self.connect.rollback()
         try:
             # scores for fear
-            self.cursor.execute('select fear_score from ' + date + '.' + sentiment_table)
-            categorical_scores['fear'] = [x[0] for x in self.cursor.fetchall()]
+            self.cursor.execute('select document_id, fear_score from ' + date + '.' + sentiment_table)
+            categorical_scores['fear'] = [{'document_id' : x[0], 'score' : x[1]} for x in self.cursor.fetchall()]
         except:
             print("Scores for Fear not present; replacing with null value")
             categorical_scores['fear'] = None
@@ -172,17 +177,19 @@ class retrieve_data:
         metadata = {} 
         try:
             #extract the title, retrieved_url, authors, and number of characters from sentiment table
-            self.cursor.execute('select title, retrieved_url, authors, num_characters from ' + date + "." + sentiment_table)
+            self.cursor.execute('select title, retrieved_url, authors, num_characters, document_id from ' + date + "." + sentiment_table)
             result = self.cursor.fetchall()
-            doc_id = 0
             #iterate through each row and place metadata dictionary 
+            md_arr = []
             for col in result: 
-                metadata[doc_id] = {}
-                metadata[doc_id]['article_name'] = col[0]
-                metadata[doc_id]['url'] = col[1]
-                metadata[doc_id]['authors'] =col[2]
-                metadata[doc_id]['num_characters'] =col[3]
-                doc_id +=1
+                item = {}
+                item['article_name'] = col[0]
+                item['url'] = col[1]
+                item['authors'] =col[2]
+                item['num_characters'] =col[3]
+                item['document_id'] = col[4]
+                md_arr.append(item)
+            metadata = md_arr
         except:
             print(f"Schema not present for {sentiment_table}; replace metadata with null values")
             metadata = None
@@ -199,8 +206,8 @@ class retrieve_data:
 
 
 #TEST API 
-google = retrieve_data('Google', 'apr0720', 'apr0920')
+google = retrieve_data('Google', 'apr0920', 'apr0920')
 file = open("out.json", "w")
-temp = google.get_historic_data()
+temp = google.get_company_data()
 print(temp)
 file.write(temp)

@@ -21,7 +21,7 @@ except:
 cursor = connect.cursor()
 #companies of interest
 # TODO: type in company name from website to pull data
-companies = ['Google', 'Amazon', 'Microsoft', 'Facebook', 'Tesla', 'Zoom', 'Uber', 'Lyft']
+companies = ['Google', 'Amazon', 'Microsoft', 'Facebook']
 # create dictionary from company name to stock symbol
 company_dict = {}
 company_dict['Google'] = 'GOOGL'
