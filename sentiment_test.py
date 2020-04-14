@@ -36,7 +36,7 @@ class sentiment_analysis:
     def __process_historical(self, company): 
         self.cursor.execute("SELECT AVG(sent_score), AVG(sadness_score), AVG(joy_score), AVG(fear_score), AVG(disgust_score), AVG(anger_score) from  " + self.schema_name + "." + company + "_sentiment")
         results = self.cursor.fetchall()
-        self.cursor.execute("INSERT INTO historical.historic_data (date, company_name, avg_sent, avg_sadness_score,  avg_joy_score , avg_fear_score, avg_disgust_score, avg_anger_score) values (%s, %s,%s, %s, %s, %s, %s, %s)",  
+        self.cursor.execute("INSERT INTO historical.historic_sentiment_data (date, company_name, avg_sent, avg_sadness_score,  avg_joy_score , avg_fear_score, avg_disgust_score, avg_anger_score) values (%s, %s,%s, %s, %s, %s, %s, %s)",  
         (
             self.schema_name, 
             company,

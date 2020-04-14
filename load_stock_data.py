@@ -73,12 +73,8 @@ def get_half_hour_stock_data(ticker, api_token, keyword="intraday-prices"):
                 responses_to_store.append(summary_response)
 
                  # reset the summary stats for the next interval
-                summary_response['high'] = 0
-                summary_response['low'] = math.inf
+                summary_response = {'high':0, 'low':math.inf, 'average': 0, 'volume': 0, 'numberOfTrades': 0}
                 needs_next_open_val = True
-                summary_response['average'] = 0
-                summary_response['volume'] = 0
-                summary_response['numberOfTrades'] = 0
                 number_entries_in_interval = 0
         count += 1
         number_entries_in_interval += 1

@@ -36,25 +36,40 @@ class retrieve_data:
         for single_date in self.__daterange(start_date_format, end_date_format):
             date_range.append(datetime.strftime(single_date,'%b%d%y'))
         try: 
-            self.cursor.execute('select * from historical.historic_data where date IN (' + str(date_range).strip('[]') + ')')
+            self.cursor.execute('select * from historical.historic_sentiment_data where date IN (' + str(date_range).strip('[]') + ')')
         except: 
             print("Invalid date format")
             self.connect.rollback()
-        results = self.cursor.fetchall()
+        sent_results = self.cursor.fetchall()
+
+        # now get all historical results in date range for stock
+        try:
+            self.cursor.execute('select * from historical.historic_stock_data where date in (' + str(date_range).strip('[]') + ')')
+        except:
+            print("invalid date formst")
+            self.connect.rollback()
+        stock_results = self.cursor.fetchall()
+
+
         #setup a data dictionary  
-        data_dict =  {'company_name': self.company_name} 
-        data_dict['dates'] = {}
-        for date in date_range: 
-            data_dict['dates'][date] = {} 
-    
-        for row in results:
+        data_dict =  {'company_name': self.company_name}
+        dates_dict = {}
+        date_sent_arr = []
+
+        for row in sent_results:
             if (row[1] != self.company_name): 
                 continue
-            data_dict['dates'][row[0]]['avg_sent'] = row[2]
-            data_dict['dates'][row[0]]['avg_sadness_score'] = row[3]
-            data_dict['dates'][row[0]]['avg_joy_score'] = row[4]
-            data_dict['dates'][row[0]]['avg_fear_score'] = row[5]
-            data_dict['dates'][row[0]]['avg_disgust_score'] = row[6]
+            current_date_dict = {}
+            current_date_dict['stock'] = {}
+            current_date_dict['stock']['avg_sent'] = row[2]
+            current_date_dict['stock']['avg_sadness_score'] = row[3]
+            current_date_dict['stock']['avg_joy_score'] = row[4]
+            current_date_dict['stock']['avg_fear_score'] = row[5]
+            current_date_dict['stock']['avg_disgust_score'] = row[6]
+            date_sent_arr.append(current_date_dict)
+
+        data_dict['dates'] = date_sent_arr
+       
         self.historic_response = json.dumps(data_dict, cls=DjangoJSONEncoder, indent=2)
         return json.dumps(data_dict, cls=DjangoJSONEncoder, indent=2)
     
@@ -71,6 +86,7 @@ class retrieve_data:
 
 
         dates_dict = {}
+        date_data_arr = []
         while start_date_format != end_date_format:
             #date formatting
             start_date_format += timedelta(days =1)
@@ -83,7 +99,8 @@ class retrieve_data:
             current_date_dict['categorical'] = self.__get_categorical(start_date_str)
             current_date_dict['metadata'] = self.__get_metadata(start_date_str)
             #append created dictionary into the dates dictionary
-        data_dict['dates'] = current_date_dict
+            date_data_arr.append(current_date_dict)
+        data_dict['dates'] = date_data_arr
         self.company_response = json.dumps(data_dict, cls=DjangoJSONEncoder, indent=2)
         return json.dumps(data_dict, cls=DjangoJSONEncoder, indent=2)
     
@@ -206,8 +223,11 @@ class retrieve_data:
 
 
 #TEST API 
-google = retrieve_data('Google', 'apr0920', 'apr0920')
-file = open("out.json", "w")
+google = retrieve_data('Google', 'apr0920', 'apr1320')
+file = open("daily_detailed.json", "w")
 temp = google.get_company_data()
 print(temp)
+file.write(temp)
+file = open("historical.json", "w")
+temp = google.get_historic_data()
 file.write(temp)
