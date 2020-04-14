@@ -49,11 +49,59 @@ def get_company_data():
     # extract the company from the JSON
     comp = incoming.get('company')
 
+    # TODO: get month from client side, month format: XYZ (three letter abbreviation of month)
+    # TODO: get day from client side, day format: XY
+    # TODO: get year from client side, year format: XY (implicit -> only supports 2000 onward)
+    monStart = "apr"
+    dayStart = "09"
+    yearStart = "20"
+
+    monEnd = "apr"
+    dayEnd = "13"
+    yearEnd = "20"
+
+    startDate = monStart + dayStart + yearStart
+    endDate = monEnd + dayEnd + yearEnd
+
     # create data retrieval object for company
-    google = retrieve_data(comp, 'apr0120', 'apr0720')
+    google = retrieve_data(comp, startDate, endDate)
 
     # get data for company
     data = google.get_company_data()
+
+    # serialize obj to JSON
+    data = json.loads(data)
+
+    return(jsonify(data))
+
+# route to fetch company data from the API
+@app.route("/api/get_historical_data", methods=["POST"])
+def get_historical_data():
+    # get the request from React in JSON format
+    incoming = request.get_json()
+
+    # extract the company from the JSON
+    comp = incoming.get('company')
+
+    # TODO: get month from client side, month format: XYZ (three letter abbreviation of month)
+    # TODO: get day from client side, day format: XY
+    # TODO: get year from client side, year format: XY (implicit -> only supports 2000 onward)
+    monStart = "apr"
+    dayStart = "09"
+    yearStart = "20"
+
+    monEnd = "apr"
+    dayEnd = "13"
+    yearEnd = "20"
+
+    startDate = monStart + dayStart + yearStart
+    endDate = monEnd + dayEnd + yearEnd
+
+    # create data retrieval object for company
+    historical = retrieve_data(comp, startDate, endDate)
+
+    # get data for company
+    data = historical.get_historic_data()
 
     # serialize obj to JSON
     data = json.loads(data)

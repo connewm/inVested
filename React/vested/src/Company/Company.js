@@ -2,6 +2,10 @@ import React from 'react';
 import './Company.css';
 import get_company_data from '../Utils/get_company_data';
 
+const sum = (accumulator, curData) => {
+  return accumulator + parseFloat(curData);
+};
+
 class Company extends React.Component {
     constructor(props){
         super(props);
@@ -9,6 +13,7 @@ class Company extends React.Component {
             company: "",
             stock: [],
             sentiment: [],
+            avgSentiment: 0,
             data: {}
         };
     }
@@ -20,12 +25,14 @@ class Company extends React.Component {
         this.setState({
           // data in JSON format according to standards set by group
           data: result.data,
-          sentiment: result.data.dates.Apr0120.pos_neg,
-          company: result.data.company_name
+          sentiment: result.data.dates[0].pos_neg.map((sentimentScore) => sentimentScore.score),
+          company: result.data.company_name,
+          avgSentiment: result.data.dates[0].pos_neg.map((sentimentScore) => sentimentScore.score).reduce(sum, 0) / result.data.dates[0].pos_neg.length
         })
         // DEBUG: Log the received data
         // console.log(result);
-        // console.log(result.data.dates.Apr0120.pos_neg);
+        // console.log(result.data.dates[0].pos_neg.map((sentimentScore) => sentimentScore.score).reduce(sum, 0));
+        // console.log(result.data.dates[0].pos_neg.length);
       })
     }
 
@@ -34,7 +41,8 @@ class Company extends React.Component {
         return (
             <div className="content">
                 <p>{this.state.company}:</p>
-                <p>Positive/negative sentiment values:</p>
+                <p>Average sentiment for today: {this.state.avgSentiment}</p>
+                <p>Raw sentiment values:</p>
                 {
                     this.state.sentiment.map((data) =>  <p> {data > 0 ? '+' : ''}{data} </p>)
                 }

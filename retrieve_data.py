@@ -220,12 +220,12 @@ class retrieve_data:
 
 
 
-#TEST API 
-google = retrieve_data('Google', 'apr0920', 'apr1320')
-file = open("daily_detailed.json", "w")
-temp = google.get_company_data()
-print(temp)
-file.write(temp)
-file = open("historical.json", "w")
-temp = google.get_historic_data()
-file.write(temp)
+# TEST API 
+# google = retrieve_data('Google', 'apr0920', 'apr1320')
+# file = open("daily_detailed.json", "w")
+# temp = google.get_company_data()
+# print(temp)
+# file.write(temp)
+# file = open("historical.json", "w")
+# temp = google.get_historic_data()
+# file.write(temp)
