@@ -21,7 +21,7 @@ except:
 cursor = connect.cursor()
 #companies of interest
 # TODO: type in company name from website to pull data
-companies = ['Google', 'Amazon', 'Microsoft', 'Facebook', 'Tesla', 'Zoom', 'Uber', 'Lyft']
+companies = ['Google', 'Amazon', 'Microsoft', 'Facebook']
 # create dictionary from company name to stock symbol
 company_dict = {}
 company_dict['Google'] = 'GOOGL'
@@ -38,9 +38,9 @@ myschemas = [ x[0] for x in cursor.fetchall()]
 
 #drop appropriate schemas
 # TODO: what is this error?
-#for schema_date in myschemas: 
-#    if datetime.strptime(schema_date, '%b%d%y').date() <= drop_date:
-#       cursor.execute('DROP SCHEMA if exists ' + schema_date + ' cascade')
+for schema_date in myschemas: 
+    if datetime.strptime(schema_date, '%b%d%y').date() <= drop_date:
+       cursor.execute('DROP SCHEMA if exists ' + schema_date + ' cascade')
 
 #create schema for the day 
 cursor.execute('DROP SCHEMA if exists ' + current_date.strftime('%b%d%y') + ' cascade') 
@@ -57,7 +57,3 @@ load_stocks.create_insert_stock_data()
 #process sentiment
 get_sentiment = sentiment.sentiment_analysis(companies, current_date)
 get_sentiment.process_sentiment()
-
-
-
-

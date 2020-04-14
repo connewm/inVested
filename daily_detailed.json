@@ -1,0 +1,1650 @@
+{
+  "company_name": "Google",
+  "dates": [
+    {
+      "date": "Apr0920",
+      "stock_data": [
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "09:30 AM",
+          "high_pt": "1219.785",
+          "low_pt": "1213.1",
+          "open_value": "1218.78",
+          "close_value": "1213.1",
+          "average_value": "1216.639",
+          "volume": 611,
+          "num_trades": 12
+        },
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "10 AM",
+          "high_pt": "1219",
+          "low_pt": "1216.31",
+          "open_value": "1219",
+          "close_value": "1217.8",
+          "average_value": "1217.535",
+          "volume": 708,
+          "num_trades": 9
+        },
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "10:30 AM",
+          "high_pt": "1200.61",
+          "low_pt": "1199.92",
+          "open_value": "1200.61",
+          "close_value": "1200.485",
+          "average_value": "1200.296",
+          "volume": 188,
+          "num_trades": 3
+        },
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "11 AM",
+          "high_pt": "1205.91",
+          "low_pt": "1202.75",
+          "open_value": "1205.21",
+          "close_value": "1202.75",
+          "average_value": "1204.364",
+          "volume": 212,
+          "num_trades": 4
+        },
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "11:32 AM",
+          "high_pt": "1198.75",
+          "low_pt": "1198.73",
+          "open_value": "1198.75",
+          "close_value": "1198.73",
+          "average_value": "1198.748",
+          "volume": 110,
+          "num_trades": 2
+        },
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "12:01 PM",
+          "high_pt": "1203.45",
+          "low_pt": "1203.31",
+          "open_value": "1203.31",
+          "close_value": "1203.45",
+          "average_value": "1203.38",
+          "volume": 200,
+          "num_trades": 2
+        },
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "12:31 PM",
+          "high_pt": "1206.965",
+          "low_pt": "1206.965",
+          "open_value": "1206.965",
+          "close_value": "1206.965",
+          "average_value": "1206.965",
+          "volume": 100,
+          "num_trades": 1
+        },
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "1 PM",
+          "high_pt": "1212.18",
+          "low_pt": "1211.855",
+          "open_value": "1212.12",
+          "close_value": "1211.855",
+          "average_value": "1212.052",
+          "volume": 300,
+          "num_trades": 4
+        },
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "1:32 PM",
+          "high_pt": "1216.35",
+          "low_pt": "1216.35",
+          "open_value": "1216.35",
+          "close_value": "1216.35",
+          "average_value": "1216.35",
+          "volume": 100,
+          "num_trades": 1
+        },
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "2 PM",
+          "high_pt": "1210.87",
+          "low_pt": "1210.87",
+          "open_value": "1210.87",
+          "close_value": "1210.87",
+          "average_value": "1210.87",
+          "volume": 100,
+          "num_trades": 1
+        },
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "2:32 PM",
+          "high_pt": "1209.82",
+          "low_pt": "1209.53",
+          "open_value": "1209.82",
+          "close_value": "1209.53",
+          "average_value": "1209.675",
+          "volume": 200,
+          "num_trades": 2
+        },
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "3:01 PM",
+          "high_pt": "1201.045",
+          "low_pt": "1200.15",
+          "open_value": "1201.045",
+          "close_value": "1200.15",
+          "average_value": "1200.34",
+          "volume": 16,
+          "num_trades": 3
+        },
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "3:30 PM",
+          "high_pt": "1201.325",
+          "low_pt": "1200.5",
+          "open_value": "1200.94",
+          "close_value": "1200.82",
+          "average_value": "1200.865",
+          "volume": 569,
+          "num_trades": 13
+        }
+      ],
+      "pos_neg": [
+        {
+          "document_id": 0,
+          "score": "-0.405418"
+        },
+        {
+          "document_id": 1,
+          "score": "-0.287873"
+        },
+        {
+          "document_id": 2,
+          "score": "-0.563722"
+        },
+        {
+          "document_id": 3,
+          "score": "0.668683"
+        },
+        {
+          "document_id": 4,
+          "score": "0.647789"
+        },
+        {
+          "document_id": 5,
+          "score": "0.820236"
+        },
+        {
+          "document_id": 6,
+          "score": "0.376945"
+        },
+        {
+          "document_id": 7,
+          "score": "0.300312"
+        },
+        {
+          "document_id": 8,
+          "score": "0.855203"
+        },
+        {
+          "document_id": 9,
+          "score": "-0.743268"
+        },
+        {
+          "document_id": 10,
+          "score": "0.431182"
+        },
+        {
+          "document_id": 11,
+          "score": "-0.690156"
+        },
+        {
+          "document_id": 12,
+          "score": "-0.690156"
+        },
+        {
+          "document_id": 13,
+          "score": "0.820023"
+        },
+        {
+          "document_id": 14,
+          "score": "0.413836"
+        },
+        {
+          "document_id": 15,
+          "score": "-0.434357"
+        },
+        {
+          "document_id": 16,
+          "score": "0.540517"
+        },
+        {
+          "document_id": 17,
+          "score": "0.368906"
+        },
+        {
+          "document_id": 18,
+          "score": "0.371016"
+        },
+        {
+          "document_id": 19,
+          "score": "0.697472"
+        }
+      ],
+      "categorical": {
+        "anger": [
+          {
+            "document_id": 0,
+            "score": "0.109218"
+          },
+          {
+            "document_id": 1,
+            "score": "0.129128"
+          },
+          {
+            "document_id": 2,
+            "score": "0.133483"
+          },
+          {
+            "document_id": 3,
+            "score": "0.091438"
+          },
+          {
+            "document_id": 4,
+            "score": "0.17416"
+          },
+          {
+            "document_id": 5,
+            "score": "0.07795"
+          },
+          {
+            "document_id": 6,
+            "score": "0.158291"
+          },
+          {
+            "document_id": 7,
+            "score": "0.01664"
+          },
+          {
+            "document_id": 8,
+            "score": "0.045751"
+          },
+          {
+            "document_id": 9,
+            "score": "0.154334"
+          },
+          {
+            "document_id": 10,
+            "score": "0.074698"
+          },
+          {
+            "document_id": 11,
+            "score": "0.134978"
+          },
+          {
+            "document_id": 12,
+            "score": "0.134978"
+          },
+          {
+            "document_id": 13,
+            "score": "0.082377"
+          },
+          {
+            "document_id": 14,
+            "score": "0.131224"
+          },
+          {
+            "document_id": 15,
+            "score": "0.105832"
+          },
+          {
+            "document_id": 16,
+            "score": "0.079445"
+          },
+          {
+            "document_id": 17,
+            "score": "0.065782"
+          },
+          {
+            "document_id": 18,
+            "score": "0.048893"
+          },
+          {
+            "document_id": 19,
+            "score": "0.407578"
+          }
+        ],
+        "disgust": [
+          {
+            "document_id": 0,
+            "score": "0.441886"
+          },
+          {
+            "document_id": 1,
+            "score": "0.114202"
+          },
+          {
+            "document_id": 2,
+            "score": "0.159059"
+          },
+          {
+            "document_id": 3,
+            "score": "0.031809"
+          },
+          {
+            "document_id": 4,
+            "score": "0.053432"
+          },
+          {
+            "document_id": 5,
+            "score": "0.037777"
+          },
+          {
+            "document_id": 6,
+            "score": "0.044471"
+          },
+          {
+            "document_id": 7,
+            "score": "0.019774"
+          },
+          {
+            "document_id": 8,
+            "score": "0.075012"
+          },
+          {
+            "document_id": 9,
+            "score": "0.066442"
+          },
+          {
+            "document_id": 10,
+            "score": "0.071195"
+          },
+          {
+            "document_id": 11,
+            "score": "0.105099"
+          },
+          {
+            "document_id": 12,
+            "score": "0.105099"
+          },
+          {
+            "document_id": 13,
+            "score": "0.04823"
+          },
+          {
+            "document_id": 14,
+            "score": "0.035668"
+          },
+          {
+            "document_id": 15,
+            "score": "0.060008"
+          },
+          {
+            "document_id": 16,
+            "score": "0.037973"
+          },
+          {
+            "document_id": 17,
+            "score": "0.471178"
+          },
+          {
+            "document_id": 18,
+            "score": "0.05987"
+          },
+          {
+            "document_id": 19,
+            "score": "0.068825"
+          }
+        ],
+        "joy": [
+          {
+            "document_id": 0,
+            "score": "0.586876"
+          },
+          {
+            "document_id": 1,
+            "score": "0.484831"
+          },
+          {
+            "document_id": 2,
+            "score": "0.44193"
+          },
+          {
+            "document_id": 3,
+            "score": "0.640579"
+          },
+          {
+            "document_id": 4,
+            "score": "0.583598"
+          },
+          {
+            "document_id": 5,
+            "score": "0.621649"
+          },
+          {
+            "document_id": 6,
+            "score": "0.449819"
+          },
+          {
+            "document_id": 7,
+            "score": "0.313423"
+          },
+          {
+            "document_id": 8,
+            "score": "0.646375"
+          },
+          {
+            "document_id": 9,
+            "score": "0.483667"
+          },
+          {
+            "document_id": 10,
+            "score": "0.630652"
+          },
+          {
+            "document_id": 11,
+            "score": "0.519827"
+          },
+          {
+            "document_id": 12,
+            "score": "0.519827"
+          },
+          {
+            "document_id": 13,
+            "score": "0.639049"
+          },
+          {
+            "document_id": 14,
+            "score": "0.274458"
+          },
+          {
+            "document_id": 15,
+            "score": "0.586739"
+          },
+          {
+            "document_id": 16,
+            "score": "0.596453"
+          },
+          {
+            "document_id": 17,
+            "score": "0.207593"
+          },
+          {
+            "document_id": 18,
+            "score": "0.081196"
+          },
+          {
+            "document_id": 19,
+            "score": "0.535034"
+          }
+        ],
+        "sadness": [
+          {
+            "document_id": 0,
+            "score": "0.248673"
+          },
+          {
+            "document_id": 1,
+            "score": "0.506973"
+          },
+          {
+            "document_id": 2,
+            "score": "0.572508"
+          },
+          {
+            "document_id": 3,
+            "score": "0.184654"
+          },
+          {
+            "document_id": 4,
+            "score": "0.089873"
+          },
+          {
+            "document_id": 5,
+            "score": "0.117303"
+          },
+          {
+            "document_id": 6,
+            "score": "0.524927"
+          },
+          {
+            "document_id": 7,
+            "score": "0.146119"
+          },
+          {
+            "document_id": 8,
+            "score": "0.185083"
+          },
+          {
+            "document_id": 9,
+            "score": "0.549256"
+          },
+          {
+            "document_id": 10,
+            "score": "0.524674"
+          },
+          {
+            "document_id": 11,
+            "score": "0.44226"
+          },
+          {
+            "document_id": 12,
+            "score": "0.44226"
+          },
+          {
+            "document_id": 13,
+            "score": "0.12278"
+          },
+          {
+            "document_id": 14,
+            "score": "0.192496"
+          },
+          {
+            "document_id": 15,
+            "score": "0.276631"
+          },
+          {
+            "document_id": 16,
+            "score": "0.198316"
+          },
+          {
+            "document_id": 17,
+            "score": "0.172653"
+          },
+          {
+            "document_id": 18,
+            "score": "0.540049"
+          },
+          {
+            "document_id": 19,
+            "score": "0.184989"
+          }
+        ],
+        "fear": [
+          {
+            "document_id": 0,
+            "score": "0.076421"
+          },
+          {
+            "document_id": 1,
+            "score": "0.090511"
+          },
+          {
+            "document_id": 2,
+            "score": "0.097612"
+          },
+          {
+            "document_id": 3,
+            "score": "0.04766"
+          },
+          {
+            "document_id": 4,
+            "score": "0.050739"
+          },
+          {
+            "document_id": 5,
+            "score": "0.0767"
+          },
+          {
+            "document_id": 6,
+            "score": "0.079246"
+          },
+          {
+            "document_id": 7,
+            "score": "0.01321"
+          },
+          {
+            "document_id": 8,
+            "score": "0.064972"
+          },
+          {
+            "document_id": 9,
+            "score": "0.096563"
+          },
+          {
+            "document_id": 10,
+            "score": "0.083765"
+          },
+          {
+            "document_id": 11,
+            "score": "0.093152"
+          },
+          {
+            "document_id": 12,
+            "score": "0.093152"
+          },
+          {
+            "document_id": 13,
+            "score": "0.094467"
+          },
+          {
+            "document_id": 14,
+            "score": "0.068739"
+          },
+          {
+            "document_id": 15,
+            "score": "0.069608"
+          },
+          {
+            "document_id": 16,
+            "score": "0.042633"
+          },
+          {
+            "document_id": 17,
+            "score": "0.078764"
+          },
+          {
+            "document_id": 18,
+            "score": "0.095243"
+          },
+          {
+            "document_id": 19,
+            "score": "0.122514"
+          }
+        ]
+      },
+      "metadata": [
+        {
+          "article_name": "Hangouts Meet has been renamed to Google Meet",
+          "url": "https://www.engadget.com/hangouts-meet-renamed-to-google-meet-002131288.html",
+          "authors": "{jon-fingas}",
+          "num_characters": 917,
+          "document_id": 0
+        },
+        {
+          "article_name": "France\u2019s competition watchdog orders Google to pay for news reuse \u2013 TechCrunch",
+          "url": "https://techcrunch.com/2020/04/09/frances-competition-watchdog-orders-google-to-pay-for-news-reuse/",
+          "authors": "{\"Natasha Lomas\",\"Natasha Lomas @riptari / 15 hours\"}",
+          "num_characters": 5573,
+          "document_id": 1
+        },
+        {
+          "article_name": "France orders Google to pay news companies for showing article extracts",
+          "url": "https://www.engadget.com/france-google-scraping-stories-snippets-104038211.html",
+          "authors": "{steve-dent}",
+          "num_characters": 3109,
+          "document_id": 2
+        },
+        {
+          "article_name": "Google extends free access to advanced teleconferencing features to September 30th",
+          "url": "https://www.theverge.com/2020/4/9/21215420/google-free-access-advanced-meet-features-extension-teleconference",
+          "authors": "{\"Jay Peters\"}",
+          "num_characters": 1933,
+          "document_id": 3
+        },
+        {
+          "article_name": "Google bans Zoom from corporate computers over security concerns",
+          "url": "https://mashable.com/video/google-security-concerns-bans-zoom/",
+          "authors": "{\"Jordan Aaron\"}",
+          "num_characters": 8213,
+          "document_id": 4
+        },
+        {
+          "article_name": "Bored? Heres a Google Analytics bootcamp you can take online.",
+          "url": "https://mashable.com/shopping/april-9-google-analytics-bootcamp-sale/",
+          "authors": "{StackCommerce}",
+          "num_characters": 2499,
+          "document_id": 5
+        },
+        {
+          "article_name": "Google subsidiary agrees to pursue internet \u2018diversification\u2019 in Asia to block China access to U.S. market \u2013 TechCrunch",
+          "url": "https://techcrunch.com/2020/04/09/google-subsidiary-agrees-to-pursue-internet-diversification-in-asia-to-block-china-access-to-u-s-market/",
+          "authors": "{\"Danny Crichton\",\"Danny Crichton 15 hours\"}",
+          "num_characters": 4490,
+          "document_id": 6
+        },
+        {
+          "article_name": "Google Launches Braille Keyboard for Android Devices - Slashdot",
+          "url": "https://tech.slashdot.org/story/20/04/09/1831238/google-launches-braille-keyboard-for-android-devices",
+          "authors": "{\"2020 @04:05PM from the good-things dept.\",\"Posted by msmash on Thursday April 09\"}",
+          "num_characters": 755,
+          "document_id": 7
+        },
+        {
+          "article_name": "News Brief: March Updates from the Google News Initiative",
+          "url": "https://www.blog.google/outreach-initiatives/google-news-initiative/news-brief-march-updates-google-news-initiative/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+blogspot%2FMKuf+%28The+Keyword+%7C+Official+Google+Blog%29",
+          "authors": "{\"Aimee Moon\",\"Alexios Mantzarlis\",\"Brad Bender\",\"Catherine Cloutier\",\"Lyndsay Valadez\",\"Susan Leath\"}",
+          "num_characters": 2948,
+          "document_id": 8
+        },
+        {
+          "article_name": "Google forbids its employees from using Zoom over security concerns",
+          "url": "https://www.androidcentral.com/google-forbids-its-employees-using-zoom-over-security-concerns",
+          "authors": "{\"Babu Mohan\"}",
+          "num_characters": 1752,
+          "document_id": 9
+        },
+        {
+          "article_name": "R\u00e9publique, West of Loathing, and more announced for Google Stadia",
+          "url": "https://www.androidcentral.com/republique-west-loathing-and-more-announced-google-stadia",
+          "authors": "{\"Asher Madan\"}",
+          "num_characters": 1284,
+          "document_id": 10
+        },
+        {
+          "article_name": "Google Bans Zooms Desktop Client From Running on Employee Computers",
+          "url": "https://www.pcmag.com/news/google-bans-zooms-desktop-client-from-running-on-employee-computers",
+          "authors": "{}",
+          "num_characters": 2593,
+          "document_id": 11
+        },
+        {
+          "article_name": "Google Bans Zooms Desktop Client From Running on Employee Computers",
+          "url": "https://www.pcmag.com/news/google-bans-zooms-desktop-client-from-running-on-employee-computers",
+          "authors": "{}",
+          "num_characters": 2593,
+          "document_id": 12
+        },
+        {
+          "article_name": "The Google Home smart speaker is half price with this limited-time deal",
+          "url": "https://www.androidcentral.com/google-home-smart-speaker-half-price-limited-time-deal",
+          "authors": "{\"Adam Oram\"}",
+          "num_characters": 1618,
+          "document_id": 13
+        },
+        {
+          "article_name": "Google Duplex quietly makes its way to Australia, Canada, and the UK",
+          "url": "https://www.androidcentral.com/googleduplex-service-now-available-australia-canada-and-uk",
+          "authors": "{\"Babu Mohan\"}",
+          "num_characters": 1445,
+          "document_id": 14
+        },
+        {
+          "article_name": "Google Classroom sees a doubling user-base as more students work from home",
+          "url": "https://www.androidcentral.com/google-classroom-sees-doubling-user-base-more-students-work-home",
+          "authors": "{\"Michael Allison\"}",
+          "num_characters": 1737,
+          "document_id": 15
+        },
+        {
+          "article_name": "The Google Nest Hub is $60 off with this exclusive Prime deal",
+          "url": "https://www.androidcentral.com/google-nest-hub-60-exclusive-prime-deal",
+          "authors": "{\"Alex Smith\"}",
+          "num_characters": 2042,
+          "document_id": 16
+        },
+        {
+          "article_name": "Google Duplex arrives in Australia, Canada, and the UK",
+          "url": "https://thenextweb.com/neural/2020/04/09/google-duplex-arrives-in-australia-canada-and-the-uk/",
+          "authors": "{\"Thomas Macaulay\",thenextweb}",
+          "num_characters": 1242,
+          "document_id": 17
+        },
+        {
+          "article_name": "Google is finally bringing dark mode to the YouTube TV app on Android",
+          "url": "https://www.androidcentral.com/google-finally-bringing-dark-mode-youtube-tv-app-android",
+          "authors": "{\"Muhammad Jarir Kanji\"}",
+          "num_characters": 907,
+          "document_id": 18
+        },
+        {
+          "article_name": "This $14 training course can help you master all things Google Analytics",
+          "url": "https://boingboing.net/2020/04/09/this-14-training-course-can-h.html",
+          "authors": "{\"Boing Boing's Shop\"}",
+          "num_characters": 2068,
+          "document_id": 19
+        }
+      ]
+    },
+    {
+      "date": "Apr1020",
+      "stock_data": null,
+      "pos_neg": null,
+      "categorical": {
+        "anger": null,
+        "disgust": null,
+        "joy": null,
+        "sadness": null,
+        "fear": null
+      },
+      "metadata": null
+    },
+    {
+      "date": "Apr1120",
+      "stock_data": null,
+      "pos_neg": null,
+      "categorical": {
+        "anger": null,
+        "disgust": null,
+        "joy": null,
+        "sadness": null,
+        "fear": null
+      },
+      "metadata": null
+    },
+    {
+      "date": "Apr1220",
+      "stock_data": null,
+      "pos_neg": null,
+      "categorical": {
+        "anger": null,
+        "disgust": null,
+        "joy": null,
+        "sadness": null,
+        "fear": null
+      },
+      "metadata": null
+    },
+    {
+      "date": "Apr1320",
+      "stock_data": [
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "09:30 AM",
+          "high_pt": "1203.025",
+          "low_pt": "1200",
+          "open_value": "1203.025",
+          "close_value": "1200",
+          "average_value": "1200.215",
+          "volume": 182,
+          "num_trades": 5
+        },
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "10 AM",
+          "high_pt": "1211.12",
+          "low_pt": "1193.57",
+          "open_value": "1199.735",
+          "close_value": "1194.08",
+          "average_value": "1121.5709",
+          "volume": 15936,
+          "num_trades": 234
+        },
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "10:30 AM",
+          "high_pt": "1195.155",
+          "low_pt": "1186.465",
+          "open_value": "1194.14",
+          "close_value": "1192.38",
+          "average_value": "1112.764633333333",
+          "volume": 4694,
+          "num_trades": 109
+        },
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "11 AM",
+          "high_pt": "1194.55",
+          "low_pt": "1187.41",
+          "open_value": "1191.32",
+          "close_value": "1187.41",
+          "average_value": "873.0980999999999",
+          "volume": 3310,
+          "num_trades": 60
+        },
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "11:30 AM",
+          "high_pt": "1195.49",
+          "low_pt": "1183.01",
+          "open_value": "1188.89",
+          "close_value": "1195.49",
+          "average_value": "951.0835999999999",
+          "volume": 3934,
+          "num_trades": 92
+        },
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "12:01 PM",
+          "high_pt": "1197",
+          "low_pt": "1192.06",
+          "open_value": "1194.94",
+          "close_value": "1196.91",
+          "average_value": "796.7537333333332",
+          "volume": 1862,
+          "num_trades": 43
+        },
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "12:30 PM",
+          "high_pt": "1197.4",
+          "low_pt": "1192.03",
+          "open_value": "1196.91",
+          "close_value": "1192.03",
+          "average_value": "717.2155333333333",
+          "volume": 4156,
+          "num_trades": 134
+        },
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "1 PM",
+          "high_pt": "1194.67",
+          "low_pt": "1191.38",
+          "open_value": "1192.255",
+          "close_value": "1191.48",
+          "average_value": "596.2385333333333",
+          "volume": 1279,
+          "num_trades": 23
+        },
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "1:33 PM",
+          "high_pt": "1190.89",
+          "low_pt": "1187.6",
+          "open_value": "1190.75",
+          "close_value": "1192.5",
+          "average_value": "713.7062999999999",
+          "volume": 1594,
+          "num_trades": 36
+        },
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "2:01 PM",
+          "high_pt": "1195.54",
+          "low_pt": "1191.66",
+          "open_value": "1192.5",
+          "close_value": "1196",
+          "average_value": "636.5445666666669",
+          "volume": 1161,
+          "num_trades": 21
+        },
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "2:30 PM",
+          "high_pt": "1197",
+          "low_pt": "1190.61",
+          "open_value": "1196",
+          "close_value": "1192.41",
+          "average_value": "716.1964999999999",
+          "volume": 1137,
+          "num_trades": 43
+        },
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "3 PM",
+          "high_pt": "1195",
+          "low_pt": "1192.455",
+          "open_value": "1193.78",
+          "close_value": "1193.04",
+          "average_value": "755.8551333333332",
+          "volume": 1882,
+          "num_trades": 40
+        },
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "3:30 PM",
+          "high_pt": "1200",
+          "low_pt": "1189.61",
+          "open_value": "1191.97",
+          "close_value": "1200",
+          "average_value": "557.0595333333333",
+          "volume": 2786,
+          "num_trades": 40
+        },
+        {
+          "company_name": "Google",
+          "stock_symbol": "GOOGL",
+          "minute": "3:59 PM",
+          "high_pt": "1214.4",
+          "low_pt": "1198.345",
+          "open_value": "1201.135",
+          "close_value": "1211.21",
+          "average_value": "1121.537724137931",
+          "volume": 8334,
+          "num_trades": 163
+        }
+      ],
+      "pos_neg": [
+        {
+          "document_id": 0,
+          "score": "-0.309663"
+        },
+        {
+          "document_id": 1,
+          "score": "0.604586"
+        },
+        {
+          "document_id": 2,
+          "score": "0.747544"
+        },
+        {
+          "document_id": 3,
+          "score": "0.272981"
+        },
+        {
+          "document_id": 4,
+          "score": "0.521721"
+        },
+        {
+          "document_id": 5,
+          "score": "0.707413"
+        },
+        {
+          "document_id": 6,
+          "score": "0.472201"
+        },
+        {
+          "document_id": 7,
+          "score": "0.43579"
+        },
+        {
+          "document_id": 8,
+          "score": "0.739196"
+        },
+        {
+          "document_id": 9,
+          "score": "-0.622885"
+        },
+        {
+          "document_id": 10,
+          "score": "0.333613"
+        },
+        {
+          "document_id": 11,
+          "score": "0.556104"
+        },
+        {
+          "document_id": 12,
+          "score": "0.27578"
+        },
+        {
+          "document_id": 13,
+          "score": "0.548728"
+        },
+        {
+          "document_id": 14,
+          "score": "-0.332852"
+        },
+        {
+          "document_id": 15,
+          "score": "-0.445471"
+        },
+        {
+          "document_id": 16,
+          "score": "-0.511351"
+        },
+        {
+          "document_id": 17,
+          "score": "-0.356883"
+        },
+        {
+          "document_id": 18,
+          "score": "0.430459"
+        },
+        {
+          "document_id": 19,
+          "score": "0.694093"
+        }
+      ],
+      "categorical": {
+        "anger": [
+          {
+            "document_id": 0,
+            "score": "0.072962"
+          },
+          {
+            "document_id": 1,
+            "score": "0.09255"
+          },
+          {
+            "document_id": 2,
+            "score": "0.057094"
+          },
+          {
+            "document_id": 3,
+            "score": "0.141946"
+          },
+          {
+            "document_id": 4,
+            "score": "0.048145"
+          },
+          {
+            "document_id": 5,
+            "score": "0.058869"
+          },
+          {
+            "document_id": 6,
+            "score": "0.116281"
+          },
+          {
+            "document_id": 7,
+            "score": "0.074479"
+          },
+          {
+            "document_id": 8,
+            "score": "0.093759"
+          },
+          {
+            "document_id": 9,
+            "score": "0.154429"
+          },
+          {
+            "document_id": 10,
+            "score": "0.094833"
+          },
+          {
+            "document_id": 11,
+            "score": "0.05797"
+          },
+          {
+            "document_id": 12,
+            "score": "0.063947"
+          },
+          {
+            "document_id": 13,
+            "score": "0.113002"
+          },
+          {
+            "document_id": 14,
+            "score": "0.070733"
+          },
+          {
+            "document_id": 15,
+            "score": "0.075544"
+          },
+          {
+            "document_id": 16,
+            "score": "0.109796"
+          },
+          {
+            "document_id": 17,
+            "score": "0.155901"
+          },
+          {
+            "document_id": 18,
+            "score": "0.078958"
+          },
+          {
+            "document_id": 19,
+            "score": "0.063192"
+          }
+        ],
+        "disgust": [
+          {
+            "document_id": 0,
+            "score": "0.077545"
+          },
+          {
+            "document_id": 1,
+            "score": "0.053164"
+          },
+          {
+            "document_id": 2,
+            "score": "0.05576"
+          },
+          {
+            "document_id": 3,
+            "score": "0.099831"
+          },
+          {
+            "document_id": 4,
+            "score": "0.012112"
+          },
+          {
+            "document_id": 5,
+            "score": "0.020033"
+          },
+          {
+            "document_id": 6,
+            "score": "0.106368"
+          },
+          {
+            "document_id": 7,
+            "score": "0.064893"
+          },
+          {
+            "document_id": 8,
+            "score": "0.033851"
+          },
+          {
+            "document_id": 9,
+            "score": "0.12574"
+          },
+          {
+            "document_id": 10,
+            "score": "0.063402"
+          },
+          {
+            "document_id": 11,
+            "score": "0.033246"
+          },
+          {
+            "document_id": 12,
+            "score": "0.037504"
+          },
+          {
+            "document_id": 13,
+            "score": "0.055794"
+          },
+          {
+            "document_id": 14,
+            "score": "0.038266"
+          },
+          {
+            "document_id": 15,
+            "score": "0.044812"
+          },
+          {
+            "document_id": 16,
+            "score": "0.149351"
+          },
+          {
+            "document_id": 17,
+            "score": "0.136289"
+          },
+          {
+            "document_id": 18,
+            "score": "0.070745"
+          },
+          {
+            "document_id": 19,
+            "score": "0.044488"
+          }
+        ],
+        "joy": [
+          {
+            "document_id": 0,
+            "score": "0.538037"
+          },
+          {
+            "document_id": 1,
+            "score": "0.627292"
+          },
+          {
+            "document_id": 2,
+            "score": "0.537275"
+          },
+          {
+            "document_id": 3,
+            "score": "0.521091"
+          },
+          {
+            "document_id": 4,
+            "score": "0.64522"
+          },
+          {
+            "document_id": 5,
+            "score": "0.732575"
+          },
+          {
+            "document_id": 6,
+            "score": "0.486115"
+          },
+          {
+            "document_id": 7,
+            "score": "0.529263"
+          },
+          {
+            "document_id": 8,
+            "score": "0.729144"
+          },
+          {
+            "document_id": 9,
+            "score": "0.132563"
+          },
+          {
+            "document_id": 10,
+            "score": "0.505417"
+          },
+          {
+            "document_id": 11,
+            "score": "0.532628"
+          },
+          {
+            "document_id": 12,
+            "score": "0.483383"
+          },
+          {
+            "document_id": 13,
+            "score": "0.49385"
+          },
+          {
+            "document_id": 14,
+            "score": "0.157804"
+          },
+          {
+            "document_id": 15,
+            "score": "0.557295"
+          },
+          {
+            "document_id": 16,
+            "score": "0.507624"
+          },
+          {
+            "document_id": 17,
+            "score": "0.200512"
+          },
+          {
+            "document_id": 18,
+            "score": "0.610088"
+          },
+          {
+            "document_id": 19,
+            "score": "0.623732"
+          }
+        ],
+        "sadness": [
+          {
+            "document_id": 0,
+            "score": "0.590675"
+          },
+          {
+            "document_id": 1,
+            "score": "0.164279"
+          },
+          {
+            "document_id": 2,
+            "score": "0.203857"
+          },
+          {
+            "document_id": 3,
+            "score": "0.52876"
+          },
+          {
+            "document_id": 4,
+            "score": "0.130534"
+          },
+          {
+            "document_id": 5,
+            "score": "0.157306"
+          },
+          {
+            "document_id": 6,
+            "score": "0.179724"
+          },
+          {
+            "document_id": 7,
+            "score": "0.199375"
+          },
+          {
+            "document_id": 8,
+            "score": "0.161837"
+          },
+          {
+            "document_id": 9,
+            "score": "0.533434"
+          },
+          {
+            "document_id": 10,
+            "score": "0.224716"
+          },
+          {
+            "document_id": 11,
+            "score": "0.150675"
+          },
+          {
+            "document_id": 12,
+            "score": "0.175535"
+          },
+          {
+            "document_id": 13,
+            "score": "0.167496"
+          },
+          {
+            "document_id": 14,
+            "score": "0.540893"
+          },
+          {
+            "document_id": 15,
+            "score": "0.256266"
+          },
+          {
+            "document_id": 16,
+            "score": "0.465932"
+          },
+          {
+            "document_id": 17,
+            "score": "0.216854"
+          },
+          {
+            "document_id": 18,
+            "score": "0.193885"
+          },
+          {
+            "document_id": 19,
+            "score": "0.176278"
+          }
+        ],
+        "fear": [
+          {
+            "document_id": 0,
+            "score": "0.085058"
+          },
+          {
+            "document_id": 1,
+            "score": "0.057902"
+          },
+          {
+            "document_id": 2,
+            "score": "0.042347"
+          },
+          {
+            "document_id": 3,
+            "score": "0.135819"
+          },
+          {
+            "document_id": 4,
+            "score": "0.064429"
+          },
+          {
+            "document_id": 5,
+            "score": "0.012092"
+          },
+          {
+            "document_id": 6,
+            "score": "0.064157"
+          },
+          {
+            "document_id": 7,
+            "score": "0.078534"
+          },
+          {
+            "document_id": 8,
+            "score": "0.04069"
+          },
+          {
+            "document_id": 9,
+            "score": "0.186392"
+          },
+          {
+            "document_id": 10,
+            "score": "0.081497"
+          },
+          {
+            "document_id": 11,
+            "score": "0.058367"
+          },
+          {
+            "document_id": 12,
+            "score": "0.417896"
+          },
+          {
+            "document_id": 13,
+            "score": "0.068245"
+          },
+          {
+            "document_id": 14,
+            "score": "0.086818"
+          },
+          {
+            "document_id": 15,
+            "score": "0.115751"
+          },
+          {
+            "document_id": 16,
+            "score": "0.122485"
+          },
+          {
+            "document_id": 17,
+            "score": "0.110532"
+          },
+          {
+            "document_id": 18,
+            "score": "0.10087"
+          },
+          {
+            "document_id": 19,
+            "score": "0.119638"
+          }
+        ]
+      },
+      "metadata": [
+        {
+          "article_name": "Google unveils Maps, Search and YouTube features in India to help people combat coronavirus \u2013 TechCrunch",
+          "url": "https://techcrunch.com/2020/04/13/google-unveils-maps-search-and-youtube-features-in-india-to-help-people-combat-coronavirus/",
+          "authors": "{\"Manish Singh\",\"Manish Singh 20 hours\"}",
+          "num_characters": 2796,
+          "document_id": 0
+        },
+        {
+          "article_name": "Upgrade to the unlocked Google Pixel 3a on sale for $300 via Best Buy",
+          "url": "https://www.androidcentral.com/upgrade-unlocked-google-pixel-3a-sale-300-best-buy",
+          "authors": "{\"Alex Smith\"}",
+          "num_characters": 1786,
+          "document_id": 1
+        },
+        {
+          "article_name": "Sonys 85-inch 4K TV has $500 off, a free Google Nest hub, and free install",
+          "url": "https://www.androidcentral.com/save-500-get-free-google-nest-hub-and-find-free-installation-sonys-85-inch-4k-smart-tv",
+          "authors": "{\"John Levite\"}",
+          "num_characters": 2135,
+          "document_id": 2
+        },
+        {
+          "article_name": "UK to Use Apple-Google API in NHS Contact Tracing App",
+          "url": "https://www.macrumors.com/2020/04/13/nhs-uk-apple-contact-tracing-api/",
+          "authors": "{\"Tim Hardwick\"}",
+          "num_characters": 4194,
+          "document_id": 3
+        },
+        {
+          "article_name": "Apple and Google partner on coronavirus contact tracing technology | Venture",
+          "url": "https://dailyhive.com/vancouver/apple-google-coronavirus-contact-tracing",
+          "authors": "{\"Wyatt Fossett \"}",
+          "num_characters": 1189,
+          "document_id": 4
+        },
+        {
+          "article_name": "How to Use Google Hangouts Meet in Google Classroom",
+          "url": "https://www.freetech4teachers.com/2020/04/how-to-use-google-hangouts-meet-in.html",
+          "authors": "{}",
+          "num_characters": 438,
+          "document_id": 5
+        },
+        {
+          "article_name": "Google will donate $1 million to San Francisco Bay Area families impacted by COVID-19, with another $1 million coming from Sundar Pichai",
+          "url": "https://www.businessinsider.com/google-donates-2-million-coronavirus-aid-relief-bay-area-2020-4",
+          "authors": "{\"Hugh Langley\"}",
+          "num_characters": 1405,
+          "document_id": 6
+        },
+        {
+          "article_name": "Deal: Save $300 on Google Pixel 4 via Amazon, Best Buy, Google Store",
+          "url": "https://www.androidauthority.com/google-pixel-4-deal-1105889/",
+          "authors": "{\"Ankit Banerjee\",\"David Imel\",\"Hadlee Simons\",\"Mitja Rutnik\",\"Ryan Haines\",\"Simon Hill\"}",
+          "num_characters": 1195,
+          "document_id": 7
+        },
+        {
+          "article_name": "9to5Mac Daily: April 13, 2020 \u2013\u00a0Cheaper HomePod rumors, Apple partners with Google - 9to5Mac",
+          "url": "https://9to5mac.com/2020/04/13/9to5mac-daily-april-13-2020/",
+          "authors": "{\"Chance Miller\"}",
+          "num_characters": 594,
+          "document_id": 8
+        },
+        {
+          "article_name": "Apple-Google coronavirus API sees weak plan & criticisms in UK - 9to5Mac",
+          "url": "https://9to5mac.com/2020/04/13/apple-google-coronavirus-api/",
+          "authors": "{\"Ben Lovejoy\"}",
+          "num_characters": 4207,
+          "document_id": 9
+        },
+        {
+          "article_name": "Apple and Google share new details on universal coronavirus contact tracing plans",
+          "url": "https://www.androidpolice.com/2020/04/13/apple-and-google-are-working-together-to-fight-coronavirus-with-a-new-contact-tracing-tool/",
+          "authors": "{\"Jules Wang\"}",
+          "num_characters": 5327,
+          "document_id": 10
+        },
+        {
+          "article_name": "Google Assistant adds native support for TVs, set-top boxes, and media remotes",
+          "url": "https://www.androidpolice.com/2020/04/13/google-assistant-adds-native-support-for-tvs-set-top-boxes-and-media-remotes/",
+          "authors": "{\"Rita El Khoury\"}",
+          "num_characters": 1506,
+          "document_id": 11
+        },
+        {
+          "article_name": "Apple and Google detail COVID-19 contact tracing program, focus on privacy",
+          "url": "https://appleinsider.com/articles/20/04/13/apple-and-google-detail-covid-19-contact-tracing-program-focus-on-privacy",
+          "authors": "{\"02:49 pm PT (05:49 pm ET)\",2020,\"April 13\",\"Mike Peterson\",Monday}",
+          "num_characters": 2836,
+          "document_id": 12
+        },
+        {
+          "article_name": "How to send a video message using Google Duo",
+          "url": "https://www.androidauthority.com/google-duo-video-message-1105512/",
+          "authors": "{}",
+          "num_characters": 1273,
+          "document_id": 13
+        },
+        {
+          "article_name": "Google Phone app now available on some non-Pixel devices",
+          "url": "https://androidcommunity.com/google-phone-app-now-available-on-some-non-pixel-devices-20200413/",
+          "authors": "{\"Ida Torres\"}",
+          "num_characters": 2114,
+          "document_id": 14
+        },
+        {
+          "article_name": "Hangouts Chat will now be known as just Google Chat",
+          "url": "https://androidcommunity.com/hangouts-chat-will-now-be-known-as-just-google-chat-20200413/",
+          "authors": "{\"Ida Torres\"}",
+          "num_characters": 2097,
+          "document_id": 15
+        },
+        {
+          "article_name": "Google Clouds AI recog code biased against black people \u2013 and more from ML land",
+          "url": "https://www.theregister.co.uk/2020/04/13/ai_roundup/",
+          "authors": "{\"16 SHARE \u25bc\",\"Katyanna Quach 13\u00a0Apr\u00a02020\u00a0at\u00a014:01\"}",
+          "num_characters": 5620,
+          "document_id": 16
+        },
+        {
+          "article_name": "How to Post Videos in Google Sites so Everyone Can See Them",
+          "url": "https://www.freetech4teachers.com/2020/04/how-to-post-videos-in-google-sites-so.html",
+          "authors": "{}",
+          "num_characters": 871,
+          "document_id": 17
+        },
+        {
+          "article_name": "This Google Pixel concept has two front-facing cameras, but with zero notches and a sleek bezel. | Yanko Design",
+          "url": "https://www.yankodesign.com/2020/04/13/this-google-pixel-concept-has-two-front-facing-cameras-but-with-zero-notches-and-a-sleek-bezel/",
+          "authors": "{\"Sarang Sheth\"}",
+          "num_characters": 1264,
+          "document_id": 18
+        },
+        {
+          "article_name": "Google Reveals How Search Behavior Has Changed During COVID-19 Pandemic",
+          "url": "https://www.searchenginejournal.com/google-reveals-how-search-behavior-has-changed-during-covid-19-pandemic/361322/",
+          "authors": "{}",
+          "num_characters": 3205,
+          "document_id": 19
+        }
+      ]
+    }
+  ]
+}

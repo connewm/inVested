@@ -36,7 +36,7 @@ class sentiment_analysis:
     def __process_historical(self, company): 
         self.cursor.execute("SELECT AVG(sent_score), AVG(sadness_score), AVG(joy_score), AVG(fear_score), AVG(disgust_score), AVG(anger_score) from  " + self.schema_name + "." + company + "_sentiment")
         results = self.cursor.fetchall()
-        self.cursor.execute("INSERT INTO historical.historic_data (date, company_name, avg_sent, avg_sadness_score,  avg_joy_score , avg_fear_score, avg_disgust_score, avg_anger_score) values (%s, %s,%s, %s, %s, %s, %s, %s)",  
+        self.cursor.execute("INSERT INTO historical.historic_sentiment_data (date, company_name, avg_sent, avg_sadness_score,  avg_joy_score , avg_fear_score, avg_disgust_score, avg_anger_score) values (%s, %s,%s, %s, %s, %s, %s, %s)",  
         (
             self.schema_name, 
             company,
@@ -68,12 +68,13 @@ class sentiment_analysis:
         natural_language_understanding.set_service_url(cred_json['url'])
 
         for company in self.companies:
-            
+            print("in loop")
             #process information for each company 
             company_params = feed.news_scraper(company, self.date)
             company_articles =company_params.get_articles()
             sentiment_table = company + '_sentiment'
             self.cursor.execute("CREATE TABLE IF NOT EXISTS " + self.schema_name + "." + sentiment_table + "(document_id INTEGER, title varchar, retrieved_url varchar, pub_date varchar, authors varchar, num_characters integer, sent_score numeric, sent_label varchar, sadness_score numeric, joy_score numeric, fear_score numeric,  disgust_score numeric, anger_score numeric)")
+            self.connect.commit()
 
             #restart document_id 
             document_id = 0
@@ -126,4 +127,3 @@ class sentiment_analysis:
             
         self.connect.commit()
         self.connect.close()
-    
