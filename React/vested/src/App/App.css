@@ -32,10 +32,11 @@ body {
 .news-wrapper {
   display: inline-block;
   position: fixed;
-  height: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
+  height: calc(100vh - 84px);
   width: 25%;
   vertical-align: top;
-  min-height: calc(100vh - 84px);
   text-align: -webkit-right; /* TODO: Change to work for all browsers */
   background-color: whitesmoke;
 }

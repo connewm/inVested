@@ -16,8 +16,7 @@ const useStyles = makeStyles(theme => ({
 
 export default function AlignItemsList(props) {
   const classes = useStyles();
-  console.log(props);
-  if (props.data) {
+  if (props.articles) {
     return (
       <div>
         <List className={classes.root}>

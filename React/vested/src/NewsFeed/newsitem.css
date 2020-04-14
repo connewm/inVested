@@ -1,15 +1,28 @@
 .NewsItem {
    
-      background-color: #000000;
-      font-family: sans-serif;
-    border-style: solid;
-    font-size: 5px;
-    display: inline;
-    width: 5%;
-    vertical-align:  top;
-    }
+  background-color: #000000;
+  font-family: sans-serif;
+  border-style: solid;
+  font-size: 5px;
+  display: inline;
+  width: 5%;
+  vertical-align:  top;
+}
 
+.MuiTypography-colorTextSecondary a {
+  color: black;
+  background-color: #aaa;
+  padding: 0em 2em;
+  border-radius: 3em;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-    ListItemText{
-        color: black;
-    }
+.MuiTypography-colorTextSecondary a:hover {
+  background-color: #cccccc;
+  cursor: pointer;
+}
+
+ListItemText{
+      color: black;
+}

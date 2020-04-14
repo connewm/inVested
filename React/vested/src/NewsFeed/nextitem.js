@@ -7,6 +7,7 @@ import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
 import Typography from '@material-ui/core/Typography';
 import './newsitem'
+import './newsitem.css'
 
 
 
@@ -23,10 +24,7 @@ const useStyles = makeStyles(theme => ({
 
 function NextItem(props){
   const classes = useStyles();
-
-    return(        
-
-    
+    return(
         
         <ListItem alignItems="flex-start">
         {/* <ListItemAvatar> */}
@@ -46,8 +44,8 @@ function NextItem(props){
                 {props.source}   just adds a header to the lower text in the news item */}
               {/* </Typography> */}
               
-             <li> 
-               {/* { "— " }{props.text} */}
+              <li> 
+                {/* { "— " }{props.text} */}
                 <a style={{ textDecoration: 'none'}} href={props.link}> ... </a>
               </li>
        
