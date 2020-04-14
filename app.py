@@ -110,9 +110,6 @@ def get_historical_data():
 
 print('Starting Flask!')
 
-app.debug=True
-app.run()
-
-# # for local dev ONLY
-# if __name__ == '__main__':
-#     app.run()
+# for local dev ONLY
+if __name__ == '__main__':
+    app.run(host="0.0.0.0", port=80)

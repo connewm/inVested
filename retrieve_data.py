@@ -35,40 +35,60 @@ class retrieve_data:
         date_range = []
         for single_date in self.__daterange(start_date_format, end_date_format):
             date_range.append(datetime.strftime(single_date,'%b%d%y'))
-        try: 
-            self.cursor.execute('select * from historical.historic_sentiment_data where date IN (' + str(date_range).strip('[]') + ')')
-        except: 
-            print("Invalid date format")
-            self.connect.rollback()
-        sent_results = self.cursor.fetchall()
-
-        # now get all historical results in date range for stock
-        try:
-            self.cursor.execute('select * from historical.historic_stock_data where date in (' + str(date_range).strip('[]') + ')')
-        except:
-            print("invalid date formst")
-            self.connect.rollback()
-        stock_results = self.cursor.fetchall()
-
-
+                
         #setup a data dictionary  
         data_dict =  {'company_name': self.company_name}
         dates_dict = {}
-        date_sent_arr = []
+        date_sent_stock_arr = []
+        print(start_date_format)
+        while start_date_format != end_date_format:
+            # date formatting
+            start_date_format += timedelta(days =1)
+            start_date_str = datetime.strftime(start_date_format,'%b%d%y')
 
-        for row in sent_results:
-            if (row[1] != self.company_name): 
-                continue
             current_date_dict = {}
-            current_date_dict['stock'] = {}
-            current_date_dict['stock']['avg_sent'] = row[2]
-            current_date_dict['stock']['avg_sadness_score'] = row[3]
-            current_date_dict['stock']['avg_joy_score'] = row[4]
-            current_date_dict['stock']['avg_fear_score'] = row[5]
-            current_date_dict['stock']['avg_disgust_score'] = row[6]
-            date_sent_arr.append(current_date_dict)
+            # set date attribute
+            current_date_dict['date'] = start_date_str
 
-        data_dict['dates'] = date_sent_arr
+            sent_date_dict = {}
+            try:
+                self.cursor.execute('select * from historical.historic_sentiment_data where date = %s and company_name = %s', (start_date_str, self.company_name))
+                sent_results = self.cursor.fetchall()
+                sent_date_dict["avg_sent"] = sent_results[0][2]
+                sent_date_dict["avg_sadness_score"] = sent_results[0][3]
+                sent_date_dict["avg_joy_score"] = sent_results[0][4]
+                sent_date_dict["avg_fear_score"] = sent_results[0][5]
+                sent_date_dict["avg_disgust_score"] = sent_results[0][6]
+            except:
+                print("Was not able to query either company or date")
+                sent_date_dict = None
+                self.connect.rollback()
+
+            current_date_dict["sentiment"] = sent_date_dict
+
+            # do the same for stocks
+            stock_date_dict = {}
+            try:
+                self.cursor.execute('select * from historical.historic_stock_data where date = %s and company_name = %s', (start_date_str, self.company_name))
+                stock_results = self.cursor.fetchall()
+                stock_date_dict["symbol"] = stock_results[0][9]
+                stock_date_dict["high_pt"] = stock_results[0][2]
+                stock_date_dict["low_pt"] = stock_results[0][3]
+                stock_date_dict["open_value"] = stock_results[0][4]
+                stock_date_dict["close_value"] = stock_results[0][5]
+                stock_date_dict["average_value"] = stock_results[0][6]
+                stock_date_dict["volume"] = stock_results[0][7]
+                stock_date_dict["num_trades"] = stock_results[0][8]
+            except:
+                print("Was not able to query either company or date")
+                stock_date_dict = None
+                self.connect.rollback()
+
+            current_date_dict["stock"] = stock_date_dict     
+
+            date_sent_stock_arr.append(current_date_dict)
+           
+        data_dict['dates'] = date_sent_stock_arr
        
         self.historic_response = json.dumps(data_dict, cls=DjangoJSONEncoder, indent=2)
         return json.dumps(data_dict, cls=DjangoJSONEncoder, indent=2)
@@ -220,12 +240,14 @@ class retrieve_data:
 
 
 
-# TEST API 
-# google = retrieve_data('Google', 'apr0920', 'apr1320')
-# file = open("daily_detailed.json", "w")
-# temp = google.get_company_data()
-# print(temp)
-# file.write(temp)
-# file = open("historical.json", "w")
-# temp = google.get_historic_data()
-# file.write(temp)
+'''
+#TEST API 
+google = retrieve_data('Amazon', 'apr0920', 'apr1420')
+file = open("daily_detailed.json", "w")
+temp = google.get_company_data()
+print(temp)
+file.write(temp)
+file = open("historical.json", "w")
+temp = google.get_historic_data()
+file.write(temp)
+'''

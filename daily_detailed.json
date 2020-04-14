@@ -1,799 +1,799 @@
 {
-  "company_name": "Google",
+  "company_name": "Amazon",
   "dates": [
     {
       "date": "Apr0920",
       "stock_data": [
         {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
           "minute": "09:30 AM",
-          "high_pt": "1219.785",
-          "low_pt": "1213.1",
-          "open_value": "1218.78",
-          "close_value": "1213.1",
-          "average_value": "1216.639",
-          "volume": 611,
-          "num_trades": 12
+          "high_pt": "2045.5",
+          "low_pt": "2043",
+          "open_value": "2044.5",
+          "close_value": "2043.38",
+          "average_value": "2044.883",
+          "volume": 2079,
+          "num_trades": 24
         },
         {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
           "minute": "10 AM",
-          "high_pt": "1219",
-          "low_pt": "1216.31",
-          "open_value": "1219",
-          "close_value": "1217.8",
-          "average_value": "1217.535",
-          "volume": 708,
-          "num_trades": 9
+          "high_pt": "2047.6",
+          "low_pt": "2046.41",
+          "open_value": "2047.6",
+          "close_value": "2046.41",
+          "average_value": "2046.789",
+          "volume": 54,
+          "num_trades": 4
         },
         {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
           "minute": "10:30 AM",
-          "high_pt": "1200.61",
-          "low_pt": "1199.92",
-          "open_value": "1200.61",
-          "close_value": "1200.485",
-          "average_value": "1200.296",
-          "volume": 188,
-          "num_trades": 3
+          "high_pt": "2029.245",
+          "low_pt": "2029.245",
+          "open_value": "2029.245",
+          "close_value": "2029.245",
+          "average_value": "2029.245",
+          "volume": 50,
+          "num_trades": 1
         },
         {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
           "minute": "11 AM",
-          "high_pt": "1205.91",
-          "low_pt": "1202.75",
-          "open_value": "1205.21",
-          "close_value": "1202.75",
-          "average_value": "1204.364",
-          "volume": 212,
-          "num_trades": 4
-        },
-        {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
-          "minute": "11:32 AM",
-          "high_pt": "1198.75",
-          "low_pt": "1198.73",
-          "open_value": "1198.75",
-          "close_value": "1198.73",
-          "average_value": "1198.748",
-          "volume": 110,
-          "num_trades": 2
-        },
-        {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
-          "minute": "12:01 PM",
-          "high_pt": "1203.45",
-          "low_pt": "1203.31",
-          "open_value": "1203.31",
-          "close_value": "1203.45",
-          "average_value": "1203.38",
+          "high_pt": "2034.52",
+          "low_pt": "2033.99",
+          "open_value": "2034.52",
+          "close_value": "2033.99",
+          "average_value": "2034.255",
           "volume": 200,
           "num_trades": 2
         },
         {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
-          "minute": "12:31 PM",
-          "high_pt": "1206.965",
-          "low_pt": "1206.965",
-          "open_value": "1206.965",
-          "close_value": "1206.965",
-          "average_value": "1206.965",
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
+          "minute": "11:30 AM",
+          "high_pt": "2026.965",
+          "low_pt": "2026.5",
+          "open_value": "2026.69",
+          "close_value": "2026.935",
+          "average_value": "2026.7",
+          "volume": 710,
+          "num_trades": 7
+        },
+        {
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
+          "minute": "12 PM",
+          "high_pt": "2034.47",
+          "low_pt": "2034.47",
+          "open_value": "2034.47",
+          "close_value": "2034.47",
+          "average_value": "2034.47",
           "volume": 100,
           "num_trades": 1
         },
         {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
+          "minute": "12:30 PM",
+          "high_pt": "2034.52",
+          "low_pt": "2034.52",
+          "open_value": "2034.52",
+          "close_value": "2034.52",
+          "average_value": "2034.52",
+          "volume": 101,
+          "num_trades": 2
+        },
+        {
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
           "minute": "1 PM",
-          "high_pt": "1212.18",
-          "low_pt": "1211.855",
-          "open_value": "1212.12",
-          "close_value": "1211.855",
-          "average_value": "1212.052",
-          "volume": 300,
-          "num_trades": 4
-        },
-        {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
-          "minute": "1:32 PM",
-          "high_pt": "1216.35",
-          "low_pt": "1216.35",
-          "open_value": "1216.35",
-          "close_value": "1216.35",
-          "average_value": "1216.35",
-          "volume": 100,
-          "num_trades": 1
-        },
-        {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
-          "minute": "2 PM",
-          "high_pt": "1210.87",
-          "low_pt": "1210.87",
-          "open_value": "1210.87",
-          "close_value": "1210.87",
-          "average_value": "1210.87",
-          "volume": 100,
-          "num_trades": 1
-        },
-        {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
-          "minute": "2:32 PM",
-          "high_pt": "1209.82",
-          "low_pt": "1209.53",
-          "open_value": "1209.82",
-          "close_value": "1209.53",
-          "average_value": "1209.675",
-          "volume": 200,
-          "num_trades": 2
-        },
-        {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
-          "minute": "3:01 PM",
-          "high_pt": "1201.045",
-          "low_pt": "1200.15",
-          "open_value": "1201.045",
-          "close_value": "1200.15",
-          "average_value": "1200.34",
-          "volume": 16,
+          "high_pt": "2040.48",
+          "low_pt": "2039.95",
+          "open_value": "2040.48",
+          "close_value": "2039.95",
+          "average_value": "2040.427",
+          "volume": 111,
           "num_trades": 3
         },
         {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
+          "minute": "1:32 PM",
+          "high_pt": "2034.455",
+          "low_pt": "2034.455",
+          "open_value": "2034.455",
+          "close_value": "2034.455",
+          "average_value": "2034.455",
+          "volume": 210,
+          "num_trades": 3
+        },
+        {
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
+          "minute": "2:02 PM",
+          "high_pt": "2031",
+          "low_pt": "2031",
+          "open_value": "2031",
+          "close_value": "2031",
+          "average_value": "2031",
+          "volume": 100,
+          "num_trades": 3
+        },
+        {
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
+          "minute": "2:30 PM",
+          "high_pt": "2031.83",
+          "low_pt": "2031.83",
+          "open_value": "2031.83",
+          "close_value": "2031.83",
+          "average_value": "2031.83",
+          "volume": 100,
+          "num_trades": 1
+        },
+        {
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
+          "minute": "3 PM",
+          "high_pt": "2027.225",
+          "low_pt": "2026.875",
+          "open_value": "2027.185",
+          "close_value": "2027.225",
+          "average_value": "2027.095",
+          "volume": 600,
+          "num_trades": 3
+        },
+        {
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
           "minute": "3:30 PM",
-          "high_pt": "1201.325",
-          "low_pt": "1200.5",
-          "open_value": "1200.94",
-          "close_value": "1200.82",
-          "average_value": "1200.865",
-          "volume": 569,
-          "num_trades": 13
+          "high_pt": "2036.02",
+          "low_pt": "2034.665",
+          "open_value": "2034.665",
+          "close_value": "2036.02",
+          "average_value": "2035.342",
+          "volume": 200,
+          "num_trades": 2
         }
       ],
       "pos_neg": [
         {
           "document_id": 0,
-          "score": "-0.405418"
+          "score": "-0.328887"
         },
         {
           "document_id": 1,
-          "score": "-0.287873"
+          "score": "-0.741639"
         },
         {
           "document_id": 2,
-          "score": "-0.563722"
+          "score": "-0.41483"
         },
         {
           "document_id": 3,
-          "score": "0.668683"
+          "score": "0.295647"
         },
         {
           "document_id": 4,
-          "score": "0.647789"
+          "score": "-0.44152"
         },
         {
           "document_id": 5,
-          "score": "0.820236"
+          "score": "-0.755371"
         },
         {
           "document_id": 6,
-          "score": "0.376945"
+          "score": "0.744045"
         },
         {
           "document_id": 7,
-          "score": "0.300312"
+          "score": "0.462501"
         },
         {
           "document_id": 8,
-          "score": "0.855203"
+          "score": "0"
         },
         {
           "document_id": 9,
-          "score": "-0.743268"
+          "score": "0.831363"
         },
         {
           "document_id": 10,
-          "score": "0.431182"
+          "score": "0.54647"
         },
         {
           "document_id": 11,
-          "score": "-0.690156"
+          "score": "-0.289767"
         },
         {
           "document_id": 12,
-          "score": "-0.690156"
+          "score": "-0.301477"
         },
         {
           "document_id": 13,
-          "score": "0.820023"
+          "score": "0.365078"
         },
         {
           "document_id": 14,
-          "score": "0.413836"
+          "score": "-0.54728"
         },
         {
           "document_id": 15,
-          "score": "-0.434357"
+          "score": "0.432285"
         },
         {
           "document_id": 16,
-          "score": "0.540517"
+          "score": "-0.635801"
         },
         {
           "document_id": 17,
-          "score": "0.368906"
+          "score": "0.684649"
         },
         {
           "document_id": 18,
-          "score": "0.371016"
+          "score": "-0.330177"
         },
         {
           "document_id": 19,
-          "score": "0.697472"
+          "score": "0.61588"
         }
       ],
       "categorical": {
         "anger": [
           {
             "document_id": 0,
-            "score": "0.109218"
+            "score": "0.075464"
           },
           {
             "document_id": 1,
-            "score": "0.129128"
+            "score": "0.113559"
           },
           {
             "document_id": 2,
-            "score": "0.133483"
+            "score": "0.071672"
           },
           {
             "document_id": 3,
-            "score": "0.091438"
+            "score": "0.035154"
           },
           {
             "document_id": 4,
-            "score": "0.17416"
+            "score": "0.192123"
           },
           {
             "document_id": 5,
-            "score": "0.07795"
+            "score": "0.105138"
           },
           {
             "document_id": 6,
-            "score": "0.158291"
+            "score": "0.077301"
           },
           {
             "document_id": 7,
-            "score": "0.01664"
+            "score": "0.102681"
           },
           {
             "document_id": 8,
-            "score": "0.045751"
+            "score": "0.007545"
           },
           {
             "document_id": 9,
-            "score": "0.154334"
+            "score": "0.130047"
           },
           {
             "document_id": 10,
-            "score": "0.074698"
+            "score": "0.068423"
           },
           {
             "document_id": 11,
-            "score": "0.134978"
+            "score": "0.096505"
           },
           {
             "document_id": 12,
-            "score": "0.134978"
+            "score": "0.074997"
           },
           {
             "document_id": 13,
-            "score": "0.082377"
+            "score": "0.083263"
           },
           {
             "document_id": 14,
-            "score": "0.131224"
+            "score": "0.116373"
           },
           {
             "document_id": 15,
-            "score": "0.105832"
+            "score": "0.100743"
           },
           {
             "document_id": 16,
-            "score": "0.079445"
+            "score": "0.131058"
           },
           {
             "document_id": 17,
-            "score": "0.065782"
+            "score": "0.070182"
           },
           {
             "document_id": 18,
-            "score": "0.048893"
+            "score": "0.09734"
           },
           {
             "document_id": 19,
-            "score": "0.407578"
+            "score": "0.084527"
           }
         ],
         "disgust": [
           {
             "document_id": 0,
-            "score": "0.441886"
+            "score": "0.05534"
           },
           {
             "document_id": 1,
-            "score": "0.114202"
+            "score": "0.07229"
           },
           {
             "document_id": 2,
-            "score": "0.159059"
+            "score": "0.036968"
           },
           {
             "document_id": 3,
-            "score": "0.031809"
+            "score": "0.047971"
           },
           {
             "document_id": 4,
-            "score": "0.053432"
+            "score": "0.11331"
           },
           {
             "document_id": 5,
-            "score": "0.037777"
+            "score": "0.078461"
           },
           {
             "document_id": 6,
-            "score": "0.044471"
+            "score": "0.062766"
           },
           {
             "document_id": 7,
-            "score": "0.019774"
+            "score": "0.061596"
           },
           {
             "document_id": 8,
-            "score": "0.075012"
+            "score": "0.028309"
           },
           {
             "document_id": 9,
-            "score": "0.066442"
+            "score": "0.078863"
           },
           {
             "document_id": 10,
-            "score": "0.071195"
+            "score": "0.067047"
           },
           {
             "document_id": 11,
-            "score": "0.105099"
+            "score": "0.030267"
           },
           {
             "document_id": 12,
-            "score": "0.105099"
+            "score": "0.055507"
           },
           {
             "document_id": 13,
-            "score": "0.04823"
+            "score": "0.047608"
           },
           {
             "document_id": 14,
-            "score": "0.035668"
+            "score": "0.086025"
           },
           {
             "document_id": 15,
-            "score": "0.060008"
+            "score": "0.025628"
           },
           {
             "document_id": 16,
-            "score": "0.037973"
+            "score": "0.085044"
           },
           {
             "document_id": 17,
-            "score": "0.471178"
+            "score": "0.046602"
           },
           {
             "document_id": 18,
-            "score": "0.05987"
+            "score": "0.097399"
           },
           {
             "document_id": 19,
-            "score": "0.068825"
+            "score": "0.052955"
           }
         ],
         "joy": [
           {
             "document_id": 0,
-            "score": "0.586876"
+            "score": "0.174071"
           },
           {
             "document_id": 1,
-            "score": "0.484831"
+            "score": "0.460666"
           },
           {
             "document_id": 2,
-            "score": "0.44193"
+            "score": "0.497133"
           },
           {
             "document_id": 3,
-            "score": "0.640579"
+            "score": "0.522322"
           },
           {
             "document_id": 4,
-            "score": "0.583598"
+            "score": "0.142912"
           },
           {
             "document_id": 5,
-            "score": "0.621649"
+            "score": "0.182269"
           },
           {
             "document_id": 6,
-            "score": "0.449819"
+            "score": "0.62022"
           },
           {
             "document_id": 7,
-            "score": "0.313423"
+            "score": "0.525046"
           },
           {
             "document_id": 8,
-            "score": "0.646375"
+            "score": "0.049334"
           },
           {
             "document_id": 9,
-            "score": "0.483667"
+            "score": "0.666829"
           },
           {
             "document_id": 10,
-            "score": "0.630652"
+            "score": "0.665221"
           },
           {
             "document_id": 11,
-            "score": "0.519827"
+            "score": "0.470086"
           },
           {
             "document_id": 12,
-            "score": "0.519827"
+            "score": "0.173365"
           },
           {
             "document_id": 13,
-            "score": "0.639049"
+            "score": "0.557299"
           },
           {
             "document_id": 14,
-            "score": "0.274458"
+            "score": "0.506751"
           },
           {
             "document_id": 15,
-            "score": "0.586739"
+            "score": "0.543265"
           },
           {
             "document_id": 16,
-            "score": "0.596453"
+            "score": "0.511647"
           },
           {
             "document_id": 17,
-            "score": "0.207593"
+            "score": "0.643432"
           },
           {
             "document_id": 18,
-            "score": "0.081196"
+            "score": "0.58219"
           },
           {
             "document_id": 19,
-            "score": "0.535034"
+            "score": "0.566225"
           }
         ],
         "sadness": [
           {
             "document_id": 0,
-            "score": "0.248673"
+            "score": "0.230284"
           },
           {
             "document_id": 1,
-            "score": "0.506973"
+            "score": "0.554638"
           },
           {
             "document_id": 2,
-            "score": "0.572508"
+            "score": "0.604197"
           },
           {
             "document_id": 3,
-            "score": "0.184654"
+            "score": "0.473189"
           },
           {
             "document_id": 4,
-            "score": "0.089873"
+            "score": "0.573528"
           },
           {
             "document_id": 5,
-            "score": "0.117303"
+            "score": "0.610988"
           },
           {
             "document_id": 6,
-            "score": "0.524927"
+            "score": "0.432077"
           },
           {
             "document_id": 7,
-            "score": "0.146119"
+            "score": "0.522017"
           },
           {
             "document_id": 8,
-            "score": "0.185083"
+            "score": "0.015205"
           },
           {
             "document_id": 9,
-            "score": "0.549256"
+            "score": "0.116814"
           },
           {
             "document_id": 10,
-            "score": "0.524674"
+            "score": "0.195362"
           },
           {
             "document_id": 11,
-            "score": "0.44226"
+            "score": "0.486332"
           },
           {
             "document_id": 12,
-            "score": "0.44226"
+            "score": "0.230077"
           },
           {
             "document_id": 13,
-            "score": "0.12278"
+            "score": "0.169668"
           },
           {
             "document_id": 14,
-            "score": "0.192496"
+            "score": "0.62043"
           },
           {
             "document_id": 15,
-            "score": "0.276631"
+            "score": "0.484663"
           },
           {
             "document_id": 16,
-            "score": "0.198316"
+            "score": "0.559917"
           },
           {
             "document_id": 17,
-            "score": "0.172653"
+            "score": "0.440742"
           },
           {
             "document_id": 18,
-            "score": "0.540049"
+            "score": "0.549891"
           },
           {
             "document_id": 19,
-            "score": "0.184989"
+            "score": "0.186334"
           }
         ],
         "fear": [
           {
             "document_id": 0,
-            "score": "0.076421"
+            "score": "0.098142"
           },
           {
             "document_id": 1,
-            "score": "0.090511"
+            "score": "0.091867"
           },
           {
             "document_id": 2,
-            "score": "0.097612"
+            "score": "0.12255"
           },
           {
             "document_id": 3,
-            "score": "0.04766"
+            "score": "0.043966"
           },
           {
             "document_id": 4,
-            "score": "0.050739"
+            "score": "0.141881"
           },
           {
             "document_id": 5,
-            "score": "0.0767"
+            "score": "0.108853"
           },
           {
             "document_id": 6,
-            "score": "0.079246"
+            "score": "0.059465"
           },
           {
             "document_id": 7,
-            "score": "0.01321"
+            "score": "0.090582"
           },
           {
             "document_id": 8,
-            "score": "0.064972"
+            "score": "0.003262"
           },
           {
             "document_id": 9,
-            "score": "0.096563"
+            "score": "0.064087"
           },
           {
             "document_id": 10,
-            "score": "0.083765"
+            "score": "0.073807"
           },
           {
             "document_id": 11,
-            "score": "0.093152"
+            "score": "0.069448"
           },
           {
             "document_id": 12,
-            "score": "0.093152"
+            "score": "0.097715"
           },
           {
             "document_id": 13,
-            "score": "0.094467"
+            "score": "0.072906"
           },
           {
             "document_id": 14,
-            "score": "0.068739"
+            "score": "0.173942"
           },
           {
             "document_id": 15,
-            "score": "0.069608"
+            "score": "0.093743"
           },
           {
             "document_id": 16,
-            "score": "0.042633"
+            "score": "0.131772"
           },
           {
             "document_id": 17,
-            "score": "0.078764"
+            "score": "0.048048"
           },
           {
             "document_id": 18,
-            "score": "0.095243"
+            "score": "0.083635"
           },
           {
             "document_id": 19,
-            "score": "0.122514"
+            "score": "0.069195"
           }
         ]
       },
       "metadata": [
         {
-          "article_name": "Hangouts Meet has been renamed to Google Meet",
-          "url": "https://www.engadget.com/hangouts-meet-renamed-to-google-meet-002131288.html",
-          "authors": "{jon-fingas}",
-          "num_characters": 917,
+          "article_name": "Walmart Grocery app sees record downloads amid COVID-19, surpasses Amazon by 20% \u2013 TechCrunch",
+          "url": "https://techcrunch.com/2020/04/09/walmart-grocery-app-sees-record-downloads-amid-covid-19-surpasses-amazon-by-20/",
+          "authors": "{\"Sarah Perez\",\"Sarah Perez @sarahintampa / 13 hours\"}",
+          "num_characters": 3915,
           "document_id": 0
         },
         {
-          "article_name": "France\u2019s competition watchdog orders Google to pay for news reuse \u2013 TechCrunch",
-          "url": "https://techcrunch.com/2020/04/09/frances-competition-watchdog-orders-google-to-pay-for-news-reuse/",
-          "authors": "{\"Natasha Lomas\",\"Natasha Lomas @riptari / 15 hours\"}",
-          "num_characters": 5573,
+          "article_name": "Amazon Employees Were Told Not to Touch Boxes for 24 Hours to Avoid Potential Contamination: Report",
+          "url": "https://gizmodo.com/amazon-employees-were-told-not-to-touch-boxes-for-24-ho-1842778008",
+          "authors": "{}",
+          "num_characters": 3352,
           "document_id": 1
         },
         {
-          "article_name": "France orders Google to pay news companies for showing article extracts",
-          "url": "https://www.engadget.com/france-google-scraping-stories-snippets-104038211.html",
-          "authors": "{steve-dent}",
-          "num_characters": 3109,
+          "article_name": "Amazon extends return window for items purchased from March 1 to April 30",
+          "url": "https://www.androidcentral.com/amazon-extends-return-window-items-purchased-march-1-april-30",
+          "authors": "{\"Muhammad Jarir Kanji\"}",
+          "num_characters": 1690,
           "document_id": 2
         },
         {
-          "article_name": "Google extends free access to advanced teleconferencing features to September 30th",
-          "url": "https://www.theverge.com/2020/4/9/21215420/google-free-access-advanced-meet-features-extension-teleconference",
-          "authors": "{\"Jay Peters\"}",
-          "num_characters": 1933,
+          "article_name": "The best 2020 iPad deals: The new 12.9-inch Pro is $53 off at Amazon",
+          "url": "https://www.cnet.com/news/the-best-2020-ipad-deals-the-new-12-9-inch-pro-is-53-off-at-amazon/",
+          "authors": "{\"Justin Jaffe\"}",
+          "num_characters": 1750,
           "document_id": 3
         },
         {
-          "article_name": "Google bans Zoom from corporate computers over security concerns",
-          "url": "https://mashable.com/video/google-security-concerns-bans-zoom/",
-          "authors": "{\"Jordan Aaron\"}",
-          "num_characters": 8213,
+          "article_name": "Your daily 6: National stockpile nearly gone, revival of household skills and Amazon threatens firings",
+          "url": "https://www.stltoday.com/news/national/your-daily-6-national-stockpile-nearly-gone-revival-of-household-skills-and-amazon-threatens-firings/collection_bae92ef1-ce7e-51c9-9378-36cc50c2914a.html",
+          "authors": "{\"Amanda St. Amand\"}",
+          "num_characters": 17871,
           "document_id": 4
         },
         {
-          "article_name": "Bored? Heres a Google Analytics bootcamp you can take online.",
-          "url": "https://mashable.com/shopping/april-9-google-analytics-bootcamp-sale/",
-          "authors": "{StackCommerce}",
-          "num_characters": 2499,
+          "article_name": "Is Amazon OK?",
+          "url": "https://www.cnet.com/news/why-amazon-shipments-are-slow-during-this-pandemic/",
+          "authors": "{\"Brian Cooley\"}",
+          "num_characters": 2349,
           "document_id": 5
         },
         {
-          "article_name": "Google subsidiary agrees to pursue internet \u2018diversification\u2019 in Asia to block China access to U.S. market \u2013 TechCrunch",
-          "url": "https://techcrunch.com/2020/04/09/google-subsidiary-agrees-to-pursue-internet-diversification-in-asia-to-block-china-access-to-u-s-market/",
-          "authors": "{\"Danny Crichton\",\"Danny Crichton 15 hours\"}",
-          "num_characters": 4490,
+          "article_name": "3 Fantastic Switch Exclusives Get Big Discounts At Amazon (Digital)",
+          "url": "https://www.gamespot.com/articles/3-fantastic-switch-exclusives-get-big-discounts-at/1100-6475875/",
+          "authors": "{\"Steven Petite\"}",
+          "num_characters": 2142,
           "document_id": 6
         },
         {
-          "article_name": "Google Launches Braille Keyboard for Android Devices - Slashdot",
-          "url": "https://tech.slashdot.org/story/20/04/09/1831238/google-launches-braille-keyboard-for-android-devices",
-          "authors": "{\"2020 @04:05PM from the good-things dept.\",\"Posted by msmash on Thursday April 09\"}",
-          "num_characters": 755,
+          "article_name": "Amazon has 5 hot coupons that are about to expire",
+          "url": "https://bgr.com/2020/04/09/best-amazon-deals-today-5-amazon-coupons-expire-soon/",
+          "authors": "{\"Maren Estrada\"}",
+          "num_characters": 2521,
           "document_id": 7
         },
         {
-          "article_name": "News Brief: March Updates from the Google News Initiative",
-          "url": "https://www.blog.google/outreach-initiatives/google-news-initiative/news-brief-march-updates-google-news-initiative/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+blogspot%2FMKuf+%28The+Keyword+%7C+Official+Google+Blog%29",
-          "authors": "{\"Aimee Moon\",\"Alexios Mantzarlis\",\"Brad Bender\",\"Catherine Cloutier\",\"Lyndsay Valadez\",\"Susan Leath\"}",
-          "num_characters": 2948,
+          "article_name": "Bloomberg - Are you a robot?",
+          "url": "https://www.bloomberg.com/tosv2.html?vid=&uuid=4d824240-7aab-11ea-9a8b-1120a574dce7&url=L25ld3MvYXJ0aWNsZXMvMjAyMC0wNC0wOS9jb3JvbmF2aXJ1cy1pcy10aGUtbGV2ZXJhZ2UtYW1hem9uLXdvcmtlcnMtbmVlZA==",
+          "authors": "{}",
+          "num_characters": 368,
           "document_id": 8
         },
         {
-          "article_name": "Google forbids its employees from using Zoom over security concerns",
-          "url": "https://www.androidcentral.com/google-forbids-its-employees-using-zoom-over-security-concerns",
-          "authors": "{\"Babu Mohan\"}",
-          "num_characters": 1752,
+          "article_name": "Thursday\u2019s Best Amazon Deals Include Baby Supplies, Cookbooks, and Smart Speakers",
+          "url": "https://www.mentalfloss.com/shopping/622608/best-amazon-deals-april-9-2020",
+          "authors": "{AUTHORS}",
+          "num_characters": 13991,
           "document_id": 9
         },
         {
-          "article_name": "R\u00e9publique, West of Loathing, and more announced for Google Stadia",
-          "url": "https://www.androidcentral.com/republique-west-loathing-and-more-announced-google-stadia",
-          "authors": "{\"Asher Madan\"}",
-          "num_characters": 1284,
+          "article_name": "Javier Bardem Starrer \u2018Sanctuary\u2019 Acquired by Amazon, Movistar Plus",
+          "url": "https://variety.com/2020/film/global/javier-bardem-starrer-sanctuary-acquired-amazon-movistar-plus-1234576201/",
+          "authors": "{\"John Hopewell\"}",
+          "num_characters": 3185,
           "document_id": 10
         },
         {
-          "article_name": "Google Bans Zooms Desktop Client From Running on Employee Computers",
-          "url": "https://www.pcmag.com/news/google-bans-zooms-desktop-client-from-running-on-employee-computers",
-          "authors": "{}",
-          "num_characters": 2593,
+          "article_name": "Get 3 months of Xbox Game Pass Ultimate for free when you buy 3 months on Amazon",
+          "url": "https://bgr.com/2020/04/09/xbox-game-pass-ultimate-amazon-deal-3-months-free/",
+          "authors": "{\"Maren Estrada\"}",
+          "num_characters": 1956,
           "document_id": 11
         },
         {
-          "article_name": "Google Bans Zooms Desktop Client From Running on Employee Computers",
-          "url": "https://www.pcmag.com/news/google-bans-zooms-desktop-client-from-running-on-employee-computers",
+          "article_name": "Walmart Grocery app sees record downloads amid COVID-19, surpasses Amazon by 20%",
+          "url": "https://finance.yahoo.com/news/walmart-grocery-app-sees-record-145449737.html",
           "authors": "{}",
-          "num_characters": 2593,
+          "num_characters": 3920,
           "document_id": 12
         },
         {
-          "article_name": "The Google Home smart speaker is half price with this limited-time deal",
-          "url": "https://www.androidcentral.com/google-home-smart-speaker-half-price-limited-time-deal",
-          "authors": "{\"Adam Oram\"}",
-          "num_characters": 1618,
+          "article_name": "Thrasio, which buys and integrates bestselling brands on Amazon, raises $110M with participation from Peak6, River Park Ventures, others, at $780M valuation",
+          "url": "https://www.techmeme.com/200409/p29",
+          "authors": "{\"Android Authority\"}",
+          "num_characters": 21064,
           "document_id": 13
         },
         {
-          "article_name": "Google Duplex quietly makes its way to Australia, Canada, and the UK",
-          "url": "https://www.androidcentral.com/googleduplex-service-now-available-australia-canada-and-uk",
-          "authors": "{\"Babu Mohan\"}",
-          "num_characters": 1445,
+          "article_name": "Woman Pled with Amazon Assistant for Advice as She Lay Dying of Coronavirus: Alexa, Help Me",
+          "url": "https://people.com/human-interest/woman-asked-amazon-alexa-advice-dying-coronavirus/",
+          "authors": "{\"2020 08:17 PM\",\"Ashley Boucher April 08\"}",
+          "num_characters": 3875,
           "document_id": 14
         },
         {
-          "article_name": "Google Classroom sees a doubling user-base as more students work from home",
-          "url": "https://www.androidcentral.com/google-classroom-sees-doubling-user-base-more-students-work-home",
-          "authors": "{\"Michael Allison\"}",
-          "num_characters": 1737,
+          "article_name": "You can get Amazon Music Unlimited free for three months",
+          "url": "https://www.neowin.net/news/you-can-get-amazon-music-unlimited-free-for-three-months/",
+          "authors": "{\"Steven Parker\"}",
+          "num_characters": 1050,
           "document_id": 15
         },
         {
-          "article_name": "The Google Nest Hub is $60 off with this exclusive Prime deal",
-          "url": "https://www.androidcentral.com/google-nest-hub-60-exclusive-prime-deal",
-          "authors": "{\"Alex Smith\"}",
-          "num_characters": 2042,
+          "article_name": "Filmmakers Debate Putting their SXSW Films on Amazon",
+          "url": "https://nofilmschool.com/filmmakers-debate-putting-sxsw-films-amazon",
+          "authors": "{}",
+          "num_characters": 2212,
           "document_id": 16
         },
         {
-          "article_name": "Google Duplex arrives in Australia, Canada, and the UK",
-          "url": "https://thenextweb.com/neural/2020/04/09/google-duplex-arrives-in-australia-canada-and-the-uk/",
-          "authors": "{\"Thomas Macaulay\",thenextweb}",
-          "num_characters": 1242,
+          "article_name": "These $20 Joggers Have 1,400 5-Star Amazon Reviews",
+          "url": "https://www.eonline.com/news/1138904/these-20-joggers-have-1-400-5-star-amazon-reviews",
+          "authors": "{&}",
+          "num_characters": 1323,
           "document_id": 17
         },
         {
-          "article_name": "Google is finally bringing dark mode to the YouTube TV app on Android",
-          "url": "https://www.androidcentral.com/google-finally-bringing-dark-mode-youtube-tv-app-android",
-          "authors": "{\"Muhammad Jarir Kanji\"}",
-          "num_characters": 907,
+          "article_name": "Can \u2018Making The Cut\u2019 Give Amazon Much Needed Fashion Street Cred?",
+          "url": "https://www.forbes.com/sites/chuckpalmer/2020/04/09/can-making-the-cut-give-amazon-much-needed-fashion-street-cred/",
+          "authors": "{\"Chuck Palmer\"}",
+          "num_characters": 5310,
           "document_id": 18
         },
         {
-          "article_name": "This $14 training course can help you master all things Google Analytics",
-          "url": "https://boingboing.net/2020/04/09/this-14-training-course-can-h.html",
-          "authors": "{\"Boing Boing's Shop\"}",
-          "num_characters": 2068,
+          "article_name": "Why Recommendations On Netflix, Amazon, Or WeChat Could Be More Influential Than You Think",
+          "url": "https://www.forbes.com/sites/rsmdiscovery/2020/04/09/why-recommendations-on-netflix-amazon-or-wechat-could-be-more-influential-than-you-think/",
+          "authors": "{\"RSM Discovery\"}",
+          "num_characters": 5585,
           "document_id": 19
         }
       ]
@@ -841,807 +841,1616 @@
       "date": "Apr1320",
       "stock_data": [
         {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
           "minute": "09:30 AM",
-          "high_pt": "1203.025",
-          "low_pt": "1200",
-          "open_value": "1203.025",
-          "close_value": "1200",
-          "average_value": "1200.215",
-          "volume": 182,
-          "num_trades": 5
+          "high_pt": "2042",
+          "low_pt": "2039.005",
+          "open_value": "2039.005",
+          "close_value": "2042",
+          "average_value": "2041.645",
+          "volume": 66,
+          "num_trades": 8
         },
         {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
           "minute": "10 AM",
-          "high_pt": "1211.12",
-          "low_pt": "1193.57",
-          "open_value": "1199.735",
-          "close_value": "1194.08",
-          "average_value": "1121.5709",
-          "volume": 15936,
-          "num_trades": 234
+          "high_pt": "2082.43",
+          "low_pt": "2044.81",
+          "open_value": "2045.96",
+          "close_value": "2082.41",
+          "average_value": "1930.3239",
+          "volume": 7977,
+          "num_trades": 145
         },
         {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
           "minute": "10:30 AM",
-          "high_pt": "1195.155",
-          "low_pt": "1186.465",
-          "open_value": "1194.14",
-          "close_value": "1192.38",
-          "average_value": "1112.764633333333",
-          "volume": 4694,
-          "num_trades": 109
+          "high_pt": "2108.6",
+          "low_pt": "2080.6",
+          "open_value": "2082.32",
+          "close_value": "2103.135",
+          "average_value": "2030.9848666666671",
+          "volume": 12857,
+          "num_trades": 184
         },
         {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
           "minute": "11 AM",
-          "high_pt": "1194.55",
-          "low_pt": "1187.41",
-          "open_value": "1191.32",
-          "close_value": "1187.41",
-          "average_value": "873.0980999999999",
-          "volume": 3310,
-          "num_trades": 60
+          "high_pt": "2121.37",
+          "low_pt": "2103.135",
+          "open_value": "2103.135",
+          "close_value": "2112.21",
+          "average_value": "2113.2527333333333",
+          "volume": 11342,
+          "num_trades": 178
         },
         {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
           "minute": "11:30 AM",
-          "high_pt": "1195.49",
-          "low_pt": "1183.01",
-          "open_value": "1188.89",
-          "close_value": "1195.49",
-          "average_value": "951.0835999999999",
-          "volume": 3934,
+          "high_pt": "2134.99",
+          "low_pt": "2112.61",
+          "open_value": "2112.74",
+          "close_value": "2134.5",
+          "average_value": "1982.7334666666668",
+          "volume": 5851,
+          "num_trades": 117
+        },
+        {
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
+          "minute": "12 PM",
+          "high_pt": "2148.32",
+          "low_pt": "2133.15",
+          "open_value": "2134.475",
+          "close_value": "2136.36",
+          "average_value": "1996.1667666666665",
+          "volume": 5370,
+          "num_trades": 128
+        },
+        {
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
+          "minute": "12:30 PM",
+          "high_pt": "2148.58",
+          "low_pt": "2126.8",
+          "open_value": "2138.15",
+          "close_value": "2126.8",
+          "average_value": "1642.8915",
+          "volume": 3289,
           "num_trades": 92
         },
         {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
-          "minute": "12:01 PM",
-          "high_pt": "1197",
-          "low_pt": "1192.06",
-          "open_value": "1194.94",
-          "close_value": "1196.91",
-          "average_value": "796.7537333333332",
-          "volume": 1862,
-          "num_trades": 43
-        },
-        {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
-          "minute": "12:30 PM",
-          "high_pt": "1197.4",
-          "low_pt": "1192.03",
-          "open_value": "1196.91",
-          "close_value": "1192.03",
-          "average_value": "717.2155333333333",
-          "volume": 4156,
-          "num_trades": 134
-        },
-        {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
           "minute": "1 PM",
-          "high_pt": "1194.67",
-          "low_pt": "1191.38",
-          "open_value": "1192.255",
-          "close_value": "1191.48",
-          "average_value": "596.2385333333333",
-          "volume": 1279,
-          "num_trades": 23
+          "high_pt": "2137.61",
+          "low_pt": "2127.245",
+          "open_value": "2127.6",
+          "close_value": "2130.59",
+          "average_value": "1492.6785333333332",
+          "volume": 3319,
+          "num_trades": 60
         },
         {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
           "minute": "1:33 PM",
-          "high_pt": "1190.89",
-          "low_pt": "1187.6",
-          "open_value": "1190.75",
-          "close_value": "1192.5",
-          "average_value": "713.7062999999999",
-          "volume": 1594,
-          "num_trades": 36
+          "high_pt": "2142",
+          "low_pt": "2131.03",
+          "open_value": "2131.95",
+          "close_value": "2140.98",
+          "average_value": "1280.9346000000003",
+          "volume": 1914,
+          "num_trades": 33
         },
         {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
-          "minute": "2:01 PM",
-          "high_pt": "1195.54",
-          "low_pt": "1191.66",
-          "open_value": "1192.5",
-          "close_value": "1196",
-          "average_value": "636.5445666666669",
-          "volume": 1161,
-          "num_trades": 21
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
+          "minute": "2 PM",
+          "high_pt": "2152.77",
+          "low_pt": "2140.98",
+          "open_value": "2140.98",
+          "close_value": "2152.77",
+          "average_value": "1144.5964000000001",
+          "volume": 899,
+          "num_trades": 26
         },
         {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
           "minute": "2:30 PM",
-          "high_pt": "1197",
-          "low_pt": "1190.61",
-          "open_value": "1196",
-          "close_value": "1192.41",
-          "average_value": "716.1964999999999",
-          "volume": 1137,
-          "num_trades": 43
+          "high_pt": "2156.86",
+          "low_pt": "2146.75",
+          "open_value": "2150.61",
+          "close_value": "2148",
+          "average_value": "1505.2323000000001",
+          "volume": 3047,
+          "num_trades": 69
         },
         {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
           "minute": "3 PM",
-          "high_pt": "1195",
-          "low_pt": "1192.455",
-          "open_value": "1193.78",
-          "close_value": "1193.04",
-          "average_value": "755.8551333333332",
-          "volume": 1882,
-          "num_trades": 40
+          "high_pt": "2163.25",
+          "low_pt": "2147.92",
+          "open_value": "2150",
+          "close_value": "2161.76",
+          "average_value": "1867.1375000000003",
+          "volume": 6150,
+          "num_trades": 101
         },
         {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
           "minute": "3:30 PM",
-          "high_pt": "1200",
-          "low_pt": "1189.61",
-          "open_value": "1191.97",
-          "close_value": "1200",
-          "average_value": "557.0595333333333",
-          "volume": 2786,
-          "num_trades": 40
+          "high_pt": "2175.445",
+          "low_pt": "2158.84",
+          "open_value": "2161.33",
+          "close_value": "2174.61",
+          "average_value": "2094.901233333333",
+          "volume": 16844,
+          "num_trades": 196
         },
         {
-          "company_name": "Google",
-          "stock_symbol": "GOOGL",
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
           "minute": "3:59 PM",
-          "high_pt": "1214.4",
-          "low_pt": "1198.345",
-          "open_value": "1201.135",
-          "close_value": "1211.21",
-          "average_value": "1121.537724137931",
-          "volume": 8334,
-          "num_trades": 163
+          "high_pt": "2180",
+          "low_pt": "2164.01",
+          "open_value": "2175.545",
+          "close_value": "2168",
+          "average_value": "2173.5539655172415",
+          "volume": 22678,
+          "num_trades": 326
         }
       ],
       "pos_neg": [
         {
           "document_id": 0,
-          "score": "-0.309663"
+          "score": "0.349356"
         },
         {
           "document_id": 1,
-          "score": "0.604586"
+          "score": "-0.523028"
         },
         {
           "document_id": 2,
-          "score": "0.747544"
+          "score": "0.311838"
         },
         {
           "document_id": 3,
-          "score": "0.272981"
+          "score": "-0.464613"
         },
         {
           "document_id": 4,
-          "score": "0.521721"
+          "score": "0.299724"
         },
         {
           "document_id": 5,
-          "score": "0.707413"
+          "score": "-0.761813"
         },
         {
           "document_id": 6,
-          "score": "0.472201"
+          "score": "-0.509706"
         },
         {
           "document_id": 7,
-          "score": "0.43579"
+          "score": "-0.274197"
         },
         {
           "document_id": 8,
-          "score": "0.739196"
+          "score": "-0.772782"
         },
         {
           "document_id": 9,
-          "score": "-0.622885"
+          "score": "-0.748486"
         },
         {
           "document_id": 10,
-          "score": "0.333613"
+          "score": "-0.471531"
         },
         {
           "document_id": 11,
-          "score": "0.556104"
+          "score": "-0.343123"
         },
         {
           "document_id": 12,
-          "score": "0.27578"
+          "score": "0.542463"
         },
         {
           "document_id": 13,
-          "score": "0.548728"
+          "score": "0.394252"
         },
         {
           "document_id": 14,
-          "score": "-0.332852"
+          "score": "-0.759004"
         },
         {
           "document_id": 15,
-          "score": "-0.445471"
+          "score": "0.762567"
         },
         {
           "document_id": 16,
-          "score": "-0.511351"
+          "score": "-0.557946"
         },
         {
           "document_id": 17,
-          "score": "-0.356883"
+          "score": "-0.581736"
         },
         {
           "document_id": 18,
-          "score": "0.430459"
+          "score": "-0.594703"
         },
         {
           "document_id": 19,
-          "score": "0.694093"
+          "score": "-0.509916"
         }
       ],
       "categorical": {
         "anger": [
           {
             "document_id": 0,
-            "score": "0.072962"
+            "score": "0.10346"
           },
           {
             "document_id": 1,
-            "score": "0.09255"
+            "score": "0.129581"
           },
           {
             "document_id": 2,
-            "score": "0.057094"
+            "score": "0.130365"
           },
           {
             "document_id": 3,
-            "score": "0.141946"
+            "score": "0.135309"
           },
           {
             "document_id": 4,
-            "score": "0.048145"
+            "score": "0.125397"
           },
           {
             "document_id": 5,
-            "score": "0.058869"
+            "score": "0.227824"
           },
           {
             "document_id": 6,
-            "score": "0.116281"
+            "score": "0.135782"
           },
           {
             "document_id": 7,
-            "score": "0.074479"
+            "score": "0.163544"
           },
           {
             "document_id": 8,
-            "score": "0.093759"
+            "score": "0.444145"
           },
           {
             "document_id": 9,
-            "score": "0.154429"
+            "score": "0.135578"
           },
           {
             "document_id": 10,
-            "score": "0.094833"
+            "score": "0.107628"
           },
           {
             "document_id": 11,
-            "score": "0.05797"
+            "score": "0.125797"
           },
           {
             "document_id": 12,
-            "score": "0.063947"
+            "score": "0.084968"
           },
           {
             "document_id": 13,
-            "score": "0.113002"
+            "score": "0.052225"
           },
           {
             "document_id": 14,
-            "score": "0.070733"
+            "score": "0.471124"
           },
           {
             "document_id": 15,
-            "score": "0.075544"
+            "score": "0.082649"
           },
           {
             "document_id": 16,
-            "score": "0.109796"
+            "score": "0.150298"
           },
           {
             "document_id": 17,
-            "score": "0.155901"
+            "score": "0.109893"
           },
           {
             "document_id": 18,
-            "score": "0.078958"
+            "score": "0.418093"
           },
           {
             "document_id": 19,
-            "score": "0.063192"
+            "score": "0.575031"
           }
         ],
         "disgust": [
           {
             "document_id": 0,
-            "score": "0.077545"
+            "score": "0.047049"
           },
           {
             "document_id": 1,
-            "score": "0.053164"
+            "score": "0.074043"
           },
           {
             "document_id": 2,
-            "score": "0.05576"
+            "score": "0.066329"
           },
           {
             "document_id": 3,
-            "score": "0.099831"
+            "score": "0.10291"
           },
           {
             "document_id": 4,
-            "score": "0.012112"
+            "score": "0.048999"
           },
           {
             "document_id": 5,
-            "score": "0.020033"
+            "score": "0.149958"
           },
           {
             "document_id": 6,
-            "score": "0.106368"
+            "score": "0.046091"
           },
           {
             "document_id": 7,
-            "score": "0.064893"
+            "score": "0.062764"
           },
           {
             "document_id": 8,
-            "score": "0.033851"
+            "score": "0.121135"
           },
           {
             "document_id": 9,
-            "score": "0.12574"
+            "score": "0.077935"
           },
           {
             "document_id": 10,
-            "score": "0.063402"
+            "score": "0.063544"
           },
           {
             "document_id": 11,
-            "score": "0.033246"
+            "score": "0.066067"
           },
           {
             "document_id": 12,
-            "score": "0.037504"
+            "score": "0.03122"
           },
           {
             "document_id": 13,
-            "score": "0.055794"
+            "score": "0.015251"
           },
           {
             "document_id": 14,
-            "score": "0.038266"
+            "score": "0.115551"
           },
           {
             "document_id": 15,
-            "score": "0.044812"
+            "score": "0.049812"
           },
           {
             "document_id": 16,
-            "score": "0.149351"
+            "score": "0.395916"
           },
           {
             "document_id": 17,
-            "score": "0.136289"
+            "score": "0.066754"
           },
           {
             "document_id": 18,
-            "score": "0.070745"
+            "score": "0.058742"
           },
           {
             "document_id": 19,
-            "score": "0.044488"
+            "score": "0.160891"
           }
         ],
         "joy": [
           {
             "document_id": 0,
-            "score": "0.538037"
+            "score": "0.543728"
           },
           {
             "document_id": 1,
-            "score": "0.627292"
+            "score": "0.529003"
           },
           {
             "document_id": 2,
-            "score": "0.537275"
+            "score": "0.546471"
           },
           {
             "document_id": 3,
-            "score": "0.521091"
+            "score": "0.501158"
           },
           {
             "document_id": 4,
-            "score": "0.64522"
+            "score": "0.264395"
           },
           {
             "document_id": 5,
-            "score": "0.732575"
+            "score": "0.118894"
           },
           {
             "document_id": 6,
-            "score": "0.486115"
+            "score": "0.216637"
           },
           {
             "document_id": 7,
-            "score": "0.529263"
+            "score": "0.216749"
           },
           {
             "document_id": 8,
-            "score": "0.729144"
+            "score": "0.184714"
           },
           {
             "document_id": 9,
-            "score": "0.132563"
+            "score": "0.128668"
           },
           {
             "document_id": 10,
-            "score": "0.505417"
+            "score": "0.469662"
           },
           {
             "document_id": 11,
-            "score": "0.532628"
+            "score": "0.510636"
           },
           {
             "document_id": 12,
-            "score": "0.483383"
+            "score": "0.48515"
           },
           {
             "document_id": 13,
-            "score": "0.49385"
+            "score": "0.186578"
           },
           {
             "document_id": 14,
-            "score": "0.157804"
+            "score": "0.153166"
           },
           {
             "document_id": 15,
-            "score": "0.557295"
+            "score": "0.481579"
           },
           {
             "document_id": 16,
-            "score": "0.507624"
+            "score": "0.40908"
           },
           {
             "document_id": 17,
-            "score": "0.200512"
+            "score": "0.204461"
           },
           {
             "document_id": 18,
-            "score": "0.610088"
+            "score": "0.477572"
           },
           {
             "document_id": 19,
-            "score": "0.623732"
+            "score": "0.15308"
           }
         ],
         "sadness": [
           {
             "document_id": 0,
-            "score": "0.590675"
+            "score": "0.26465"
           },
           {
             "document_id": 1,
-            "score": "0.164279"
+            "score": "0.241554"
           },
           {
             "document_id": 2,
-            "score": "0.203857"
+            "score": "0.453514"
           },
           {
             "document_id": 3,
-            "score": "0.52876"
+            "score": "0.509602"
           },
           {
             "document_id": 4,
-            "score": "0.130534"
+            "score": "0.584339"
           },
           {
             "document_id": 5,
-            "score": "0.157306"
+            "score": "0.572411"
           },
           {
             "document_id": 6,
-            "score": "0.179724"
+            "score": "0.16638"
           },
           {
             "document_id": 7,
-            "score": "0.199375"
+            "score": "0.51101"
           },
           {
             "document_id": 8,
-            "score": "0.161837"
+            "score": "0.58258"
           },
           {
             "document_id": 9,
-            "score": "0.533434"
+            "score": "0.573044"
           },
           {
             "document_id": 10,
-            "score": "0.224716"
+            "score": "0.53244"
           },
           {
             "document_id": 11,
-            "score": "0.150675"
+            "score": "0.500215"
           },
           {
             "document_id": 12,
-            "score": "0.175535"
+            "score": "0.197847"
           },
           {
             "document_id": 13,
-            "score": "0.167496"
+            "score": "0.21161"
           },
           {
             "document_id": 14,
-            "score": "0.540893"
+            "score": "0.617138"
           },
           {
             "document_id": 15,
-            "score": "0.256266"
+            "score": "0.536152"
           },
           {
             "document_id": 16,
-            "score": "0.465932"
+            "score": "0.233368"
           },
           {
             "document_id": 17,
-            "score": "0.216854"
+            "score": "0.552746"
           },
           {
             "document_id": 18,
-            "score": "0.193885"
+            "score": "0.640982"
           },
           {
             "document_id": 19,
-            "score": "0.176278"
+            "score": "0.51414"
           }
         ],
         "fear": [
           {
             "document_id": 0,
-            "score": "0.085058"
+            "score": "0.024781"
           },
           {
             "document_id": 1,
-            "score": "0.057902"
+            "score": "0.07065"
           },
           {
             "document_id": 2,
-            "score": "0.042347"
+            "score": "0.062525"
           },
           {
             "document_id": 3,
-            "score": "0.135819"
+            "score": "0.683052"
           },
           {
             "document_id": 4,
-            "score": "0.064429"
+            "score": "0.080355"
           },
           {
             "document_id": 5,
-            "score": "0.012092"
+            "score": "0.121852"
           },
           {
             "document_id": 6,
-            "score": "0.064157"
+            "score": "0.0558"
           },
           {
             "document_id": 7,
-            "score": "0.078534"
+            "score": "0.07437"
           },
           {
             "document_id": 8,
-            "score": "0.04069"
+            "score": "0.133393"
           },
           {
             "document_id": 9,
-            "score": "0.186392"
+            "score": "0.590301"
           },
           {
             "document_id": 10,
-            "score": "0.081497"
+            "score": "0.058868"
           },
           {
             "document_id": 11,
-            "score": "0.058367"
+            "score": "0.047918"
           },
           {
             "document_id": 12,
-            "score": "0.417896"
+            "score": "0.106384"
           },
           {
             "document_id": 13,
-            "score": "0.068245"
+            "score": "0.024765"
           },
           {
             "document_id": 14,
-            "score": "0.086818"
+            "score": "0.066867"
           },
           {
             "document_id": 15,
-            "score": "0.115751"
+            "score": "0.083071"
           },
           {
             "document_id": 16,
-            "score": "0.122485"
+            "score": "0.056896"
           },
           {
             "document_id": 17,
-            "score": "0.110532"
+            "score": "0.06756"
           },
           {
             "document_id": 18,
-            "score": "0.10087"
+            "score": "0.08358"
           },
           {
             "document_id": 19,
-            "score": "0.119638"
+            "score": "0.127786"
           }
         ]
       },
       "metadata": [
         {
-          "article_name": "Google unveils Maps, Search and YouTube features in India to help people combat coronavirus \u2013 TechCrunch",
-          "url": "https://techcrunch.com/2020/04/13/google-unveils-maps-search-and-youtube-features-in-india-to-help-people-combat-coronavirus/",
-          "authors": "{\"Manish Singh\",\"Manish Singh 20 hours\"}",
-          "num_characters": 2796,
+          "article_name": "Amazon puts new Amazon Fresh and Whole Foods delivery customers on waitlist amid surging demand",
+          "url": "https://www.theverge.com/2020/4/13/21218908/amazon-fresh-whole-foods-delivery-waitlist-virtual-line-demand",
+          "authors": "{\"Chris Welch\"}",
+          "num_characters": 2224,
           "document_id": 0
         },
         {
-          "article_name": "Upgrade to the unlocked Google Pixel 3a on sale for $300 via Best Buy",
-          "url": "https://www.androidcentral.com/upgrade-unlocked-google-pixel-3a-sale-300-best-buy",
-          "authors": "{\"Alex Smith\"}",
-          "num_characters": 1786,
+          "article_name": "Amazon puts new online grocery shoppers on a waitlist \u2013 TechCrunch",
+          "url": "https://techcrunch.com/2020/04/13/amazon-puts-new-online-grocery-shoppers-on-a-waitlist/",
+          "authors": "{\"Sarah Perez\",\"Sarah Perez @sarahintampa / 17 hours\"}",
+          "num_characters": 3852,
           "document_id": 1
         },
         {
-          "article_name": "Sonys 85-inch 4K TV has $500 off, a free Google Nest hub, and free install",
-          "url": "https://www.androidcentral.com/save-500-get-free-google-nest-hub-and-find-free-installation-sonys-85-inch-4k-smart-tv",
-          "authors": "{\"John Levite\"}",
-          "num_characters": 2135,
+          "article_name": "If You Want Grocery Delivery, Get on the Amazon Fresh and Whole Foods Waiting Lists Now",
+          "url": "https://lifehacker.com/if-you-want-grocery-delivery-get-on-the-amazon-fresh-a-1842840589",
+          "authors": "{}",
+          "num_characters": 2003,
           "document_id": 2
         },
         {
-          "article_name": "UK to Use Apple-Google API in NHS Contact Tracing App",
-          "url": "https://www.macrumors.com/2020/04/13/nhs-uk-apple-contact-tracing-api/",
-          "authors": "{\"Tim Hardwick\"}",
-          "num_characters": 4194,
+          "article_name": "Tech Workers Speak Out in Support of Amazon Warehouse Strikes",
+          "url": "https://gizmodo.com/tech-workers-speak-out-in-support-of-amazon-warehouse-s-1842839301",
+          "authors": "{}",
+          "num_characters": 3588,
           "document_id": 3
         },
         {
-          "article_name": "Apple and Google partner on coronavirus contact tracing technology | Venture",
-          "url": "https://dailyhive.com/vancouver/apple-google-coronavirus-contact-tracing",
-          "authors": "{\"Wyatt Fossett \"}",
-          "num_characters": 1189,
+          "article_name": "Amazon to hire 75,000 more to address increased demand due to coronavirus crisis \u2013 TechCrunch",
+          "url": "https://techcrunch.com/2020/04/13/amazon-to-hire-75000-more-to-address-increased-demand-due-to-coronavirus-crisis/",
+          "authors": "{\"Darrell Etherington\",\"Darrell Etherington @etherington / 17 hours\"}",
+          "num_characters": 1578,
           "document_id": 4
         },
         {
-          "article_name": "How to Use Google Hangouts Meet in Google Classroom",
-          "url": "https://www.freetech4teachers.com/2020/04/how-to-use-google-hangouts-meet-in.html",
+          "article_name": "Under Intense Scrutiny for Endangering Workers, Amazon Hiring 75,000 More Workers",
+          "url": "https://gizmodo.com/under-intense-scrutiny-for-endangering-workers-amazon-1842842741",
           "authors": "{}",
-          "num_characters": 438,
+          "num_characters": 3033,
           "document_id": 5
         },
         {
-          "article_name": "Google will donate $1 million to San Francisco Bay Area families impacted by COVID-19, with another $1 million coming from Sundar Pichai",
-          "url": "https://www.businessinsider.com/google-donates-2-million-coronavirus-aid-relief-bay-area-2020-4",
-          "authors": "{\"Hugh Langley\"}",
-          "num_characters": 1405,
+          "article_name": "New Amazon Grocery Delivery Customers Are Now Being Waitlisted Due to Coronavirus Delays",
+          "url": "https://gizmodo.com/new-amazon-grocery-delivery-customers-are-now-being-wai-1842838951",
+          "authors": "{}",
+          "num_characters": 2182,
           "document_id": 6
         },
         {
-          "article_name": "Deal: Save $300 on Google Pixel 4 via Amazon, Best Buy, Google Store",
-          "url": "https://www.androidauthority.com/google-pixel-4-deal-1105889/",
-          "authors": "{\"Ankit Banerjee\",\"David Imel\",\"Hadlee Simons\",\"Mitja Rutnik\",\"Ryan Haines\",\"Simon Hill\"}",
-          "num_characters": 1195,
+          "article_name": "Amazon created a waitlist for grocery deliveries because demand is so high",
+          "url": "https://mashable.com/article/amazon-whole-foods-delivery-changes/",
+          "authors": "{\"Alex Perry\"}",
+          "num_characters": 1833,
           "document_id": 7
         },
         {
-          "article_name": "9to5Mac Daily: April 13, 2020 \u2013\u00a0Cheaper HomePod rumors, Apple partners with Google - 9to5Mac",
-          "url": "https://9to5mac.com/2020/04/13/9to5mac-daily-april-13-2020/",
-          "authors": "{\"Chance Miller\"}",
-          "num_characters": 594,
+          "article_name": "Amazon pauses new grocery signups, hires another 75,000 workers",
+          "url": "https://arstechnica.com/tech-policy/2020/04/amazon-hiring-another-75000-pausing-new-grocery-signups-amid-demand/",
+          "authors": "{\"Kate Cox\"}",
+          "num_characters": 4561,
           "document_id": 8
         },
         {
-          "article_name": "Apple-Google coronavirus API sees weak plan & criticisms in UK - 9to5Mac",
-          "url": "https://9to5mac.com/2020/04/13/apple-google-coronavirus-api/",
-          "authors": "{\"Ben Lovejoy\"}",
-          "num_characters": 4207,
+          "article_name": "Amazon Stops Accepting New Online Grocery Customers Amid Surging Demand - Slashdot",
+          "url": "https://slashdot.org/story/20/04/13/156255/amazon-stops-accepting-new-online-grocery-customers-amid-surging-demand",
+          "authors": "{\"2020 @11:25AM from the tussle-continues dept.\",\"Posted by msmash on Monday April 13\"}",
+          "num_characters": 3882,
           "document_id": 9
         },
         {
-          "article_name": "Apple and Google share new details on universal coronavirus contact tracing plans",
-          "url": "https://www.androidpolice.com/2020/04/13/apple-and-google-are-working-together-to-fight-coronavirus-with-a-new-contact-tracing-tool/",
-          "authors": "{\"Jules Wang\"}",
-          "num_characters": 5327,
+          "article_name": "Amazon Puts New Online Grocery Customers on a Wait List",
+          "url": "https://www.pcmag.com/news/amazon-puts-new-online-grocery-customers-on-a-wait-list",
+          "authors": "{}",
+          "num_characters": 1722,
           "document_id": 10
         },
         {
-          "article_name": "Google Assistant adds native support for TVs, set-top boxes, and media remotes",
-          "url": "https://www.androidpolice.com/2020/04/13/google-assistant-adds-native-support-for-tvs-set-top-boxes-and-media-remotes/",
-          "authors": "{\"Rita El Khoury\"}",
-          "num_characters": 1506,
+          "article_name": "Virtual grocery wait lines are coming to Amazon during the COVID-19 crisis",
+          "url": "https://www.androidcentral.com/virtual-grocery-wait-lines-are-coming-amazon-help-covid-19",
+          "authors": "{\"Alex Smith\"}",
+          "num_characters": 2134,
           "document_id": 11
         },
         {
-          "article_name": "Apple and Google detail COVID-19 contact tracing program, focus on privacy",
-          "url": "https://appleinsider.com/articles/20/04/13/apple-and-google-detail-covid-19-contact-tracing-program-focus-on-privacy",
-          "authors": "{\"02:49 pm PT (05:49 pm ET)\",2020,\"April 13\",\"Mike Peterson\",Monday}",
-          "num_characters": 2836,
+          "article_name": "This Woot sale offers cheap Amazon Echo device deals for a limited-time",
+          "url": "https://www.androidcentral.com/woot-sale-offers-cheap-amazon-echo-device-deals-limited-time",
+          "authors": "{\"Adam Oram\"}",
+          "num_characters": 1875,
           "document_id": 12
         },
         {
-          "article_name": "How to send a video message using Google Duo",
-          "url": "https://www.androidauthority.com/google-duo-video-message-1105512/",
-          "authors": "{}",
-          "num_characters": 1273,
+          "article_name": "Amazon will once again allow sellers to ship non-essential items this week",
+          "url": "https://www.androidcentral.com/amazon-allow-sellers-ship-non-essential-items-week-according-new-report",
+          "authors": "{\"Jared DiPane\"}",
+          "num_characters": 1054,
           "document_id": 13
         },
         {
-          "article_name": "Google Phone app now available on some non-Pixel devices",
-          "url": "https://androidcommunity.com/google-phone-app-now-available-on-some-non-pixel-devices-20200413/",
-          "authors": "{\"Ida Torres\"}",
-          "num_characters": 2114,
+          "article_name": "Amazon To Hire 75,000 More Workers as Demand Rises Due To Coronavirus - Slashdot",
+          "url": "https://slashdot.org/story/20/04/13/145238/amazon-to-hire-75000-more-workers-as-demand-rises-due-to-coronavirus",
+          "authors": "{\"2020 @10:05AM from the how-about-that dept.\",\"Posted by msmash on Monday April 13\"}",
+          "num_characters": 1609,
           "document_id": 14
         },
         {
-          "article_name": "Hangouts Chat will now be known as just Google Chat",
-          "url": "https://androidcommunity.com/hangouts-chat-will-now-be-known-as-just-google-chat-20200413/",
-          "authors": "{\"Ida Torres\"}",
-          "num_characters": 2097,
+          "article_name": "Get over 15 hours of Amazon Web Services training for just $13",
+          "url": "https://boingboing.net/2020/04/12/get-over-15-hours-of-amazon-we.html",
+          "authors": "{\"Boing Boing's Shop\"}",
+          "num_characters": 2490,
           "document_id": 15
         },
         {
-          "article_name": "Google Clouds AI recog code biased against black people \u2013 and more from ML land",
-          "url": "https://www.theregister.co.uk/2020/04/13/ai_roundup/",
-          "authors": "{\"16 SHARE \u25bc\",\"Katyanna Quach 13\u00a0Apr\u00a02020\u00a0at\u00a014:01\"}",
-          "num_characters": 5620,
+          "article_name": "Amazon puts new online grocery customers on waiting list amid surging demand",
+          "url": "https://venturebeat.com/2020/04/13/amazon-puts-new-online-grocery-customers-on-waiting-list-amid-surging-demand/",
+          "authors": "{Reuters}",
+          "num_characters": 3460,
           "document_id": 16
         },
         {
-          "article_name": "How to Post Videos in Google Sites so Everyone Can See Them",
-          "url": "https://www.freetech4teachers.com/2020/04/how-to-post-videos-in-google-sites-so.html",
-          "authors": "{}",
-          "num_characters": 871,
+          "article_name": "Amazon says its already hired 100,000 workers in 4 weeks during coronavirus crisis and plans to hire 75,000 more",
+          "url": "https://www.businessinsider.com/amazon-hiring-75000-more-workers-during-coronavirus-outbreak-2020-4",
+          "authors": "{\"Avery Hartmans\"}",
+          "num_characters": 1674,
           "document_id": 17
         },
         {
-          "article_name": "This Google Pixel concept has two front-facing cameras, but with zero notches and a sleek bezel. | Yanko Design",
-          "url": "https://www.yankodesign.com/2020/04/13/this-google-pixel-concept-has-two-front-facing-cameras-but-with-zero-notches-and-a-sleek-bezel/",
-          "authors": "{\"Sarang Sheth\"}",
-          "num_characters": 1264,
+          "article_name": "Amazon puts new online grocery customers on waitlist",
+          "url": "https://www.cnet.com/news/amazon-puts-new-online-grocery-customers-on-waitlist/",
+          "authors": "{\"Carrie Mihalcik\"}",
+          "num_characters": 1594,
           "document_id": 18
         },
         {
-          "article_name": "Google Reveals How Search Behavior Has Changed During COVID-19 Pandemic",
-          "url": "https://www.searchenginejournal.com/google-reveals-how-search-behavior-has-changed-during-covid-19-pandemic/361322/",
+          "article_name": "Easy Off Oven Cleaner Review",
+          "url": "https://www.thekitchn.com/easy-off-oven-cleaner-review-23020200?utm_source=RSS&utm_medium=feed&utm_campaign=Feed%3A+apartmenttherapy%2Fthekitchn+%28TK+Channel%3A+Main%29",
+          "authors": "{\"Ashley Poskin\"}",
+          "num_characters": 1759,
+          "document_id": 19
+        }
+      ]
+    },
+    {
+      "date": "Apr1420",
+      "stock_data": [
+        {
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
+          "minute": "09:30 AM",
+          "high_pt": "2205.105",
+          "low_pt": "2187.64",
+          "open_value": "2200.51",
+          "close_value": "2195.275",
+          "average_value": "2194.493",
+          "volume": 1935,
+          "num_trades": 39
+        },
+        {
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
+          "minute": "10 AM",
+          "high_pt": "2244.74",
+          "low_pt": "2194.14",
+          "open_value": "2195.595",
+          "close_value": "2240.04",
+          "average_value": "2224.7462333333333",
+          "volume": 28448,
+          "num_trades": 466
+        },
+        {
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
+          "minute": "10:30 AM",
+          "high_pt": "2264",
+          "low_pt": "2237.01",
+          "open_value": "2237.88",
+          "close_value": "2261.01",
+          "average_value": "2249.2753666666663",
+          "volume": 31815,
+          "num_trades": 438
+        },
+        {
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
+          "minute": "11 AM",
+          "high_pt": "2260.47",
+          "low_pt": "2252.24",
+          "open_value": "2258",
+          "close_value": "2255.5",
+          "average_value": "2031.309766666667",
+          "volume": 14799,
+          "num_trades": 210
+        },
+        {
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
+          "minute": "11:30 AM",
+          "high_pt": "2257.55",
+          "low_pt": "2241.47",
+          "open_value": "2255.98",
+          "close_value": "2252.01",
+          "average_value": "2174.6442",
+          "volume": 14560,
+          "num_trades": 205
+        },
+        {
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
+          "minute": "12:01 PM",
+          "high_pt": "2253.71",
+          "low_pt": "2249.4",
+          "open_value": "2252.44",
+          "close_value": "2255.77",
+          "average_value": "1876.4565",
+          "volume": 5658,
+          "num_trades": 112
+        },
+        {
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
+          "minute": "12:31 PM",
+          "high_pt": "2269.21",
+          "low_pt": "2254.19",
+          "open_value": "2254.335",
+          "close_value": "2262.71",
+          "average_value": "2035.626066666667",
+          "volume": 7578,
+          "num_trades": 129
+        },
+        {
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
+          "minute": "1 PM",
+          "high_pt": "2276.86",
+          "low_pt": "2262.71",
+          "open_value": "2262.71",
+          "close_value": "2273.92",
+          "average_value": "1968.6657333333335",
+          "volume": 7763,
+          "num_trades": 127
+        },
+        {
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
+          "minute": "1:30 PM",
+          "high_pt": "2285",
+          "low_pt": "2269.125",
+          "open_value": "2273.12",
+          "close_value": "2284.115",
+          "average_value": "1973.4854666666672",
+          "volume": 8842,
+          "num_trades": 108
+        },
+        {
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
+          "minute": "2 PM",
+          "high_pt": "2290.175",
+          "low_pt": "2281.115",
+          "open_value": "2283.61",
+          "close_value": "2287.8",
+          "average_value": "1752.5402000000004",
+          "volume": 6771,
+          "num_trades": 90
+        },
+        {
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
+          "minute": "2:30 PM",
+          "high_pt": "2291.7",
+          "low_pt": "2280.82",
+          "open_value": "2286.34",
+          "close_value": "2285.195",
+          "average_value": "1905.4792333333332",
+          "volume": 17329,
+          "num_trades": 173
+        },
+        {
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
+          "minute": "3 PM",
+          "high_pt": "2290",
+          "low_pt": "2278.4",
+          "open_value": "2286.085",
+          "close_value": "2287.89",
+          "average_value": "2055.4921666666664",
+          "volume": 2442,
+          "num_trades": 70
+        },
+        {
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
+          "minute": "3:32 PM",
+          "high_pt": "2286.725",
+          "low_pt": "2270.09",
+          "open_value": "2284.71",
+          "close_value": "2288.785",
+          "average_value": "2128.152433333333",
+          "volume": 9464,
+          "num_trades": 137
+        },
+        {
+          "company_name": "Amazon",
+          "stock_symbol": "AMZN",
+          "minute": "3:59 PM",
+          "high_pt": "2291.09",
+          "low_pt": "2280.165",
+          "open_value": "2287.595",
+          "close_value": "2281.3",
+          "average_value": "2129.19024137931",
+          "volume": 15038,
+          "num_trades": 296
+        }
+      ],
+      "pos_neg": [
+        {
+          "document_id": 0,
+          "score": "-0.493299"
+        },
+        {
+          "document_id": 1,
+          "score": "-0.578584"
+        },
+        {
+          "document_id": 2,
+          "score": "-0.673442"
+        },
+        {
+          "document_id": 3,
+          "score": "-0.617509"
+        },
+        {
+          "document_id": 4,
+          "score": "-0.523067"
+        },
+        {
+          "document_id": 5,
+          "score": "-0.436726"
+        },
+        {
+          "document_id": 6,
+          "score": "-0.825465"
+        },
+        {
+          "document_id": 7,
+          "score": "-0.559928"
+        },
+        {
+          "document_id": 8,
+          "score": "-0.412581"
+        },
+        {
+          "document_id": 9,
+          "score": "-0.801335"
+        },
+        {
+          "document_id": 10,
+          "score": "0.370246"
+        },
+        {
+          "document_id": 11,
+          "score": "0.882604"
+        },
+        {
+          "document_id": 12,
+          "score": "-0.6397"
+        },
+        {
+          "document_id": 13,
+          "score": "0.314617"
+        },
+        {
+          "document_id": 14,
+          "score": "-0.674495"
+        },
+        {
+          "document_id": 15,
+          "score": "0.821846"
+        },
+        {
+          "document_id": 16,
+          "score": "0.59232"
+        },
+        {
+          "document_id": 17,
+          "score": "0.377566"
+        },
+        {
+          "document_id": 18,
+          "score": "0.515187"
+        },
+        {
+          "document_id": 19,
+          "score": "0"
+        }
+      ],
+      "categorical": {
+        "anger": [
+          {
+            "document_id": 0,
+            "score": "0.114517"
+          },
+          {
+            "document_id": 1,
+            "score": "0.205606"
+          },
+          {
+            "document_id": 2,
+            "score": "0.151937"
+          },
+          {
+            "document_id": 3,
+            "score": "0.144199"
+          },
+          {
+            "document_id": 4,
+            "score": "0.244347"
+          },
+          {
+            "document_id": 5,
+            "score": "0.091524"
+          },
+          {
+            "document_id": 6,
+            "score": "0.18601"
+          },
+          {
+            "document_id": 7,
+            "score": "0.187194"
+          },
+          {
+            "document_id": 8,
+            "score": "0.064453"
+          },
+          {
+            "document_id": 9,
+            "score": "0.152892"
+          },
+          {
+            "document_id": 10,
+            "score": "0.063656"
+          },
+          {
+            "document_id": 11,
+            "score": "0.074101"
+          },
+          {
+            "document_id": 12,
+            "score": "0.17525"
+          },
+          {
+            "document_id": 13,
+            "score": "0.110964"
+          },
+          {
+            "document_id": 14,
+            "score": "0.14051"
+          },
+          {
+            "document_id": 15,
+            "score": "0.114145"
+          },
+          {
+            "document_id": 16,
+            "score": "0.084776"
+          },
+          {
+            "document_id": 17,
+            "score": "0.097172"
+          },
+          {
+            "document_id": 18,
+            "score": "0.068702"
+          },
+          {
+            "document_id": 19,
+            "score": "0.007545"
+          }
+        ],
+        "disgust": [
+          {
+            "document_id": 0,
+            "score": "0.096713"
+          },
+          {
+            "document_id": 1,
+            "score": "0.123573"
+          },
+          {
+            "document_id": 2,
+            "score": "0.142146"
+          },
+          {
+            "document_id": 3,
+            "score": "0.07163"
+          },
+          {
+            "document_id": 4,
+            "score": "0.165026"
+          },
+          {
+            "document_id": 5,
+            "score": "0.101691"
+          },
+          {
+            "document_id": 6,
+            "score": "0.110826"
+          },
+          {
+            "document_id": 7,
+            "score": "0.12654"
+          },
+          {
+            "document_id": 8,
+            "score": "0.051124"
+          },
+          {
+            "document_id": 9,
+            "score": "0.110089"
+          },
+          {
+            "document_id": 10,
+            "score": "0.059149"
+          },
+          {
+            "document_id": 11,
+            "score": "0.039782"
+          },
+          {
+            "document_id": 12,
+            "score": "0.153899"
+          },
+          {
+            "document_id": 13,
+            "score": "0.146362"
+          },
+          {
+            "document_id": 14,
+            "score": "0.048723"
+          },
+          {
+            "document_id": 15,
+            "score": "0.055217"
+          },
+          {
+            "document_id": 16,
+            "score": "0.025848"
+          },
+          {
+            "document_id": 17,
+            "score": "0.05899"
+          },
+          {
+            "document_id": 18,
+            "score": "0.044802"
+          },
+          {
+            "document_id": 19,
+            "score": "0.028309"
+          }
+        ],
+        "joy": [
+          {
+            "document_id": 0,
+            "score": "0.193668"
+          },
+          {
+            "document_id": 1,
+            "score": "0.162225"
+          },
+          {
+            "document_id": 2,
+            "score": "0.424176"
+          },
+          {
+            "document_id": 3,
+            "score": "0.141021"
+          },
+          {
+            "document_id": 4,
+            "score": "0.578523"
+          },
+          {
+            "document_id": 5,
+            "score": "0.41337"
+          },
+          {
+            "document_id": 6,
+            "score": "0.174319"
+          },
+          {
+            "document_id": 7,
+            "score": "0.191388"
+          },
+          {
+            "document_id": 8,
+            "score": "0.53176"
+          },
+          {
+            "document_id": 9,
+            "score": "0.405491"
+          },
+          {
+            "document_id": 10,
+            "score": "0.609894"
+          },
+          {
+            "document_id": 11,
+            "score": "0.151509"
+          },
+          {
+            "document_id": 12,
+            "score": "0.099045"
+          },
+          {
+            "document_id": 13,
+            "score": "0.449517"
+          },
+          {
+            "document_id": 14,
+            "score": "0.183839"
+          },
+          {
+            "document_id": 15,
+            "score": "0.677425"
+          },
+          {
+            "document_id": 16,
+            "score": "0.554121"
+          },
+          {
+            "document_id": 17,
+            "score": "0.497237"
+          },
+          {
+            "document_id": 18,
+            "score": "0.243824"
+          },
+          {
+            "document_id": 19,
+            "score": "0.049334"
+          }
+        ],
+        "sadness": [
+          {
+            "document_id": 0,
+            "score": "0.447813"
+          },
+          {
+            "document_id": 1,
+            "score": "0.578036"
+          },
+          {
+            "document_id": 2,
+            "score": "0.565743"
+          },
+          {
+            "document_id": 3,
+            "score": "0.544575"
+          },
+          {
+            "document_id": 4,
+            "score": "0.570115"
+          },
+          {
+            "document_id": 5,
+            "score": "0.612232"
+          },
+          {
+            "document_id": 6,
+            "score": "0.483781"
+          },
+          {
+            "document_id": 7,
+            "score": "0.509559"
+          },
+          {
+            "document_id": 8,
+            "score": "0.575516"
+          },
+          {
+            "document_id": 9,
+            "score": "0.532174"
+          },
+          {
+            "document_id": 10,
+            "score": "0.167908"
+          },
+          {
+            "document_id": 11,
+            "score": "0.1166"
+          },
+          {
+            "document_id": 12,
+            "score": "0.556745"
+          },
+          {
+            "document_id": 13,
+            "score": "0.270846"
+          },
+          {
+            "document_id": 14,
+            "score": "0.548879"
+          },
+          {
+            "document_id": 15,
+            "score": "0.11043"
+          },
+          {
+            "document_id": 16,
+            "score": "0.152993"
+          },
+          {
+            "document_id": 17,
+            "score": "0.539544"
+          },
+          {
+            "document_id": 18,
+            "score": "0.209322"
+          },
+          {
+            "document_id": 19,
+            "score": "0.015205"
+          }
+        ],
+        "fear": [
+          {
+            "document_id": 0,
+            "score": "0.077527"
+          },
+          {
+            "document_id": 1,
+            "score": "0.492683"
+          },
+          {
+            "document_id": 2,
+            "score": "0.087075"
+          },
+          {
+            "document_id": 3,
+            "score": "0.137256"
+          },
+          {
+            "document_id": 4,
+            "score": "0.07589"
+          },
+          {
+            "document_id": 5,
+            "score": "0.065087"
+          },
+          {
+            "document_id": 6,
+            "score": "0.115938"
+          },
+          {
+            "document_id": 7,
+            "score": "0.132926"
+          },
+          {
+            "document_id": 8,
+            "score": "0.115943"
+          },
+          {
+            "document_id": 9,
+            "score": "0.55561"
+          },
+          {
+            "document_id": 10,
+            "score": "0.072174"
+          },
+          {
+            "document_id": 11,
+            "score": "0.022657"
+          },
+          {
+            "document_id": 12,
+            "score": "0.096081"
+          },
+          {
+            "document_id": 13,
+            "score": "0.078639"
+          },
+          {
+            "document_id": 14,
+            "score": "0.195622"
+          },
+          {
+            "document_id": 15,
+            "score": "0.065998"
+          },
+          {
+            "document_id": 16,
+            "score": "0.042441"
+          },
+          {
+            "document_id": 17,
+            "score": "0.083484"
+          },
+          {
+            "document_id": 18,
+            "score": "0.113443"
+          },
+          {
+            "document_id": 19,
+            "score": "0.003262"
+          }
+        ]
+      },
+      "metadata": [
+        {
+          "article_name": "Amazon has to limit orders in France following court decision \u2013 TechCrunch",
+          "url": "https://techcrunch.com/2020/04/14/amazon-has-to-limit-orders-in-france-following-court-decision/",
+          "authors": "{\"Romain Dillet\",\"Romain Dillet @romaindillet / 11 hours\"}",
+          "num_characters": 1516,
+          "document_id": 0
+        },
+        {
+          "article_name": "The Biggest Threat to Amazon Is Human Well-Being",
+          "url": "https://earther.gizmodo.com/the-biggest-threat-to-amazon-is-human-well-being-1842859375",
           "authors": "{}",
-          "num_characters": 3205,
+          "num_characters": 4385,
+          "document_id": 1
+        },
+        {
+          "article_name": "Amazon fires 2 workers who publicly criticized warehouse conditions",
+          "url": "https://mashable.com/article/amazon-fires-workers-warehouse-conditions/",
+          "authors": "{PCMag}",
+          "num_characters": 2765,
+          "document_id": 2
+        },
+        {
+          "article_name": "Next website halts orders hours after reopening",
+          "url": "https://www.bbc.co.uk/news/business-52276149",
+          "authors": "{bbcnews}",
+          "num_characters": 3646,
+          "document_id": 3
+        },
+        {
+          "article_name": "Amazon fires at least 3 employees who criticized workplace conditions",
+          "url": "https://arstechnica.com/tech-policy/2020/04/amazon-fires-at-least-3-employees-who-criticized-workplace-conditions/",
+          "authors": "{\"Kate Cox\"}",
+          "num_characters": 3494,
+          "document_id": 4
+        },
+        {
+          "article_name": "Amazon ordered to stop shipping non-essential products in France",
+          "url": "https://www.androidcentral.com/amazon-ordered-stop-shipping-non-essential-products-france",
+          "authors": "{\"Michael Allison\"}",
+          "num_characters": 2709,
+          "document_id": 5
+        },
+        {
+          "article_name": "Amazon fires three workers who criticized warehouse conditions",
+          "url": "https://www.cnet.com/news/amazon-fires-two-tech-workers-who-criticized-warehouse-conditions/",
+          "authors": "{\"Ben Fox Rubin\"}",
+          "num_characters": 3780,
+          "document_id": 6
+        },
+        {
+          "article_name": "Amazon Fires Two Tech Workers Who Criticized Warehouse Conditions - Slashdot",
+          "url": "https://slashdot.org/story/20/04/14/159225/amazon-fires-two-tech-workers-who-criticized-warehouse-conditions",
+          "authors": "{\"2020 @11:25AM from the stranger-things dept.\",\"Posted by msmash on Tuesday April 14\"}",
+          "num_characters": 7888,
+          "document_id": 7
+        },
+        {
+          "article_name": "Amazon surges to record highs as the coronavirus crisis drives an online spending spree (AMZN) | Markets Insider",
+          "url": "https://markets.businessinsider.com/news/stocks/amazon-stock-price-record-high-coronavirus-delivery-demand-hiring-spree-2020-4-1029090783",
+          "authors": "{\"finanzen.net GmbH\"}",
+          "num_characters": 2734,
+          "document_id": 8
+        },
+        {
+          "article_name": "Amazon fires employees who were critical of warehouse working conditions during coronavirus pandemic",
+          "url": "https://www.businessinsider.com/amazon-fires-employees-critical-of-response-to-covid-19-report-2020-4",
+          "authors": "{\"Charles Davis\"}",
+          "num_characters": 3605,
+          "document_id": 9
+        },
+        {
+          "article_name": "Amazon stock hits new all-time high as coronavirus spurs demand",
+          "url": "https://thenextweb.com/hardfork/2020/04/14/amazon-shares-hit-new-all-time-high-as-coronavirus-spurs-demand/",
+          "authors": "{\"David Canellis\",thenextweb}",
+          "num_characters": 1866,
+          "document_id": 10
+        },
+        {
+          "article_name": "Watch: This poor Amazon delivery person doesnt notice their truck sneaking away",
+          "url": "https://boingboing.net/2020/04/14/watch-this-poor-amazon-delive.html",
+          "authors": "{\"Carla Sinclair\"}",
+          "num_characters": 386,
+          "document_id": 11
+        },
+        {
+          "article_name": "Amazon France ordered to deliver only essentials",
+          "url": "https://www.bbc.co.uk/news/world-europe-52285301",
+          "authors": "{bbcnews}",
+          "num_characters": 2754,
+          "document_id": 12
+        },
+        {
+          "article_name": "Coronavirus: How Amazon is powering the \u2018internet\u2019 - Latest News | Gadgets Now",
+          "url": "https://www.gadgetsnow.com/tech-news/coronavirus-how-amazon-is-powering-the-internet/articleshow/75133272.cms",
+          "authors": "{Authors}",
+          "num_characters": 2922,
+          "document_id": 13
+        },
+        {
+          "article_name": "Virus imperils Amazon deforestation, Brazils indigenous tribes",
+          "url": "https://www.aljazeera.com/news/2020/04/virus-imperils-amazon-deforestation-brazils-indigenous-tribes-200414085129721.html",
+          "authors": "{\"Teresa Bo\"}",
+          "num_characters": 493,
+          "document_id": 14
+        },
+        {
+          "article_name": "Tuesday\u2019s Best Amazon Deals Include Bike Lights, Smart Home Devices, and Educational Toys",
+          "url": "https://www.mentalfloss.com/shopping/622744/best-amazon-deals-april-14-2020",
+          "authors": "{AUTHORS}",
+          "num_characters": 15172,
+          "document_id": 15
+        },
+        {
+          "article_name": "Amazon Fresh to Put New Customers on Waitlist Due to Overwhelming Demand",
+          "url": "https://hypebeast.com/2020/4/amazon-fresh-whole-foods-delivery-waitlist",
+          "authors": "{\"HB Team\",\"Nicolaus Li\"}",
+          "num_characters": 1441,
+          "document_id": 16
+        },
+        {
+          "article_name": "Amazon Stock: Buy, Sell, or Hold? | The Motley Fool",
+          "url": "https://www.fool.com/investing/2020/04/14/amazon-stock-buy-sell-or-hold.aspx",
+          "authors": "{\"Daniel Sparks\"}",
+          "num_characters": 3762,
+          "document_id": 17
+        },
+        {
+          "article_name": "Why Amazon Stock Jumped on Tuesday | The Motley Fool",
+          "url": "https://www.fool.com/investing/2020/04/14/why-amazon-stock-jumped-on-tuesday.aspx",
+          "authors": "{\"Daniel Sparks\"}",
+          "num_characters": 1290,
+          "document_id": 18
+        },
+        {
+          "article_name": "Bloomberg - Are you a robot?",
+          "url": "https://www.bloomberg.com/tosv2.html?vid=&uuid=313c5460-7e8c-11ea-801d-cd4df1ec9dea&url=L25ld3MvYXJ0aWNsZXMvMjAyMC0wNC0xNC9hbWF6b24tdG9sZC10by1zZWxsLW9ubHktZm9vZC1oZWFsdGgtaXRlbXMtaW4tZnJhbmNl",
+          "authors": "{}",
+          "num_characters": 368,
           "document_id": 19
         }
       ]
