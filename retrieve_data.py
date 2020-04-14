@@ -241,7 +241,7 @@ class retrieve_data:
 
 
 
-
+'''
 #TEST API 
 google = retrieve_data('Amazon', 'apr0920', 'apr1420')
 file = open("daily_detailed.json", "w")
@@ -251,3 +251,4 @@ file.write(temp)
 file = open("historical.json", "w")
 temp = google.get_historic_data()
 file.write(temp)
+'''
