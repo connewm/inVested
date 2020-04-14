@@ -33,7 +33,18 @@ class sentiment_analysis:
         self.date = date 
         self.schema_name = date.strftime('%b%d%y')
     
-    def __process_historical(self, company): 
+    def __process_historical(self, company):
+        try:
+            self.cursor.execute("create table if not exists historical.historic_sentiment_data (date varchar(25), company_name varchar(25), avg_sent numeric, avg_sadness_score numeric, avg_joy_score numeric, avg_fear_score numeric, avg_disgust_score numeric, avg_anger_score numeric);")
+        except:
+            print("Error connecting to historic schema")
+        
+        # check to make sure a historical entry for today hasn't been made yet
+        self.cursor.execute('select count(*) from historical.historic_sentiment_data where date = %s and company_name = %s', (self.schema_name, company))
+
+        if (self.cursor.fetchall()[0][0] > 0):
+            return
+
         self.cursor.execute("SELECT AVG(sent_score), AVG(sadness_score), AVG(joy_score), AVG(fear_score), AVG(disgust_score), AVG(anger_score) from  " + self.schema_name + "." + company + "_sentiment")
         results = self.cursor.fetchall()
         self.cursor.execute("INSERT INTO historical.historic_sentiment_data (date, company_name, avg_sent, avg_sadness_score,  avg_joy_score , avg_fear_score, avg_disgust_score, avg_anger_score) values (%s, %s,%s, %s, %s, %s, %s, %s)",  

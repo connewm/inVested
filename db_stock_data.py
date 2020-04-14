@@ -32,6 +32,13 @@ class stock_data:
         except:
             print("Error connecting to historic schema")
 
+        # make sure that this isn't the second historical has been run
+        row_count = self.cursor.execute('select count(*) from historical.historic_stock_data where date =  %s and company_name = %s', (self.schema_name, company))
+
+        if (self.cursor.fetchall()[0][0] > 0):
+            return
+        
+
         # get all responses for today from the db
         try:
             self.cursor.execute("select * from " + self.schema_name + "." + company + "_stock;")
