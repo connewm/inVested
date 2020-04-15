@@ -33,3 +33,6 @@ Indicate how the project was tested.
 ```pip install newsapi```
 ```pip install newsapi-python```
 ```pip3 install django```
+
+For webhosting:
+```pip install gunicorn```
