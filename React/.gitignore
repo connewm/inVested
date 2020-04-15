@@ -9,7 +9,8 @@
 /coverage
 
 # production
-/build
+# Note: Removed build folder from gitignore
+#/build
 
 # misc
 .DS_Store
