@@ -8,6 +8,8 @@ import psycopg2
 import json
 import configparser
 
+import re
+
 class retrieve_data:
 
     def __init__ (self, company_name, start_date, end_date):
@@ -135,7 +137,12 @@ class retrieve_data:
                 item = {}
                 item['company_name'] = entry[1]
                 item['stock_symbol'] = entry[2]
-                item['minute'] = entry[3]
+                
+                if ':' in entry[3]:
+                  item['minute'] = entry[3]
+                else:
+                  item['minute'] = re.sub("(\d+)", r"\1:00", entry[3])
+
                 item['high_pt'] = entry[4]
                 item['low_pt'] = entry[5]
                 item['open_value'] = entry[6]
