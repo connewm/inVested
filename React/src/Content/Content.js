@@ -16,8 +16,8 @@ const Content = (props) => {
           <Graph value={graphType}/>
         </div>
         <div className="text-wrapper">          
-            <p>Based on the graphed data above, we recommend purchasing on dates where public sentiment changes from negative to positive.</p>
-          </div>
+          <p>Based on the graphed data above, we recommend holding stock until public sentiment changes from negative to positive.</p>
+        </div>
         
       </div>
     );

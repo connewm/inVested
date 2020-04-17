@@ -11,7 +11,44 @@ img {
   color: black;
 }
 
+.graph-wrapper {
+  display: inline-block;
+  width: 800px;
+}
+
+.graph-title {
+  margin: 0px 0px;
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+
+.axes {
+  z-index: 1000;
+}
+
+.selectors {
+  display: inline-block;
+  position: relative;
+  height: calc(100% - 16px);
+  vertical-align: top;
+  margin: 8px;
+}
+
 .react-stockchart {
+  display: inline-block;
   position: relative !important;
   z-index: 0;
+}
+
+.form-control {
+  display: block !important;
+  min-width: 120px !important;
+  top: calc(50% - 32px);
+  margin: 8px !important;
+}
+
+.select-empty {
+  min-width: 120px;
+  margin-top: 16px;
 }
