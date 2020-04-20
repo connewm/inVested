@@ -1,0 +1,26 @@
+section.cta {
+    position: relative;
+    padding: 250px ;
+    background-image: url("./img/invest_euro.png");
+    height: 100px;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+    
+    section.cta .cta-content {
+      position: relative;
+      padding-left: 10%; }
+      
+      section.cta .cta-content h2 {
+        font-size: 60px;
+        max-width: 450px;
+        margin-top: 0;
+        margin-bottom: 25px;
+        color: white; }
+
+
+  .the-Button{
+    padding-top: 200px;
+  }

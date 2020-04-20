@@ -1,0 +1,22 @@
+header.masthead {
+ 
+    color: white;
+    background: url("./img/bg-pattern.png"), #2c546c;
+    background: url("./img/bg-pattern.png"), -webkit-linear-gradient(to left, #062738, #5dbcd2);
+    background: url("./img/bg-pattern.png"), linear-gradient(to left, #062738, #5dbcd2); 
+    height: 100vh;
+    } 
+    header.masthead .header-content {
+      max-width: 70%;
+      text-align: center;
+      padding-left: 15%;
+      padding-top: 15%;
+
+
+      }
+      header.masthead .header-content h1 {
+        font-size: 50px;
+        text-align: center; 
+      }
+   
+    

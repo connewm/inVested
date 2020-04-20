@@ -43,7 +43,7 @@ function App() {
         </Switch>}
 
         <div className="news-wrapper">
-          {/* <NewsFeed value = "newsfeed" data = {articles}/> */}
+        
           <NewsFeed value = "newsfeed"/>
         </div>
       </div>

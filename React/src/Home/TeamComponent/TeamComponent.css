@@ -1,0 +1,30 @@
+
+
+
+
+.Team-Container {
+  color: white;
+}
+
+.Team-Container h2{
+  padding-top: 20px;
+  text-align: center;
+  padding-left: 35%;
+  font-size: 4em;
+}
+.grid{
+  padding-top: 120px;
+  text-align: center;
+}
+    /* team members */
+    .avatar {
+        width:200px;
+        margin: 0px;
+        border: 8px solid #c0c0c0;
+        border-radius: 500px;
+        -webkit-border-radius: 500px;
+        -moz-border-radius: 500px;
+       font-style: italic; 
+    }
+    
+     

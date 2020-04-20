@@ -1,0 +1,37 @@
+
+    /*changes "feature" head */
+    .features-h2 {
+      margin-top: 0; 
+      padding-left: 40%;
+      color: white;
+      text-align: center;
+      padding-top: 20px;
+      font-size: 4em;
+      }
+  .FeaturesGrid {
+    padding-top: 100px;
+  }
+      
+  .FeaturesGrid p{
+  margin-bottom: 50px;
+  
+  color: white;
+  max-width: 250px;
+}
+    
+.FeaturesGrid h3 {
+      font-size: 30px; 
+      color: white;
+      text-align: center;
+    }
+
+.FeaturesGrid i {
+  font-size: 80px;
+  display: block;
+  margin-bottom: 15px;
+  text-align: center;
+  background: -webkit-linear-gradient(to left, #295f7c, #5dbcd2);
+  background: linear-gradient(to left, #295f7c, #5dbcd2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
