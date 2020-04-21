@@ -23,9 +23,18 @@ function App() {
       <Header value="site-header"/>
       <div className="main">
 
-        <div className="chat-wrapper">
-          <Chat value="chatbot"/>
-        </div>
+        {<Switch>
+          <Route exact path="/">
+            <div className="chat-home-wrapper">
+              <Chat value="chatbot"/>
+            </div>
+          </Route>
+          <Route>
+            <div className="chat-wrapper">
+              <Chat value="chatbot"/>
+            </div>
+          </Route>
+        </Switch>}
 
         {<Switch>
           <Route path="/about">

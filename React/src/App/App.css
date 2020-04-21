@@ -52,10 +52,20 @@ a {
 
 .chat-wrapper{
   position: fixed;
+  z-index: 2;
   height: 60px;
   width: 60px;
   bottom: 2vh;
   left: 69vw;
+}
+
+.chat-home-wrapper{
+  position: fixed;
+  z-index: 2;
+  height: 60px;
+  width: 60px;
+  bottom: 2vh;
+  right: 1vw;
 }
 
 .icon:hover{
