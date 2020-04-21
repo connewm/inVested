@@ -9,6 +9,7 @@ import leslie from './img/leslie.png';
 import jacob from './img/jacob.png';
 import riley from './img/riley.png';
 import joe from './img/joe.png';
+import shreya from './img/shreya.png';
 
 
 
@@ -69,7 +70,7 @@ export const TeamComponent = (props)=>{
                 </Button> 
             </Grid>
             <Grid item>
-                <img class="avatar" src={riley} alt=""/>
+                <img class="avatar" src={shreya} alt=""/>
                 <h4 classname = "names" > Shreya Byreddy </h4>
                 <Button variant="contained" color = "primary" href="https://www.linkedin.com/in/shreya-byreddy-331b72172">
                     <i className="icon-social-linkedin text-primary" ></i>
