@@ -97,7 +97,6 @@ class Graph extends React.Component {
   // selectCompany wraps setCompanyDayData in an arrow function, extracting a value from the event
   selectCompany = (event) => {
     this.setState({selectedCompany: event.target.value});
-    console.log("Company provided from select: "+event.target.value);
     this.setCompanyDayData(event.target.value);
   };
 

@@ -17,11 +17,10 @@ class Chat extends Component {
     })
     // Route, post message
     get_watson_response(message.data.text).then(result => {
-      console.log("Watson response:");
-      // TODO: comment/remove debug utilities
       // DEBUG: Log the received data
+      // console.log("Watson response:");
       // console.log(result.data.output);
-      console.log(result.data.output.generic);
+      // console.log(result.data.output.generic);
       if(result.data.output.generic){
         result.data.output.generic.forEach(element => {
           this._sendMessage(element.text);
