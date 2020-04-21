@@ -21,7 +21,7 @@ export const FeaturesComponent = (props)=>{
           <Grid item classname = "feature-item">
             <i className="icon-people text-primary"></i>
             <h3>Chatbot</h3>
-            <p className="text-muted">Don't know what to do? need help figuring you next move? Talk to chatty the chat bot!</p>
+            <p className="text-muted">Don't know what to do? Need help figuring you next move? Talk to the VestEd Assistant!</p>
           </Grid>
     </Grid>
     <Grid container direction="row" justify="space-around" alignItems="center">

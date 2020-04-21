@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "./static/css/main.83dc4182.chunk.css",
-    "main.js": "./static/js/main.3f83c860.chunk.js",
-    "main.js.map": "./static/js/main.3f83c860.chunk.js.map",
+    "main.css": "./static/css/main.72eed4e3.chunk.css",
+    "main.js": "./static/js/main.4f319753.chunk.js",
+    "main.js.map": "./static/js/main.4f319753.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.0a271874.js",
     "runtime-main.js.map": "./static/js/runtime-main.0a271874.js.map",
     "static/css/2.da6aea85.chunk.css": "./static/css/2.da6aea85.chunk.css",
-    "static/js/2.5764bfaa.chunk.js": "./static/js/2.5764bfaa.chunk.js",
-    "static/js/2.5764bfaa.chunk.js.map": "./static/js/2.5764bfaa.chunk.js.map",
+    "static/js/2.111ccea6.chunk.js": "./static/js/2.111ccea6.chunk.js",
+    "static/js/2.111ccea6.chunk.js.map": "./static/js/2.111ccea6.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.98918bda127de3ed4daae1cf70d46627.js": "./precache-manifest.98918bda127de3ed4daae1cf70d46627.js",
+    "precache-manifest.94417d3a20c847ea80f50d5f70bdc337.js": "./precache-manifest.94417d3a20c847ea80f50d5f70bdc337.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.da6aea85.chunk.css.map": "./static/css/2.da6aea85.chunk.css.map",
-    "static/css/main.83dc4182.chunk.css.map": "./static/css/main.83dc4182.chunk.css.map",
-    "static/js/2.5764bfaa.chunk.js.LICENSE.txt": "./static/js/2.5764bfaa.chunk.js.LICENSE.txt",
+    "static/css/main.72eed4e3.chunk.css.map": "./static/css/main.72eed4e3.chunk.css.map",
+    "static/js/2.111ccea6.chunk.js.LICENSE.txt": "./static/js/2.111ccea6.chunk.js.LICENSE.txt",
     "static/media/simple-line-icons.css": "./static/media/Simple-Line-Icons.f33df365.eot",
     "static/media/chat-icon.svg": "./static/media/chat-icon.e0d2b748.svg",
     "static/media/connor.png": "./static/media/connor.e4f4a7bb.png",
     "static/media/CallToActionComponent.css": "./static/media/invest_euro.6ff177dd.png",
     "static/media/jacob.png": "./static/media/jacob.943c0af8.png",
+    "static/media/joe.png": "./static/media/joe.213efc96.png",
     "static/media/leslie.png": "./static/media/leslie.9edb9c32.png",
     "static/media/logo-no-bg.svg": "./static/media/logo-no-bg.7718b3e3.svg",
     "static/media/notification.mp3": "./static/media/notification.0d062b33.mp3",
@@ -28,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.0a271874.js",
     "static/css/2.da6aea85.chunk.css",
-    "static/js/2.5764bfaa.chunk.js",
-    "static/css/main.83dc4182.chunk.css",
-    "static/js/main.3f83c860.chunk.js"
+    "static/js/2.111ccea6.chunk.js",
+    "static/css/main.72eed4e3.chunk.css",
+    "static/js/main.4f319753.chunk.js"
   ]
 }
