@@ -3,6 +3,10 @@ img {
   height: auto;
 }
 
+.graph-component {
+  width: 90%;
+}
+
 .graph-content {
   background-color: white;
 }

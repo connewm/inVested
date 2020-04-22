@@ -25,7 +25,8 @@ import { Label } from "react-stockcharts/lib/annotation";
 class CandleStickGraph extends React.Component {
 	render() {
     if(this.props.data.length > 0){
-      console.log(this.props);
+      // DEBUG:
+      //console.log(this.props);
 
       const marginLeftRight = 50;
       const marginTop = 10;

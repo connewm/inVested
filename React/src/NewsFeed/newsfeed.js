@@ -31,7 +31,7 @@ class NewsFeed extends React.Component {
         this.setState({
           // data in JSON format according to standards set by group
           data: result.data,
-          article_list: result.data.dates[0].metadata
+          article_list: result.data.dates[result.data.dates.length - 1].metadata
         })
         // DEBUG: Log the received data
         // console.log(result);
@@ -41,7 +41,7 @@ class NewsFeed extends React.Component {
 
     render() {
       // incoming props to determine the graph to fetch
-      if(this.state.article_list.length > 0){
+      if(this.state.article_list.hasOwnProperty('length') && this.state.article_list.length > 0){
         return (
         <div className="NewsFeed">
         {

@@ -11,14 +11,10 @@ const Content = (props) => {
   if(props.value==='graph'){
     return (
       <div className="content">
-        <h1>Financials Graph</h1>
+        <h1>Stock and Financial Graphs</h1>
         <div className="data-insights">
           <Graph value={graphType}/>
         </div>
-        <div className="text-wrapper">          
-          <p>Based on the graphed data above, we recommend holding stock until public sentiment changes from negative to positive.</p>
-        </div>
-        
       </div>
     );
   } else if (props.value==='about'){
